@@ -1,0 +1,669 @@
+<!DOCTYPE html><html lang="en" translate="no"> <head><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js"></script><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><link rel="icon" type="image/png" sizes="196x196" href="/pwa-196.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="generator" content="Astro v5.16.14"><meta name="google" content="notranslate"><!-- Canonical URL --><link rel="canonical" href="https://exam.record10.com/en/banking/quantitative-aptitude/data-interpretation/"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://exam.record10.com/en/banking/quantitative-aptitude/data-interpretation/"><meta property="og:title" content="Data Interpretation (DI)"><meta property="og:description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><meta property="og:image" content="https://exam.record10.com/pwa-512.png"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://exam.record10.com/en/banking/quantitative-aptitude/data-interpretation/"><meta property="twitter:title" content="Data Interpretation (DI)"><meta property="twitter:description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><meta property="twitter:image" content="https://exam.record10.com/pwa-512.png"><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-HP0TG82134"></script><script>(function(){const gaId = "G-HP0TG82134";
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      // Simple Content Grouping based on URL
+      // If path contains '/rrb/', categorize as 'RRB'
+      const path = window.location.pathname;
+      const contentGroup = path.includes('/rrb/') ? 'RRB' : 'General';
+
+      gtag('config', gaId, {
+        content_group: contentGroup,
+      });
+    })();</script><title>
+      Data Interpretation (DI) | Competitive Exam Preparation
+    </title><!-- Version-based cache invalidation - reads version from package.json --><script>(function(){const appVersion = "1.0.0";
+
+      (function () {
+        var APP_VERSION = appVersion;
+        var STORED_VERSION = localStorage.getItem('appVersion');
+
+        if (STORED_VERSION && STORED_VERSION !== APP_VERSION) {
+          // Version changed - clear caches and reload
+          localStorage.setItem('appVersion', APP_VERSION);
+
+          // Clear any cached data that might be stale
+          if ('caches' in window) {
+            caches.keys().then(function (names) {
+              names.forEach(function (name) {
+                caches.delete(name);
+              });
+            });
+          }
+
+          // Force reload from server
+          window.location.reload(true);
+          return;
+        }
+
+        // First visit or same version - just store it
+        if (!STORED_VERSION) {
+          localStorage.setItem('appVersion', APP_VERSION);
+        }
+      })();
+    })();</script><script>
+      function applyTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      }
+      applyTheme();
+      document.addEventListener('astro:after-swap', applyTheme);
+
+      // Global Theme Toggle
+      window.toggleTheme = function () {
+        const html = document.documentElement;
+        const isDark = html.classList.contains('dark');
+        const newTheme = isDark ? 'light' : 'dark';
+
+        if (newTheme === 'dark') {
+          html.classList.add('dark');
+        } else {
+          html.classList.remove('dark');
+        }
+
+        localStorage.setItem('theme', newTheme);
+        window.dispatchEvent(new Event('theme-changed'));
+      };
+    </script><script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "r10 Exam",
+        "url": "https://exam.record10.com",
+        "description": "Complete preparation platform for Railway Exams and SSC CGL.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://exam.record10.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script><style>.perspective-1000[data-astro-cid-rwn6tmg5]{perspective:1000px}#question-card[data-astro-cid-rwn6tmg5]{transition:transform .6s,opacity .3s;transform-style:preserve-3d}.flip-out[data-astro-cid-rwn6tmg5]{transform:rotateY(90deg);opacity:0}@keyframes blink-green{0%,to{background-color:#22c55e1a;border-color:#22c55e}50%{background-color:#22c55e4d;border-color:#15803d}}@keyframes blink-red{0%,to{background-color:#ef44441a;border-color:#ef4444}50%{background-color:#ef44444d;border-color:#b91c1c}}.blink-correct[data-astro-cid-rwn6tmg5]{animation:blink-green .4s ease-in-out 2}.blink-wrong[data-astro-cid-rwn6tmg5]{animation:blink-red .4s ease-in-out 2}
+</style>
+<link rel="stylesheet" href="/_astro/_slug_.D9sFftlt.css"></head> <body class="min-h-screen bg-white dark:bg-black text-neutral-700 dark:text-neutral-300 font-sans selection:bg-indigo-500/30"> <div class="flex min-h-screen"> <aside class="fixed left-0 top-0 bottom-0 w-64 z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out group/sidebar" data-astro-cid-ssfzsv2f> <!-- Scrollable Content Wrapper --> <div class="h-full w-full bg-white dark:bg-neutral-900 border-r border-neutral-200 dark:border-neutral-800 overflow-y-auto shadow-xl lg:shadow-none pt-2 lg:pt-2" data-astro-cid-ssfzsv2f> <nav class="p-3 pt-0 space-y-1" data-astro-cid-ssfzsv2f> <!-- Home Link --> <a href="/en" class="flex items-center gap-3 px-3 py-2 text-neutral-600 dark:text-neutral-400 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-neutral-50 dark:hover:bg-indigo-900/20 rounded-md transition-all group mb-5" data-astro-cid-ssfzsv2f> <i class="fa-solid fa-home w-5 text-center group-hover:scale-110 transition-transform" data-astro-cid-ssfzsv2f></i> <span class="font-bold text-sm uppercase tracking-wider" data-astro-cid-ssfzsv2f>Home</span> </a> <!-- Exam Mode Indicator --> <div class="px-3 mb-4" data-astro-cid-ssfzsv2f> <div class="text-xs font-bold text-rose-600 dark:text-rose-400 uppercase tracking-widest border-b border-rose-200 dark:border-rose-800 pb-1" data-astro-cid-ssfzsv2f> Using Banking Mode </div> </div> <!-- Menu Sections --> <div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="general-awareness" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> General Awareness </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="general-awareness" data-astro-cid-ssfzsv2f> <a href="/en/banking/general-awareness/banking-finance" data-progress-path="/en/banking/general-awareness/banking-finance" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Banking Finance </a><a href="/en/banking/general-awareness/current-affairs" data-progress-path="/en/banking/general-awareness/current-affairs" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Current Affairs </a><a href="/en/banking/general-awareness/gk" data-progress-path="/en/banking/general-awareness/gk" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Static GK </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="english" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> English Language </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="english" data-astro-cid-ssfzsv2f> <a href="/en/banking/english/grammar" data-progress-path="/en/banking/english/grammar" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Grammar </a><a href="/en/banking/english/vocabulary" data-progress-path="/en/banking/english/vocabulary" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Vocabulary </a><a href="/en/banking/english/reading-comprehension" data-progress-path="/en/banking/english/reading-comprehension" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Reading Comprehension </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="quantitative-aptitude" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> Quantitative Aptitude </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="quantitative-aptitude" data-astro-cid-ssfzsv2f> <a href="/en/banking/quantitative-aptitude/arithmetic" data-progress-path="/en/banking/quantitative-aptitude/arithmetic" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Arithmetic </a><a href="/en/banking/quantitative-aptitude/data-interpretation" data-progress-path="/en/banking/quantitative-aptitude/data-interpretation" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Data Interpretation </a><a href="/en/banking/quantitative-aptitude/speed-maths" data-progress-path="/en/banking/quantitative-aptitude/speed-maths" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Speed Maths </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="reasoning" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> Reasoning Ability </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="reasoning" data-astro-cid-ssfzsv2f> <a href="/en/banking/reasoning/logical" data-progress-path="/en/banking/reasoning/logical" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Logical Reasoning </a><a href="/en/banking/reasoning/critical" data-progress-path="/en/banking/reasoning/critical" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Critical Reasoning </a><a href="/en/banking/reasoning/puzzles" data-progress-path="/en/banking/reasoning/puzzles" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Puzzles &amp; Arrangement </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="computer-aptitude" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> Computer Aptitude </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="computer-aptitude" data-astro-cid-ssfzsv2f> <a href="/en/banking/computer-aptitude/essentials" data-progress-path="/en/banking/computer-aptitude/essentials" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Essentials </a><a href="/en/banking/computer-aptitude/networking-security" data-progress-path="/en/banking/computer-aptitude/networking-security" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Networking &amp; Security </a><a href="/en/banking/computer-aptitude/office-dbms" data-progress-path="/en/banking/computer-aptitude/office-dbms" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> Office &amp; DBMS </a> </div> </div> <!-- Extra Links (Practice Tests, etc.) --> <div class="pt-3 border-t border-neutral-200 dark:border-neutral-800 space-y-0.5" data-astro-cid-ssfzsv2f> <a href="/en/banking/practice-tests" class="block px-3 py-1.5 text-xs font-bold uppercase tracking-wider rounded-md transition-colors text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-neutral-50 dark:hover:bg-neutral-800" data-astro-cid-ssfzsv2f> Practice Tests </a> </div> <!-- Theme Toggle --> <div class="mt-3 pt-3 border-t border-neutral-200 dark:border-neutral-800" data-astro-cid-ssfzsv2f> <button id="sidebar-theme-toggle" class="w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>Theme</span> <div class="relative w-8 h-4 bg-neutral-200 dark:bg-neutral-700 rounded-full transition-colors" data-astro-cid-ssfzsv2f> <div id="theme-toggle-dot" class="absolute left-1 top-1 w-2 h-2 bg-white rounded-full transition-transform duration-200 transform dark:translate-x-4" data-astro-cid-ssfzsv2f></div> </div> </button> </div> <!-- Feedback & Request --> <div class="mt-3 pt-3 border-t border-neutral-200 dark:border-neutral-800 space-y-1" data-astro-cid-ssfzsv2f> <a href="https://wa.me/918329999288?text=Feedback:" target="_blank" class="flex items-center gap-3 px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <i class="fa-brands fa-whatsapp text-green-500 text-sm" data-astro-cid-ssfzsv2f></i> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>Feedback</span> </a> <a href="https://wa.me/918329999288?text=I%20want%20to%20request%20a%20new%20exam:" target="_blank" class="flex items-center gap-3 px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <i class="fa-brands fa-whatsapp text-green-500 text-sm" data-astro-cid-ssfzsv2f></i> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>Request New Exam</span> </a> </div> <div class="mt-4 px-3 pb-2 text-center" data-astro-cid-ssfzsv2f> <span class="text-[10px] text-neutral-400 dark:text-neutral-600 font-mono select-none opacity-50" data-astro-cid-ssfzsv2f>
+Build v1.0.5 </span> <!-- <div id="debug-info" class="mt-2 text-[10px] text-left font-mono text-red-500 overflow-hidden hidden"></div> --> </div> </nav> </div> <!-- Sticky Toggle Button --> <!-- Sticky Toggle Button --> <button id="sidebar-toggle-btn" class="absolute -right-5 top-1/2 -translate-y-1/2 w-5 h-32 bg-linear-to-b from-rose-600 to-pink-600 rounded-r-lg flex flex-col items-center justify-center gap-2 cursor-pointer shadow-lg hover:brightness-110 transition-all pointer-events-auto border border-white/10" aria-label="Toggle Sidebar" data-astro-cid-ssfzsv2f> <i class="fa-solid fa-chevron-right text-white text-[10px] transform transition-transform duration-300 mb-1 rotate-0 group-[&:not(.-translate-x-full)]/sidebar:rotate-180 lg:group-[.lg:translate-x-0]/sidebar:rotate-180" data-astro-cid-ssfzsv2f></i> <span class="text-[10px] font-bold text-white tracking-widest rotate-180" style="writing-mode: vertical-rl; text-orientation: mixed;" data-astro-cid-ssfzsv2f>TOPICS</span> </button> </aside> <script type="module">function f(){function c(){const e=s=>s.toLowerCase().replace(/\/$/,"")||s,o=e(window.location.pathname);document.querySelectorAll(".section-content").forEach(s=>{s.querySelectorAll("a").forEach(m=>{if(e(m.getAttribute("href")||"")===o){s.classList.remove("hidden");const p=s.getAttribute("data-section");document.querySelector(`.menu-section[data-section="${p}"]`)?.querySelector(".toggle-icon")?.classList.add("rotate-180")}})})}document.querySelectorAll(".menu-section").forEach(e=>{e.hasAttribute("data-initialized")||(e.setAttribute("data-initialized","true"),e.addEventListener("click",()=>{const o=e.getAttribute("data-section"),u=document.querySelector(`.section-content[data-section="${o}"]`),s=e.querySelector(".toggle-icon");u?.classList.toggle("hidden"),s?.classList.toggle("rotate-180");const g=!u?.classList.contains("hidden");o&&localStorage.setItem(`sidebar-${o}`,g?"open":"closed")}))});function l(){Array.from(document.querySelectorAll(".section-content")).map(o=>o.getAttribute("data-section")).forEach(o=>{if(!o)return;if(localStorage.getItem(`sidebar-${o}`)==="open"){const s=document.querySelector(`.section-content[data-section="${o}"]`),m=document.querySelector(`.menu-section[data-section="${o}"]`)?.querySelector(".toggle-icon");s?.classList.remove("hidden"),m?.classList.add("rotate-180")}}),c()}const a=document.getElementById("sidebar-theme-toggle"),r=document.getElementById("theme-toggle-dot");function t(){document.documentElement.classList.contains("dark")?r?.classList.add("translate-x-4"):r?.classList.remove("translate-x-4")}t(),window.addEventListener("theme-changed",t),l(),a&&!a.hasAttribute("data-initialized")&&(a.setAttribute("data-initialized","true"),a.addEventListener("click",()=>{window.toggleTheme&&window.toggleTheme()}));const i=document.getElementById("sidebar-toggle-btn");i&&!i.hasAttribute("data-initialized")&&(i.setAttribute("data-initialized","true"),i.addEventListener("click",e=>{window.dispatchEvent(new CustomEvent("toggle-sidebar"))}));const n=document.querySelector(".overflow-y-auto");if(n&&!n.hasAttribute("data-initialized")){n.setAttribute("data-initialized","true");const e=localStorage.getItem("sidebar-scroll-pos");e&&(n.scrollTop=parseInt(e,10)),n.addEventListener("scroll",()=>{localStorage.setItem("sidebar-scroll-pos",n.scrollTop.toString())},{passive:!0})}}document.addEventListener("astro:page-load",f);function h(){const c="topicProgress";let d={};try{d=JSON.parse(localStorage.getItem(c)||"{}")}catch{}const l=t=>t.toLowerCase().replace(/\/$/,"")||t,a={};Object.keys(d).forEach(t=>{a[l(t)]=d[t]}),document.querySelectorAll("[data-progress-path]").forEach(t=>{const i=t.getAttribute("data-progress-path");if(!i)return;const n=a[l(i)]||{scrolled:!1,quizCompleted:!1};n.quizCompleted?t.setAttribute("data-progress-status","completed"):n.scrolled?t.setAttribute("data-progress-status","scrolled"):t.setAttribute("data-progress-status","none")});const r=document.getElementById("debug-info");if(r){const t=d[window.location.pathname];r.classList.remove("hidden"),r.textContent=`Path: ${window.location.pathname} 
+State: ${JSON.stringify(t||"null")}`}}document.addEventListener("astro:page-load",h);window.addEventListener("progress-updated",h);window.addEventListener("pageshow",c=>{c.persisted&&h()});</script> <div id="main-content" class="flex-1 flex flex-col min-w-0 transition-all duration-300 lg:ml-64"> <div class="fixed top-0 right-0 left-0 z-40 h-12 glass border-b border-neutral-200/50 dark:border-neutral-800/50 transition-all duration-300 lg:left-64" data-astro-cid-ugcunkw7> <div class="flex items-center justify-between h-full px-4 md:px-6 w-full" data-astro-cid-ugcunkw7> <div class="flex items-center gap-3" data-astro-cid-ugcunkw7> <!-- Mobile/Desktop Menu Button --> <button id="menu-btn" class="p-1.5 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md transition-colors" data-astro-cid-ugcunkw7> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" data-astro-cid-ugcunkw7></path> </svg> </button> <a href="/en/banking" class="text-base font-bold bg-linear-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent tracking-tight hover:opacity-80 transition-opacity flex items-center gap-2" data-astro-cid-ugcunkw7> BANKING PREP </a> </div> <div class="flex items-center gap-2" data-astro-cid-ugcunkw7> <button id="theme-toggle" class="p-1.5 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md transition-colors" aria-label="Toggle Theme" data-astro-cid-ugcunkw7> <!-- Sun Icon --> <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" data-astro-cid-ugcunkw7></path> </svg> <!-- Moon Icon --> <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" data-astro-cid-ugcunkw7></path> </svg> </button> <!-- Settings Dropdown --> <div class="relative"> <button id="settings-btn" class="flex items-center gap-1.5 px-2 py-1.5 text-xs rounded-lg font-medium text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors" aria-label="Settings"> <i class="fa-solid fa-gear text-sm"></i> </button> <div id="settings-dropdown" class="absolute top-full right-0 mt-2 hidden z-50 w-56 origin-top-right"> <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-xl border border-neutral-200 dark:border-neutral-700 overflow-hidden py-2"> <!-- Select Exam Group --> <div class="px-3 pb-2"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Select Exam
+</div> <div class="grid grid-cols-2 gap-2"> <a href="/en/rrb" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> rrb </a><a href="/en/ssc" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> ssc </a><a href="/en/ctet" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> ctet </a><a href="/en/neet" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> neet </a> </div> </div> <hr class="mx-2 border-neutral-100 dark:border-neutral-700/50 mb-2"> <!-- Exam Tree Group --> <div class="px-3 pb-2"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Exam Tree
+</div> <a href="/en/adhoc/exam-tree/exam-tree" class="flex items-center justify-center gap-2 px-3 py-1.5 text-xs text-neutral-700 dark:text-neutral-300 bg-neutral-50 dark:bg-neutral-800/50 hover:bg-neutral-100 dark:hover:bg-neutral-800 border border-neutral-100 dark:border-neutral-700/50 rounded-md transition-colors w-full"> <i class="fa-solid fa-network-wired text-indigo-500"></i> <span>View Mind Map</span> </a> </div> <hr class="mx-2 border-neutral-100 dark:border-neutral-700/50 mb-2"> <!-- Progress Reset Group --> <div class="px-3 pb-1"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Reset Progress
+</div> <div class="flex items-center justify-center gap-1 bg-neutral-50 dark:bg-neutral-800/50 rounded-md border border-neutral-100 dark:border-neutral-700/50 p-1"> <button data-action="clear-page" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Page">Page</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-section" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Section">Section</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-exam" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Exam">Exam</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-all" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-red-50 dark:hover:bg-red-900/30 text-red-500 transition-all" title="Reset All Progress">All</button> </div> </div> </div> </div> </div> <script type="module">function m(){const a=document.getElementById("settings-btn"),t=document.getElementById("settings-dropdown");if(!a||!t)return;a.addEventListener("click",e=>{e.stopPropagation(),t.classList.toggle("hidden")});function i(e){!t?.contains(e.target)&&e.target!==a&&t?.classList.add("hidden")}function d(e){e.key==="Escape"&&t?.classList.add("hidden")}const o="topicProgress";t.querySelectorAll("[data-action]").forEach(e=>{e.addEventListener("click",()=>{const g=e.getAttribute("data-action"),s=window.location.pathname;try{const n=JSON.parse(localStorage.getItem(o)||"{}");switch(g){case"clear-page":delete n[s];break;case"clear-section":const p=s.substring(0,s.lastIndexOf("/"));Object.keys(n).forEach(c=>{c.startsWith(p)&&delete n[c]});break;case"clear-exam":const r=s.match(/^\/(hi|mr)?\/?(rrb|ssc|ctet|neet)/);if(r){const c=r[2];Object.keys(n).forEach(l=>{l.includes(`/${c}/`)&&delete n[l]})}break;case"clear-all":localStorage.removeItem(o),window.dispatchEvent(new CustomEvent("progress-updated")),t.classList.add("hidden");return}localStorage.setItem(o,JSON.stringify(n)),window.dispatchEvent(new CustomEvent("progress-updated"))}catch{}t.classList.add("hidden")})}),window.cleanupSettingsListeners&&window.cleanupSettingsListeners(),document.addEventListener("click",i),document.addEventListener("keydown",d),window.cleanupSettingsListeners=()=>{document.removeEventListener("click",i),document.removeEventListener("keydown",d)}}document.addEventListener("astro:page-load",m);</script> <!-- Language Switcher --> <div class="flex items-center gap-2 ml-2 pl-2 border-l border-neutral-200 dark:border-neutral-700 shrink-0"> <a href="/en/banking/quantitative-aptitude/data-interpretation" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-violet-100 dark:bg-violet-900/50 text-violet-700 dark:text-violet-300 border-violet-200 dark:border-violet-700 shadow-sm"> en </a><a href="/hi/banking/quantitative-aptitude/data-interpretation" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> hi </a><a href="/mr/banking/quantitative-aptitude/data-interpretation" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> mr </a> </div> </div> </div> </div>  <script type="module">function d(){const e=document.getElementById("menu-btn");document.querySelector("aside");let n=document.querySelector(".menu-overlay");n||(n=document.createElement("div"),n.className="menu-overlay fixed inset-0 bg-black/50 z-40 lg:hidden hidden transition-opacity opacity-0",document.body.appendChild(n)),e&&(e.classList.add("animate-blink-green"),setTimeout(()=>{e.classList.remove("animate-blink-green")},6e3));function i(){e?.classList.contains("animate-blink-green")&&e.classList.remove("animate-blink-green"),window.dispatchEvent(new CustomEvent("toggle-sidebar"))}const o=document.getElementById("theme-toggle");o&&o.addEventListener("click",a=>{a.stopPropagation(),window.toggleTheme&&window.toggleTheme()});const t=e?.cloneNode(!0);e&&t&&(e.parentNode?.replaceChild(t,e),t.addEventListener("click",i)),n&&(n.onclick=i)}document.addEventListener("astro:page-load",d);</script> <main class="flex-1 p-2 md:p-6 w-full max-w-[1920px] mx-auto mt-12"> <div class="max-w-4xl mx-auto mt-6"><h1 class="text-3xl font-bold mb-4 px-4 md:px-0">Data Interpretation (DI)</h1><div class="mb-8"> <div class="mb-6 border-b border-neutral-200 dark:border-neutral-800 pb-3"> <h2 class="text-xl font-bold text-neutral-900 dark:text-neutral-100 relative inline-block"> Data Interpretation (DI) <span class="absolute bottom-[-13px] left-0 w-1/3 h-1 bg-indigo-500 rounded-full"></span> </h2> </div> <div class="relative space-y-0 ml-3"> <div class="relative group pb-4 last:pb-0">  <div class="absolute left-[15px] top-8 h-full w-[2px] bg-indigo-200 dark:bg-indigo-900 z-0"></div> <div class="relative flex gap-0">  <div class="shrink-0 pt-0 relative z-10 w-8"> <div class="flex items-center justify-center w-7 h-7 rounded-full border-2 border-indigo-500 bg-indigo-500 shadow-sm ring-4 ring-white dark:ring-neutral-950"> <i class="fa-solid fa-solid fa-chart-pie text-white text-xs"></i> </div> </div>  <div class="grow pt-12 -ml-3 pl-2"> <div class="w-full bg-white dark:bg-neutral-900 p-2 rounded-lg border border-neutral-100 dark:border-neutral-800 shadow-xs relative">  <div class="flex items-start justify-between gap-3 mb-2"> <h3 class="font-bold text-base text-neutral-900 dark:text-neutral-100 leading-tight"> Visual Charts (Bar, Line, Pie) </h3> <div class="flex flex-wrap gap-1 justify-end shrink-0"> <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"> IBPS PO Pre </span><span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"> SBI PO Pre </span> </div> </div> <div class="text-sm text-neutral-600 dark:text-neutral-300 pl-1"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none [&#38;>p]:my-1 [&#38;>ul]:pl-4 [&#38;>ul]:list-disc [&#38;>ol]:pl-4 [&#38;>ol]:list-decimal"><p><strong>DI Fundamentals:</strong></p>
+<ul>
+<li><p><strong>Scanning:</strong> Don&#39;t read every data point first. Read the question, then look for specific data.</p>
+</li>
+<li><p><strong>Approximation:</strong> Use approximation for complex calculations (e.g., 14.28% ≈ 1/7).</p>
+</li>
+<li><p><strong>Units:</strong> Always check units (Lakhs, Crores, Thousands).</p>
+</li>
+</ul>
+<p><strong>Pie Chart Rules:</strong></p>
+<ul>
+<li><p><strong>Total Angle:</strong> 360°</p>
+</li>
+<li><p><strong>Total Percentage:</strong> 100%</p>
+</li>
+<li><p><strong>Conversion:</strong> 1% = 3.6°</p>
+</li>
+<li><p><strong>Degree to %:</strong> (Degree / 360) * 100</p>
+</li>
+</ul>
+</div> </div>   <details class="group/details border-t border-dashed border-neutral-200 dark:border-neutral-800 pt-1"> <summary class="cursor-pointer text-[10px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider flex items-center justify-end gap-1 list-none select-none hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors w-full"> <span>Deep Dive</span> <i class="fa-solid fa-chevron-down transform transition-transform group-open/details:rotate-180 text-[10px]"></i> </summary> <div class="mt-2 pl-2 space-y-2"> <div class="text-left w-full"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-300 [&#38;>p]:my-0 [&#38;>ul]:my-0"><p><strong>1. Analyzing Bar &amp; Line Graphs</strong>
+Bar and Line graphs represent trends or comparisons.</p>
+<p><strong>Line Graph Tips:</strong>
+• Best for showing <strong>Trends</strong> over time (Growth/Decline).
+• Watch out for the <strong>slope</strong>. Steep slope = High growth rate.
+• Checking &quot;Cumulative&quot; values is a common trap.</p>
+<p><strong>Bar Graph Tips:</strong>
+• Best for <strong>Comparing</strong> discrete categories.
+• Stacked Bar Graphs: Data is one on top of another.
+• Value of Section B = (Top of B) - (Top of A).</p>
+<p><strong>Funnel Charts (New Pattern)</strong>
+Used to show stages in a process (e.g., Total Applicants -&gt; Appeared -&gt; Qualified -&gt; Selected).
+<strong>Tip:</strong> Always calculate the value of each stage relative to the <em>previous</em> stage or the <em>initial</em> total, depending on the question language.</p>
+<p><strong>2. Mastering Pie Charts</strong>
+The &quot;Degree - Percentage&quot; Conversion:
+Since a circle is 360° and complete data is 100%:
+<strong>100% = 360° =&gt; 1% = 3.6°</strong></p>
+<p><strong>Double Pie Charts:</strong>
+Often two charts are given (e.g., Total Population and Male Population). To find Female Population, you must calculate values from both charts and subtract.
+<em>Short cut:</em> If total bases are comparable (ratios), you can sometimes subtract % directly (advanced technique).</p>
+<p><strong>3. Missing Data DI</strong>
+In these tables, some cells are blank.
+<strong>Strategy:</strong></p>
+<ol>
+<li>Do not try to fill the entire table first.</li>
+<li>Use the conditions given in specific questions to find the missing value for <em>that question only</em>.</li>
+</ol>
+</div> </div> </div> </details> </div> </div> </div> </div><div class="relative group pb-4 last:pb-0">  <div class="absolute left-[15px] top-8 h-full w-[2px] bg-emerald-200 dark:bg-emerald-900 z-0"></div> <div class="relative flex gap-0">  <div class="shrink-0 pt-0 relative z-10 w-8"> <div class="flex items-center justify-center w-7 h-7 rounded-full border-2 border-emerald-500 bg-emerald-500 shadow-sm ring-4 ring-white dark:ring-neutral-950"> <i class="fa-solid fa-solid fa-file-lines text-white text-xs"></i> </div> </div>  <div class="grow pt-12 -ml-3 pl-2"> <div class="w-full bg-white dark:bg-neutral-900 p-2 rounded-lg border border-neutral-100 dark:border-neutral-800 shadow-xs relative">  <div class="flex items-start justify-between gap-3 mb-2"> <h3 class="font-bold text-base text-neutral-900 dark:text-neutral-100 leading-tight"> Caselet DI &amp; Radar Charts </h3> <div class="flex flex-wrap gap-1 justify-end shrink-0"> <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"> IBPS PO Mains </span><span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"> SBI PO Mains </span> </div> </div> <div class="text-sm text-neutral-600 dark:text-neutral-300 pl-1"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none [&#38;>p]:my-1 [&#38;>ul]:pl-4 [&#38;>ul]:list-disc [&#38;>ol]:pl-4 [&#38;>ol]:list-decimal"><p><strong>Caselet Basics:</strong></p>
+<ul>
+<li><p>Data is given in <strong>paragraph</strong> form.</p>
+</li>
+<li><p><strong>Step 1:</strong> Read the whole paragraph to understand the structure (Venn diagram? Table?).</p>
+</li>
+<li><p><strong>Step 2:</strong> Convert text to a Table/Venn Diagram.</p>
+</li>
+<li><p><strong>Step 3:</strong> Solve questions.</p>
+</li>
+</ul>
+<p><strong>Radar/Spider Charts:</strong></p>
+<ul>
+<li><p>Data is plotted on axes starting from a center point.</p>
+</li>
+<li><p>Outer rings represent higher values.</p>
+</li>
+<li><p>Treatment is exactly same as a <strong>Line Graph</strong>.</p>
+</li>
+</ul>
+</div> </div>   <details class="group/details border-t border-dashed border-neutral-200 dark:border-neutral-800 pt-1"> <summary class="cursor-pointer text-[10px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider flex items-center justify-end gap-1 list-none select-none hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors w-full"> <span>Deep Dive</span> <i class="fa-solid fa-chevron-down transform transition-transform group-open/details:rotate-180 text-[10px]"></i> </summary> <div class="mt-2 pl-2 space-y-2"> <div class="text-left w-full"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-300 [&#38;>p]:my-0 [&#38;>ul]:my-0"><p><strong>1. Decoding Caselets (Paragraph DI)</strong>
+Caselets test your ability to comprehend English and convert it into Math.</p>
+<p><strong>Venn Diagram Caselets:</strong>
+<strong>Identification:</strong> Look for keywords like &quot;Only A&quot;, &quot;Both A and B&quot;, &quot;Neither A nor B&quot;, &quot;All three&quot;.
+<strong>Strategy:</strong> Always draw the circles first. Fill the &quot;All three&quot; intersection first (center), then &quot;Two of them&quot;, then &quot;Only one&quot;.
+<em>Formula:</em> n(A U B U C) = n(A) + n(B) + n(C) - n(A n B) ... + n(A n B n C).</p>
+<p><strong>Arithmetic Caselets:</strong>
+These are simply arithmetic problems (Time &amp; Work, SI/CI, Profit Loss) presented as a paragraph with variables.
+<strong>Example:</strong> &quot;A invested Rs. X. B invested 20% more. After 1 year, profit is...&quot;
+<strong>Approach:</strong> Make a table with columns for Variables (Investment, Time, etc.).</p>
+<p><strong>2. Radar (Spider) Graphs</strong>
+Radar charts look scary but are the easiest.
+• Visualize the &quot;Spokes&quot; as the X-axis of a simple Line graph.
+• Visualize the &quot;Concentric Polygons/Circles&quot; as the Y-axis values.
+<strong>Tip:</strong> Before solving, quickly write down the values of all points in a small table. Example: A=40, B=60, C=80. Converting visual to data first reduces errors.</p>
+<p><strong>3. Mixed Charts</strong>
+Mains exams often combine two charts:</p>
+<ol>
+<li><strong>Pie + Table:</strong> Pie chart gives distribution of Total (A+B+C). Table gives Ratio of Male:Female within A, B, C.</li>
+<li><strong>Bar + Line:</strong> Bar gives Production. Line gives % Sold.
+<strong>Strategy:</strong> Always find the &quot;Linking Data&quot;. Use the absolute number given in the question to connect percentages/ratios to real values.</li>
+</ol>
+</div> </div> </div> </details> </div> </div> </div> </div><div class="relative group pb-4 last:pb-0">  <div class="absolute left-[15px] top-8 h-full w-[2px] bg-amber-200 dark:bg-amber-900 z-0"></div> <div class="relative flex gap-0">  <div class="shrink-0 pt-0 relative z-10 w-8"> <div class="flex items-center justify-center w-7 h-7 rounded-full border-2 border-amber-500 bg-amber-500 shadow-sm ring-4 ring-white dark:ring-neutral-950"> <i class="fa-solid fa-solid fa-calculator text-white text-xs"></i> </div> </div>  <div class="grow pt-12 -ml-3 pl-2"> <div class="w-full bg-white dark:bg-neutral-900 p-2 rounded-lg border border-neutral-100 dark:border-neutral-800 shadow-xs relative">  <div class="flex items-start justify-between gap-3 mb-2"> <h3 class="font-bold text-base text-neutral-900 dark:text-neutral-100 leading-tight"> Arithmetic DI </h3> <div class="flex flex-wrap gap-1 justify-end shrink-0"> <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"> IBPS PO Mains </span><span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"> SBI Clerk Mains </span> </div> </div> <div class="text-sm text-neutral-600 dark:text-neutral-300 pl-1"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none [&#38;>p]:my-1 [&#38;>ul]:pl-4 [&#38;>ul]:list-disc [&#38;>ol]:pl-4 [&#38;>ol]:list-decimal"><p><strong>What is Arithmetic DI?</strong></p>
+<ul>
+<li><p>DI based on core arithmetic chapters rather than just data.</p>
+</li>
+<li><p><strong>Common Topics:</strong> Time &amp; Work, Profit &amp; Loss, Boats &amp; Streams, SI/CI.</p>
+</li>
+</ul>
+<p><strong>Strategy:</strong></p>
+<ul>
+<li><p><strong>Step 1:</strong> Identify the Chapter (e.g., TS -&gt; Time Speed Distance).</p>
+</li>
+<li><p><strong>Step 2:</strong> Recall standard formulas (e.g., D = S * T).</p>
+</li>
+<li><p><strong>Step 3:</strong> Use data from graph to fill formula variables.</p>
+</li>
+</ul>
+</div> </div>   <details class="group/details border-t border-dashed border-neutral-200 dark:border-neutral-800 pt-1"> <summary class="cursor-pointer text-[10px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider flex items-center justify-end gap-1 list-none select-none hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors w-full"> <span>Deep Dive</span> <i class="fa-solid fa-chevron-down transform transition-transform group-open/details:rotate-180 text-[10px]"></i> </summary> <div class="mt-2 pl-2 space-y-2"> <div class="text-left w-full"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-300 [&#38;>p]:my-0 [&#38;>ul]:my-0"><p><strong>1. Time &amp; Work DI</strong>
+In these graphs, you might get:</p>
+<ul>
+<li><strong>Bar Graph:</strong> Showing &quot;Days taken by A, B, C... to finish work&quot;.</li>
+<li><strong>Line Info:</strong> Efficiency ratios.
+<strong>Approach:</strong> Use the <strong>LCM Method</strong>. Find the LCM of all days given in the graph to assume Total Work. Then calculate efficiency of each person <em>before</em> touching the questions.</li>
+</ul>
+<p><strong>2. Profit &amp; Loss DI</strong>
+Usually presented as a Table with missing values.
+Example Table: Item | CP | Markup % | Discount % | Profit %
+<strong>Logic:</strong>
+CP = 500. Markup 20% -&gt; MP = 600.
+Profit 10% -&gt; SP = 550.
+Discount = MP - SP = 600 - 550 = 50.
+Discount % = (50/600) * 100 = 8.33%.</p>
+<p><strong>3. Boats &amp; Streams DI</strong>
+Data given: Speed of Boat in Still Water (u) and Speed of Stream (v) for different days/boats.
+<strong>Key Variables to Calculate:</strong>
+• Downstream Speed (D) = u + v
+• Upstream Speed (U) = u - v
+Sometimes graphs give D and U directly. Remember: <strong>u = (D+U)/2</strong> and <strong>v = (D-U)/2</strong>.</p>
+</div> </div> </div> </details> </div> </div> </div> </div> </div> </div><div id="quiz-container" class="mt-8 max-w-3xl mx-auto px-4 perspective-1000" data-astro-cid-rwn6tmg5> <div id="quiz-start" class="relative overflow-hidden bg-linear-to-br from-indigo-600 to-violet-600 dark:bg-none dark:bg-black border-2 border-transparent dark:border-blue-600 rounded-2xl p-8 mx-2 md:px-12 md:py-10 shadow-lg text-white" data-astro-cid-rwn6tmg5> <!-- Decorative Background Icon --> <div class="absolute -right-6 -bottom-12 opacity-20 rotate-12 pointer-events-none" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-trophy text-9xl" data-astro-cid-rwn6tmg5></i> </div> <div class="relative z-10" data-astro-cid-rwn6tmg5> <div class="flex items-start justify-between mb-4" data-astro-cid-rwn6tmg5> <div data-astro-cid-rwn6tmg5> <h2 class="text-2xl font-bold mb-1" data-astro-cid-rwn6tmg5>Test Your Knowledge</h2> <p class="text-indigo-100 text-sm mb-6 max-w-md leading-relaxed" data-astro-cid-rwn6tmg5>
+Challenge yourself! Take a quick quiz to check your understanding of this topic.
+</p> </div> </div> <div class="flex items-center gap-4" data-astro-cid-rwn6tmg5> <button id="start-quiz-btn" class="px-8 py-3 bg-white dark:bg-black text-indigo-700 dark:text-blue-600 border-none rounded-xl font-bold text-base transition-all shadow-md active:scale-95 flex items-center gap-2" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-play" data-astro-cid-rwn6tmg5></i> <span data-astro-cid-rwn6tmg5>Start Quiz</span> </button> <span class="text-xs font-mono bg-white/20 px-3 py-1.5 rounded-lg backdrop-blur-sm border border-white/10" id="quiz-info-text" data-astro-cid-rwn6tmg5>
+Loading...
+</span> </div> </div> </div> <div id="quiz-content" class="hidden" data-astro-cid-rwn6tmg5> <!-- Progress Bar --> <div class="w-full bg-slate-200 dark:bg-slate-700 h-2 rounded-full mb-6 overflow-hidden" data-astro-cid-rwn6tmg5> <div id="progress-bar" class="bg-linear-to-r from-indigo-500 to-purple-500 h-full transition-all duration-300" style="width: 0%" data-astro-cid-rwn6tmg5></div> </div> <div class="flex justify-between items-center mb-6 px-2" data-astro-cid-rwn6tmg5> <div class="bg-indigo-100 dark:bg-indigo-900/30 px-3 py-1 rounded-lg" data-astro-cid-rwn6tmg5> <span class="text-sm font-semibold text-indigo-700 dark:text-indigo-300" data-astro-cid-rwn6tmg5>Q <span id="current-q" data-astro-cid-rwn6tmg5>1</span>/<span id="total-q" data-astro-cid-rwn6tmg5>30</span></span> </div> <div class="flex items-center gap-4" data-astro-cid-rwn6tmg5> <div class="text-lg font-bold font-mono bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-lg tabular-nums" id="timer" data-astro-cid-rwn6tmg5>
+60s
+</div> <div class="text-sm font-medium" data-astro-cid-rwn6tmg5>
+Score: <span id="score" class="text-green-600 dark:text-green-400 font-bold" data-astro-cid-rwn6tmg5>0</span> </div> </div> </div> <!-- Question Card --> <div id="question-card" class="bg-white dark:bg-black p-6 md:p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800" data-astro-cid-rwn6tmg5> <h3 class="text-xl md:text-2xl font-bold mb-6 text-slate-800 dark:text-white leading-relaxed" id="question-text" data-astro-cid-rwn6tmg5></h3> <div id="options-container" class="space-y-4" data-astro-cid-rwn6tmg5></div> </div> </div> <div id="quiz-result" class="hidden text-center bg-white dark:bg-black p-8 rounded-xl border border-neutral-100 dark:border-neutral-800" data-astro-cid-rwn6tmg5> <div class="mb-8" data-astro-cid-rwn6tmg5> <h2 class="text-2xl font-bold mb-2 text-neutral-900 dark:text-neutral-100" id="result-message" data-astro-cid-rwn6tmg5></h2> <div class="text-3xl font-bold mb-6 text-slate-800 dark:text-white" data-astro-cid-rwn6tmg5> <span id="final-score" class="text-indigo-600 dark:text-indigo-400" data-astro-cid-rwn6tmg5></span> / <span id="final-total" data-astro-cid-rwn6tmg5></span> </div> <div class="w-full bg-slate-200 dark:bg-slate-700 h-4 rounded-full mb-2 overflow-hidden max-w-md mx-auto" data-astro-cid-rwn6tmg5> <div id="final-progress" class="bg-linear-to-r from-green-400 to-green-600 h-full transition-all duration-1000" style="width: 0%" data-astro-cid-rwn6tmg5></div> </div> <div class="text-lg text-slate-600 dark:text-slate-400 mb-8" data-astro-cid-rwn6tmg5>
+Accuracy: <span id="percentage" class="font-bold text-slate-800 dark:text-white" data-astro-cid-rwn6tmg5></span>%
+</div> </div> <div id="answers-review" class="text-left space-y-4 mb-8 max-h-96 overflow-y-auto custom-scrollbar pr-2" data-astro-cid-rwn6tmg5></div> <button id="retake-btn" class="w-full py-4 bg-slate-900 dark:bg-slate-700 hover:bg-slate-800 dark:hover:bg-slate-600 text-white rounded-xl font-bold text-lg transition-colors shadow-md flex items-center justify-center gap-2" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-rotate-right" data-astro-cid-rwn6tmg5></i> <span data-astro-cid-rwn6tmg5>Retake Quiz</span> </button> </div> </div> <script>(function(){const topic = "data-interpretation";
+const maxQuestions = undefined;
+const data = [{"id":1,"question":"CASELET 1: In a school of 1000 students, 60% are boys. 80% of boys and 90% of girls passed the exam. Q: How many total students passed the exam?","options":["800","840","860","900"],"correct":1,"explanation":"Boys = 600, Girls = 400. Boys Passed = 80% of 600 = 480. Girls Passed = 90% of 400 = 360. Total Passed = 480 + 360 = 840."},{"id":2,"question":"CASELET 1: What is the ratio of failing boys to failing girls?","options":["3:1","1:3","2:1","4:1"],"correct":0,"explanation":"Boys Failed = 20% of 600 = 120. Girls Failed = 10% of 400 = 40. Ratio = 120:40 = 3:1."},{"id":3,"question":"CASELET 2: Company A, B, and C produce widgets. A produces 200, B produces 300, and C produces 500. 10% of A's, 20% of B's, and 5% of C's widgets are defective. Q: Total non-defective widgets?","options":["900","895","850","950"],"correct":1,"explanation":"A defective=20, Good=180. B defective=60, Good=240. C defective=25, Good=475. Total Good = 180 + 240 + 475 = 895."},{"id":4,"question":"CASELET 2: What percent of total production is defective?","options":["10%","10.5%","11.5%","12%"],"correct":1,"explanation":"Total production = 200+300+500 = 1000. Total Defective = 20+60+25 = 105. % Defective = (105/1000)*100 = 10.5%."},{"id":5,"question":"CASELET 3 (Time & Work DI): A can do a work in 10 days, B in 20 days, C in 30 days. Q: If A and B work together for 5 days, how much work is left?","options":["25%","30%","20%","40%"],"correct":0,"explanation":"LCM=60. A=6, B=3, C=2. (A+B) eff = 9. 5 days work = 9*5 = 45. Done = 45/60 = 3/4 = 75%. Left = 25%."},{"id":6,"question":"CASELET 3: If all three A, B, and C work together, they earn Rs 6600. What is B's share?","options":["1800","2200","1200","2000"],"correct":0,"explanation":"Ratio of Efficiency = 6:3:2. Total parts = 11. 11 parts = 6600 -> 1 part = 600. B's share (3 parts) = 3 * 600 = 1800."},{"id":7,"question":"CASELET 4 (Boats DI): Downstream Speed of Boat X is 20 km/hr and Upstream Speed is 10 km/hr. Q: Speed of Boat in still water is:","options":["10 km/hr","15 km/hr","12 km/hr","18 km/hr"],"correct":1,"explanation":"U = (D + U_speed)/2 = (20+10)/2 = 15 km/hr."},{"id":8,"question":"CASELET 4: Boat Y has still water speed 10 km/hr and stream speed 5 km/hr. Ratio of Time taken by Y to cover D km Upstream to D km Downstream is:","options":["2:1","3:1","4:1","3:2"],"correct":1,"explanation":"Y Down = 15, Y Up = 5. Time is inversely proportional to speed. Ratio of Speeds (Up:Down) = 5:15 = 1:3. Ratio of Times = 3:1."},{"id":9,"question":"CASELET 5 (Profit Loss DI): Shopkeeper sells P1 at 20% profit and P2 at 20% loss. Cost Price of both is Rs 500 each. Q: Total Selling Price?","options":["1000","1100","900","1050"],"correct":0,"explanation":"CP is same. P1 Profit = 100. P2 Loss = 100. P1 SP = 600. P2 SP = 400. Total SP = 1000. (No profit no loss)."},{"id":10,"question":"CASELET 5: If Selling Prices were same (Rs 600 each) instead of CP, what is the net result?","options":["Loss of Rs 50","Loss of Rs 25","Loss of 4%","No loss"],"correct":2,"explanation":"Same SP rule: Loss % = (20/10)^2 = 4% Loss."},{"id":11,"question":"CASELET 6: Population of City A is 10k, City B is 20k. A grows at 10%, B grows at 5%. Q: Total population after 1 year?","options":["32000","31500","33000","31000"],"correct":0,"explanation":"A new = 11000. B new = 21000. Total = 32000."},{"id":12,"question":"CASELET 6: What is the difference in population increase between B and A?","options":["0","500","1000","200"],"correct":0,"explanation":"Increase A = 10k * 10% = 1000. Increase B = 20k * 5% = 1000. Diff = 0."},{"id":13,"question":"CASELET 7 (Venn): In a group of 50, 30 like Tea, 25 like Coffee, 10 like Both. Q: How many like ONLY Tea?","options":["20","15","10","30"],"correct":0,"explanation":"Only Tea = Total Tea - Both = 30 - 10 = 20."},{"id":14,"question":"CASELET 7: How many like neither Tea nor Coffee?","options":["0","5","10","15"],"correct":1,"explanation":"Union (A or B) = A + B - Both = 30 + 25 - 10 = 45. Neither = Total - Union = 50 - 45 = 5."},{"id":15,"question":"CASELET 8: 5 workers A, B, C, D, E have efficiencies 1, 2, 3, 4, 5 units/day respectively. Q: If A, C, E work together, how many days for 90 unit work?","options":["10","9","8","12"],"correct":0,"explanation":"Efficiency A+C+E = 1+3+5 = 9 units/day. Time = 90/9 = 10 days."},{"id":16,"question":"CASELET 8: Who is 500% more efficient than A?","options":["E","None","D","B"],"correct":1,"explanation":"A=1. 500% more means A + 5A = 6A = 6 units. Nobody has 6 units. E is 400% more than A (5 units). So None."},{"id":17,"question":"CASELET 9 (Mix & Alligation): Vessel A has Milk:Water 4:1. Vessel B has 3:2. Mixed in 1:1 ratio. Q: Final Milk:Water?","options":["7:3","5:2","7:5","13:7"],"correct":0,"explanation":"A(Milk)=4/5. B(Milk)=3/5. Avg Milk = (4/5+3/5)/2 = 7/10. So Milk=7, Total=10 -> Water=3. Ratio 7:3. Or simply add parts if totals equal (5 & 5). (4+3):(1+2) = 7:3."},{"id":18,"question":"CASELET 9: If mixed in 2:1 ratio (2 parts A, 1 part B), new Milk fraction?","options":["11/15","4/5","3/5","2/3"],"correct":0,"explanation":"Take 2L of A (Milk 1.6, W 0.4) and 1L of B (Milk 0.6, W 0.4). Total Milk = 2.2. Total Vol = 3. Fraction = 2.2/3 = 22/30 = 11/15."},{"id":19,"question":"CASELET 10 (SI/CI): Scheme X offers 10% SI. Scheme Y offers 10% CI. Invested 1000 in each for 2 years. Q: Difference in interest?","options":["10","20","5","100"],"correct":0,"explanation":"Diff = P(R/100)^2 = 1000(1/100) = 10."},{"id":20,"question":"CASELET 10: Ratio of amounts received from X and Y?","options":["120:121","10:11","20:21","100:121"],"correct":0,"explanation":"Amount X = 1200. Amount Y = 1210. Ratio = 1200:1210 = 120:121."},{"id":21,"question":"Study the data: Sales of Item A in 2020, 2021, 2022 are 100, 150, 200 respectively. Q: Percentage growth from 2020 to 2022?","options":["50%","100%","200%","150%"],"correct":1,"explanation":"(Final-Initial)/Initial * 100. (200-100)/100 = 100%."},{"id":22,"question":"Data: Expense Breakdown: Food 30%, Rent 20%, Savings 10%, Others 40%. Total Income = 50,000. Q: Expense on Food?","options":["15000","20000","10000","12000"],"correct":0,"explanation":"30% of 50k = 15,000."},{"id":23,"question":"Data: Expense Breakdown same as above. Q: Ratio of Rent to Savings?","options":["2:1","1:2","3:1","4:1"],"correct":0,"explanation":"Rent 20%, Savings 10%. Ratio = 20:10 = 2:1."},{"id":24,"question":"Data: Marks of Student (Max 100): Eng 80, Math 90, Sci 70. Q: Average marks?","options":["80","75","85","70"],"correct":0,"explanation":"(80+90+70)/3 = 240/3 = 80."},{"id":25,"question":"Data: Marks same as above. Q: Overall Percentage?","options":["80%","70%","90%","85%"],"correct":0,"explanation":"Total obtained = 240. Total Max = 300. % = (240/300)*100 = 80%."},{"id":26,"question":"Data: Train A Length 100m, Speed 20m/s. Train B Length 200m, Speed 30m/s. Q: Time to cross each other if moving in Opposite direction?","options":["6s","5s","10s","15s"],"correct":0,"explanation":"Relative Speed = 20+30 = 50 m/s. Total Dist = 100+200 = 300m. Time = 300/50 = 6s."},{"id":27,"question":"Data: Same trains moving in Same direction. Q: Time to cross?","options":["30s","20s","10s","60s"],"correct":0,"explanation":"Relative Speed = 30-20 = 10 m/s. Time = 300/10 = 30s."},{"id":28,"question":"Table Data: Class A (Avg Age 10), Class B (Avg Age 15). Class A has 20 students, Class B has 30 students. Q: Combined Average Age?","options":["12","13","14","12.5"],"correct":1,"explanation":"Weighted Avg = (N1A1 + N2A2) / (N1+N2) = (20*10 + 30*15) / 50 = (200 + 450) / 50 = 650/50 = 13."},{"id":29,"question":"Data: Rectangle L=10, B=20. Q: If L increased by 10% and B decreased by 10%, Area change?","options":["1% decrease","1% increase","No change","2% decrease"],"correct":0,"explanation":"Successive: 10 - 10 - (100/100) = -1%."},{"id":30,"question":"Data: Circle Radius 7. Q: Circumference vs Area numerical difference?","options":["110","100","154","44"],"correct":0,"explanation":"C = 2*22/7*7 = 44. Area = 22/7*7*7 = 154. Diff = 154 - 44 = 110."},{"id":31,"question":"CASELET 11: 3 partners A, B, C invest in ratio 1:2:3. Profit 6000. Q: C's share?","options":["3000","2000","1000","4000"],"correct":0,"explanation":"Total 6 parts. C is 3 parts (half). Share = 3000."},{"id":32,"question":"CASELET 11: If A invested for double the time of B and C, new profit ratio?","options":["2:2:3","1:2:3","2:1:3","4:2:3"],"correct":0,"explanation":"Inv Ratio 1:2:3. Time Ratio 2:1:1. Profit Ratio = (1*2) : (2*1) : (3*1) = 2:2:3."},{"id":33,"question":"Data: Car A gives 20 km/l. Fuel price 100/l. Q: Cost to travel 100 km?","options":["500","400","200","1000"],"correct":0,"explanation":"Fuel needed = 100/20 = 5 liters. Cost = 5 * 100 = 500."},{"id":34,"question":"Data: Cylinder Radius 7, Height 10. Q: Volume?","options":["1540","1450","1500","1600"],"correct":0,"explanation":"Vol = pi*r^2*h = (22/7)*49*10 = 22*7*10 = 1540."},{"id":35,"question":"Data: 5 numbers mean is 20. If 5 is added to each number, new mean?","options":["25","20","250","100"],"correct":0,"explanation":"If each observation increased by k, mean increases by k. New mean = 20+5 = 25."},{"id":36,"question":"Data: Cost of 10 pens is Rs 50. Cost of 5 pencils is Rs 10. Q: Cost of 2 pens and 3 pencils?","options":["16","15","20","18"],"correct":0,"explanation":"1 Pen = 5. 1 Pencil = 2. Total = 2*5 + 3*2 = 10 + 6 = 16."},{"id":37,"question":"Data: A bag has 3 Red, 5 Blue balls. Q: Probability of picking 1 Red?","options":["3/8","5/8","1/8","1/4"],"correct":0,"explanation":"Total 8. Fav 3. Prob = 3/8."},{"id":38,"question":"Data: Same bag. Probability of picking 1 Blue?","options":["5/8","3/8","1/2","5/3"],"correct":0,"explanation":"Fav 5. Prob = 5/8."},{"id":39,"question":"Data: Series: 10, 20, 40, 80, ?. Q: Missing term?","options":["160","120","100","200"],"correct":0,"explanation":"Geometric progression x2. 80*2=160."},{"id":40,"question":"Data: A travels 10km North, then 10km East. Q: Shortest distance from start?","options":["10√2","20","10","15"],"correct":0,"explanation":"Hypotenuse of right triangle with sides 10, 10. sqrt(100+100) = sqrt(200) = 10√2."}];
+
+  let allQuestions = [];
+  let quizQuestions = [];
+  let currentQuestionIndex = 0;
+  let score = 0;
+  let userAnswers = [];
+  // Use a global property to track the active interval so we can clear it across navigations
+  // preventing multiple timers from running simultaneously
+  const setQuizInterval = (fn, ms) => {
+    if (window._quizInterval) clearInterval(window._quizInterval);
+    window._quizInterval = setInterval(fn, ms);
+    return window._quizInterval;
+  };
+  const clearQuizInterval = () => {
+    if (window._quizInterval) {
+      clearInterval(window._quizInterval);
+      window._quizInterval = null;
+    }
+  };
+
+  let timeLeft = 0;
+  let isTimerPerQuestion = true;
+  let isTransitioning = false;
+  const providedData = data;
+
+  const getStartScreen = () => document.getElementById('quiz-start');
+  const getQuizContent = () => document.getElementById('quiz-content');
+  const getResultScreen = () => document.getElementById('quiz-result');
+  const getStartBtn = () => document.getElementById('start-quiz-btn');
+  const getRetakeBtn = () => document.getElementById('retake-btn');
+  const getInfoText = () => document.getElementById('quiz-info-text');
+  const getQuestionCard = () => document.getElementById('question-card');
+
+  // Load questions
+  function init() {
+    const startBtn = getStartBtn();
+    const infoText = getInfoText();
+
+    if (!startBtn) {
+      setTimeout(init, 100);
+      return;
+    }
+
+    startBtn.disabled = true;
+    startBtn.style.opacity = '0.7';
+    if (infoText) infoText.textContent = 'Loading...';
+
+    try {
+      allQuestions = [];
+
+      if (providedData && providedData.length > 0) {
+        allQuestions = providedData.map((q, i) => ({
+          ...q,
+          correct: q.correct !== undefined ? q.correct : q.correct,
+        }));
+      }
+
+      if (allQuestions.length === 0) {
+        throw new Error('No questions loaded');
+      }
+
+      const limit = maxQuestions ? maxQuestions : allQuestions.length;
+      const finalCount = Math.min(limit, allQuestions.length);
+
+      const minutesPerQ = 1;
+      const totalMinutes = Math.ceil(finalCount * minutesPerQ);
+
+      if (infoText) {
+        infoText.textContent = `${finalCount} questions • ${totalMinutes} ${totalMinutes === 1 ? 'minute' : 'minutes'}`;
+      }
+
+      startBtn.disabled = false;
+      startBtn.style.opacity = '1';
+      startBtn.textContent = 'Start Quiz';
+
+      // Update Retake Button Style here if needed dynamically, but purely CSS is better
+      const retakeBtn = getRetakeBtn();
+      if (retakeBtn) {
+        retakeBtn.className =
+          'px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium text-sm transition-colors shadow-sm';
+      }
+    } catch (error) {
+      console.error('Error loading questions:', error);
+      if (infoText) infoText.textContent = 'Failed to load questions.';
+      startBtn.textContent = 'Error';
+    }
+  }
+
+  function selectRandomQuestions() {
+    const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+    const limit = maxQuestions ? maxQuestions : allQuestions.length;
+    quizQuestions = shuffled.slice(0, Math.min(limit, shuffled.length));
+    userAnswers = new Array(quizQuestions.length).fill(null);
+  }
+
+  function startQuiz() {
+    selectRandomQuestions();
+
+    const minutesPerQ = 1;
+    timeLeft = Math.ceil(quizQuestions.length * minutesPerQ * 60);
+
+    score = 0;
+    currentQuestionIndex = 0;
+    isTransitioning = false;
+
+    // Clear interval if any running
+    clearQuizInterval();
+    // Reset UI state
+    document.getElementById('score').textContent = '0';
+    document.getElementById('progress-bar').style.width = '0%';
+
+    // Force visibility states
+    getStartScreen()?.classList.add('hidden');
+    getResultScreen()?.classList.add('hidden');
+
+    const content = getQuizContent();
+    content?.classList.remove('hidden');
+
+    // Ensure question card is visible (fix flip out if stuck)
+    const card = getQuestionCard();
+    card.classList.remove('flip-out');
+
+    document.getElementById('total-q').textContent = quizQuestions.length;
+
+    if (!isTimerPerQuestion) {
+      startTimer();
+    }
+
+    showQuestion();
+  }
+
+  function showQuestion() {
+    const question = quizQuestions[currentQuestionIndex];
+    document.getElementById('current-q').textContent = currentQuestionIndex + 1;
+    document.getElementById('question-text').textContent = question.question;
+
+    // Update progress bar
+    const progress = (currentQuestionIndex / quizQuestions.length) * 100;
+    document.getElementById('progress-bar').style.width = `${progress}%`;
+
+    const optionsContainer = document.getElementById('options-container');
+    optionsContainer.innerHTML = '';
+    isTransitioning = false;
+
+    question.options.forEach((option, index) => {
+      const button = document.createElement('button');
+      // Simple clean style
+      button.className =
+        'w-full text-left p-4 rounded-xl border-2 border-slate-200 dark:border-slate-800 hover:border-indigo-400 hover:bg-slate-50 dark:hover:bg-slate-900/50 transition-all active:scale-[0.99] outline-none';
+      button.dataset.index = index;
+
+      const optionLabel = document.createElement('span');
+      optionLabel.className =
+        'inline-block w-6 h-6 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-center leading-6 font-bold mr-3 text-xs';
+      optionLabel.textContent = String.fromCharCode(65 + index); // A, B, C...
+
+      const textSpan = document.createElement('span');
+      textSpan.textContent = option;
+      textSpan.className = 'font-medium text-slate-700 dark:text-slate-200';
+
+      button.appendChild(optionLabel);
+      button.appendChild(textSpan);
+
+      button.onclick = () => selectAnswer(index, button);
+      optionsContainer.appendChild(button);
+    });
+
+    if (isTimerPerQuestion) {
+      startTimer();
+    }
+  }
+
+  function startTimer() {
+    clearQuizInterval();
+    if (isTimerPerQuestion) {
+      timeLeft = 60;
+    }
+
+    updateTimerDisplay();
+
+    setQuizInterval(() => {
+      timeLeft--;
+      updateTimerDisplay();
+      if (timeLeft <= 0) {
+        if (isTimerPerQuestion) {
+          clearQuizInterval();
+          handleTimeUp();
+        } else {
+          finishQuiz();
+        }
+      }
+    }, 1000);
+  }
+
+  function handleTimeUp() {
+    if (isTransitioning) return;
+    isTransitioning = true;
+
+    userAnswers[currentQuestionIndex] = -1; // Timeout
+
+    const question = quizQuestions[currentQuestionIndex];
+    const options = document.getElementById('options-container').children;
+
+    if (options[question.correct]) {
+      options[question.correct].classList.add(
+        'border-green-600',
+        'bg-green-50',
+        'dark:bg-green-900/30'
+      );
+    }
+
+    setTimeout(() => {
+      triggerNextQuestionTransition();
+    }, 1500);
+  }
+
+  function updateTimerDisplay() {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    const timerEl = document.getElementById('timer');
+
+    // Simpler timer style
+    timerEl.className =
+      'text-lg font-bold font-mono bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-lg tabular-nums';
+
+    if (timeLeft < 10) {
+      timerEl.classList.add('text-red-600', 'dark:text-red-400');
+    } else {
+      timerEl.classList.remove('text-red-600', 'dark:text-red-400');
+    }
+
+    if (timeLeft < 60) {
+      timerEl.textContent = `${timeLeft}s`;
+    } else {
+      timerEl.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
+  }
+
+  function selectAnswer(index, buttonElement) {
+    if (isTransitioning) return;
+    isTransitioning = true;
+    clearQuizInterval();
+    userAnswers[currentQuestionIndex] = index;
+    const question = quizQuestions[currentQuestionIndex];
+    const isCorrect = index === question.correct;
+
+    const allButtons = document.getElementById('options-container').querySelectorAll('button');
+    allButtons.forEach((btn) => {
+      btn.disabled = true;
+      btn.classList.add('cursor-default');
+      btn.classList.remove('hover:border-indigo-400', 'hover:bg-slate-50');
+    });
+
+    if (isCorrect) {
+      score++;
+      document.getElementById('score').textContent = score;
+      buttonElement.classList.add('border-green-600', 'bg-green-50', 'dark:bg-green-900/30');
+      buttonElement
+        .querySelector('span:first-child')
+        .classList.add('bg-green-200', 'text-green-800');
+    } else {
+      buttonElement.classList.add('border-red-600', 'bg-red-50', 'dark:bg-red-900/30');
+      buttonElement.querySelector('span:first-child').classList.add('bg-red-200', 'text-red-800');
+
+      const correctBtn = allButtons[question.correct];
+      if (correctBtn) {
+        correctBtn.classList.add('border-green-600', 'bg-green-50', 'dark:bg-green-900/30');
+        correctBtn
+          .querySelector('span:first-child')
+          .classList.add('bg-green-200', 'text-green-800');
+      }
+    }
+
+    setTimeout(() => {
+      triggerNextQuestionTransition();
+    }, 1000);
+  }
+
+  function triggerNextQuestionTransition() {
+    const card = getQuestionCard();
+
+    // Add flip-out class to rotate to 90deg
+    card.classList.add('flip-out');
+
+    setTimeout(() => {
+      if (currentQuestionIndex < quizQuestions.length - 1) {
+        currentQuestionIndex++;
+        showQuestion();
+        // Remove flip-out to rotate back to 0deg
+        card.classList.remove('flip-out');
+      } else {
+        finishQuiz();
+      }
+    }, 300);
+  }
+
+  function finishQuiz() {
+    clearQuizInterval();
+    const total = quizQuestions.length;
+    const percentage = Math.round((score / total) * 100);
+
+    saveQuizResult(score, total, percentage);
+
+    getQuizContent()?.classList.add('hidden');
+    getResultScreen()?.classList.remove('hidden');
+
+    document.getElementById('final-score').textContent = score;
+    document.getElementById('final-total').textContent = total;
+    document.getElementById('percentage').textContent = percentage;
+    document.getElementById('final-progress').style.width = `${percentage}%`;
+
+    let message;
+    if (percentage >= 90) message = 'Outstanding!';
+    else if (percentage >= 75) message = 'Excellent work!';
+    else if (percentage >= 60) message = 'Good job!';
+    else if (percentage >= 40) message = 'Keep practicing!';
+    else message = "Don't give up!";
+
+    document.getElementById('result-message').textContent = message;
+    showAnswerReview();
+  }
+
+  function showAnswerReview() {
+    const container = document.getElementById('answers-review');
+    container.innerHTML = '<h3 class="text-lg font-bold mb-4">Review</h3>';
+
+    quizQuestions.forEach((q, i) => {
+      const isCorrect = userAnswers[i] === q.correct;
+      const reviewDiv = document.createElement('div');
+
+      // Modern Card Style
+      reviewDiv.className = `p-4 mb-3 rounded-xl border-l-4 ${isCorrect ? 'border-l-green-500 bg-slate-50 dark:bg-slate-900/30' : 'border-l-red-500 bg-slate-50 dark:bg-slate-900/30'} shadow-sm`;
+
+      let answerText = 'Skipped';
+      if (userAnswers[i] !== null && userAnswers[i] !== -1 && q.options[userAnswers[i]]) {
+        answerText = q.options[userAnswers[i]];
+      }
+
+      reviewDiv.innerHTML = `
+        <div class="flex items-start gap-3">
+            <div class="flex-grow">
+                <p class="text-sm font-semibold text-slate-800 dark:text-slate-200 mb-2 leading-relaxed">
+                    <span class="text-slate-500 dark:text-slate-400 font-normal mr-1">Q${i + 1}.</span> 
+                    ${q.question}
+                </p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                    <div class="p-2.5 rounded-lg bg-white dark:bg-black border ${isCorrect ? 'border-green-200 dark:border-green-900/30' : 'border-red-200 dark:border-red-900/30'}">
+                        <span class="block text-[10px] uppercase font-bold tracking-wider opacity-60 mb-0.5">Your Answer</span>
+                        <span class="${isCorrect ? 'text-green-700 dark:text-green-400 font-bold' : 'text-red-600 dark:text-red-400 font-bold'}">
+                            ${answerText}
+                        </span>
+                    </div>
+                    
+                    ${
+                      !isCorrect
+                        ? `
+                    <div class="p-2.5 rounded-lg bg-white dark:bg-black border border-green-200 dark:border-green-900/30">
+                        <span class="block text-[10px] uppercase font-bold tracking-wider opacity-60 mb-0.5">Correct Answer</span>
+                        <span class="text-green-700 dark:text-green-400 font-bold">
+                            ${q.options[q.correct]}
+                        </span>
+                    </div>
+                    `
+                        : ''
+                    }
+                </div>
+
+                ${
+                  q.explanation
+                    ? `
+                <div class="mt-3 text-xs pt-2 border-t border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 flex items-start gap-2">
+                     <i class="fa-regular fa-lightbulb text-amber-500 mt-0.5 shrink-0"></i>
+                     <span>${q.explanation}</span>
+                </div>`
+                    : ''
+                }
+            </div>
+        </div>
+      `;
+      container.appendChild(reviewDiv);
+    });
+  }
+
+  function saveQuizResult(score, total, percentage) {
+    const history = JSON.parse(localStorage.getItem('quizHistory') || '{}');
+    if (!history[topic]) history[topic] = [];
+    history[topic].push({ date: new Date().toISOString(), score, total, percentage });
+    if (history[topic].length > 10) history[topic] = history[topic].slice(-10);
+    localStorage.setItem('quizHistory', JSON.stringify(history));
+
+    // Update global score if needed
+    document.getElementById('score').textContent = score;
+  }
+
+  function setupEventListeners() {
+    const startBtn = getStartBtn();
+    const retakeBtn = getRetakeBtn();
+
+    if (startBtn) {
+      // Remove old listeners to be safe (though usually unnecessary with simple scripts)
+      startBtn.replaceWith(startBtn.cloneNode(true));
+      document.getElementById('start-quiz-btn').addEventListener('click', startQuiz);
+    }
+
+    if (retakeBtn) {
+      retakeBtn.replaceWith(retakeBtn.cloneNode(true));
+      document.getElementById('retake-btn').addEventListener('click', startQuiz);
+    }
+  }
+
+  // Robust initialization for Astro View Transitions
+  // This script runs every time the component HTML is injected
+  init(); // Attempt immediate init (script is at end of component)
+  setupEventListeners();
+
+  // Cleanup when navigating away to prevent timer leaks
+  document.addEventListener(
+    'astro:before-swap',
+    () => {
+      clearQuizInterval();
+    },
+    { once: true }
+  );
+})();</script></div> </main> </div> <!-- Mobile Floating Action Button --> <button id="mobile-fab" class="fixed bottom-24 right-6 z-50 w-12 h-12 bg-linear-to-r from-indigo-600 to-violet-600 text-white rounded-full shadow-lg flex items-center justify-center hover:shadow-xl active:scale-95 transition-all lg:hidden border border-white/20" aria-label="Toggle Menu"> <i class="fa-solid fa-book-open text-lg"></i> </button> </div> <script type="module" src="/_astro/Layout.astro_astro_type_script_index_0_lang.Dm4Gaecr.js"></script> </body> </html>

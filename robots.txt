@@ -1,0 +1,9 @@
+User-agent: *
+User-agent: GPTBot
+User-agent: Claude-Web
+User-agent: Google-Extended
+User-agent: Applebot
+Allow: /
+
+Sitemap: https://exam.record10.com/sitemap-index.xml
+Sitemap: https://exam.record10.com/llms.txt

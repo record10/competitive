@@ -1,0 +1,677 @@
+<!DOCTYPE html><html lang="en" translate="no"> <head><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js"></script><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><link rel="icon" type="image/png" sizes="196x196" href="/pwa-196.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="generator" content="Astro v5.16.14"><meta name="google" content="notranslate"><!-- Canonical URL --><link rel="canonical" href="https://exam.record10.com/en/ctet/cdp/child-centered/"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://exam.record10.com/en/ctet/cdp/child-centered/"><meta property="og:title" content="Child Centered Education &#38; Intelligence"><meta property="og:description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><meta property="og:image" content="https://exam.record10.com/pwa-512.png"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://exam.record10.com/en/ctet/cdp/child-centered/"><meta property="twitter:title" content="Child Centered Education &#38; Intelligence"><meta property="twitter:description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><meta property="twitter:image" content="https://exam.record10.com/pwa-512.png"><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-HP0TG82134"></script><script>(function(){const gaId = "G-HP0TG82134";
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      // Simple Content Grouping based on URL
+      // If path contains '/rrb/', categorize as 'RRB'
+      const path = window.location.pathname;
+      const contentGroup = path.includes('/rrb/') ? 'RRB' : 'General';
+
+      gtag('config', gaId, {
+        content_group: contentGroup,
+      });
+    })();</script><title>
+      Child Centered Education &amp; Intelligence | Competitive Exam Preparation
+    </title><!-- Version-based cache invalidation - reads version from package.json --><script>(function(){const appVersion = "1.0.0";
+
+      (function () {
+        var APP_VERSION = appVersion;
+        var STORED_VERSION = localStorage.getItem('appVersion');
+
+        if (STORED_VERSION && STORED_VERSION !== APP_VERSION) {
+          // Version changed - clear caches and reload
+          localStorage.setItem('appVersion', APP_VERSION);
+
+          // Clear any cached data that might be stale
+          if ('caches' in window) {
+            caches.keys().then(function (names) {
+              names.forEach(function (name) {
+                caches.delete(name);
+              });
+            });
+          }
+
+          // Force reload from server
+          window.location.reload(true);
+          return;
+        }
+
+        // First visit or same version - just store it
+        if (!STORED_VERSION) {
+          localStorage.setItem('appVersion', APP_VERSION);
+        }
+      })();
+    })();</script><script>
+      function applyTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      }
+      applyTheme();
+      document.addEventListener('astro:after-swap', applyTheme);
+
+      // Global Theme Toggle
+      window.toggleTheme = function () {
+        const html = document.documentElement;
+        const isDark = html.classList.contains('dark');
+        const newTheme = isDark ? 'light' : 'dark';
+
+        if (newTheme === 'dark') {
+          html.classList.add('dark');
+        } else {
+          html.classList.remove('dark');
+        }
+
+        localStorage.setItem('theme', newTheme);
+        window.dispatchEvent(new Event('theme-changed'));
+      };
+    </script><script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "r10 Exam",
+        "url": "https://exam.record10.com",
+        "description": "Complete preparation platform for Railway Exams and SSC CGL.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://exam.record10.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script><style>.perspective-1000[data-astro-cid-rwn6tmg5]{perspective:1000px}#question-card[data-astro-cid-rwn6tmg5]{transition:transform .6s,opacity .3s;transform-style:preserve-3d}.flip-out[data-astro-cid-rwn6tmg5]{transform:rotateY(90deg);opacity:0}@keyframes blink-green{0%,to{background-color:#22c55e1a;border-color:#22c55e}50%{background-color:#22c55e4d;border-color:#15803d}}@keyframes blink-red{0%,to{background-color:#ef44441a;border-color:#ef4444}50%{background-color:#ef44444d;border-color:#b91c1c}}.blink-correct[data-astro-cid-rwn6tmg5]{animation:blink-green .4s ease-in-out 2}.blink-wrong[data-astro-cid-rwn6tmg5]{animation:blink-red .4s ease-in-out 2}
+</style>
+<link rel="stylesheet" href="/_astro/_slug_.D9sFftlt.css"></head> <body class="min-h-screen bg-white dark:bg-black text-neutral-700 dark:text-neutral-300 font-sans selection:bg-indigo-500/30"> <div class="flex min-h-screen"> <aside class="fixed left-0 top-0 bottom-0 w-64 z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out group/sidebar" data-astro-cid-ssfzsv2f> <!-- Scrollable Content Wrapper --> <div class="h-full w-full bg-white dark:bg-neutral-900 border-r border-neutral-200 dark:border-neutral-800 overflow-y-auto shadow-xl lg:shadow-none pt-2 lg:pt-2" data-astro-cid-ssfzsv2f> <nav class="p-3 pt-0 space-y-1" data-astro-cid-ssfzsv2f> <!-- Home Link --> <a href="/en" class="flex items-center gap-3 px-3 py-2 text-neutral-600 dark:text-neutral-400 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-neutral-50 dark:hover:bg-indigo-900/20 rounded-md transition-all group mb-5" data-astro-cid-ssfzsv2f> <i class="fa-solid fa-home w-5 text-center group-hover:scale-110 transition-transform" data-astro-cid-ssfzsv2f></i> <span class="font-bold text-sm uppercase tracking-wider" data-astro-cid-ssfzsv2f>Home</span> </a> <!-- Exam Mode Indicator --> <div class="px-3 mb-4" data-astro-cid-ssfzsv2f> <div class="text-xs font-bold text-amber-600 dark:text-amber-400 uppercase tracking-widest border-b border-amber-200 dark:border-amber-800 pb-1" data-astro-cid-ssfzsv2f> Using CTET Mode </div> </div> <!-- Menu Sections --> <div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="cdp" data-astro-cid-ssfzsv2f> <span class="group-hover:text-amber-600 dark:hover:text-amber-400 transition-colors" data-astro-cid-ssfzsv2f> CDP </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="cdp" data-astro-cid-ssfzsv2f> <a href="/en/ctet/cdp/concept-of-development" data-progress-path="/en/ctet/cdp/concept-of-development" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Concept of Development </a><a href="/en/ctet/cdp/principles-of-development" data-progress-path="/en/ctet/cdp/principles-of-development" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Principles of Development </a><a href="/en/ctet/cdp/socialization" data-progress-path="/en/ctet/cdp/socialization" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Socialization Process </a><a href="/en/ctet/cdp/theories" data-progress-path="/en/ctet/cdp/theories" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Major Theories </a><a href="/en/ctet/cdp/child-centered" data-progress-path="/en/ctet/cdp/child-centered" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Child Centered Education &amp; Intelligence </a><a href="/en/ctet/cdp/language-thought" data-progress-path="/en/ctet/cdp/language-thought" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Language &amp; Thought </a><a href="/en/ctet/cdp/gender-diversity" data-progress-path="/en/ctet/cdp/gender-diversity" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Gender &amp; Diversity </a><a href="/en/ctet/cdp/inclusive-education" data-progress-path="/en/ctet/cdp/inclusive-education" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Inclusive Education </a><a href="/en/ctet/cdp/assessment" data-progress-path="/en/ctet/cdp/assessment" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Assessment &amp; Evaluation </a><a href="/en/ctet/cdp/motivation" data-progress-path="/en/ctet/cdp/motivation" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Motivation &amp; Learning </a><a href="/en/ctet/cdp/policies" data-progress-path="/en/ctet/cdp/policies" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Educational Policies &amp; Frameworks </a><a href="/en/ctet/cdp/sample-layout" data-progress-path="/en/ctet/cdp/sample-layout" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Sample Layout: Visual Hierarchy </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="evs" data-astro-cid-ssfzsv2f> <span class="group-hover:text-amber-600 dark:hover:text-amber-400 transition-colors" data-astro-cid-ssfzsv2f> EVS </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="evs" data-astro-cid-ssfzsv2f> <a href="/en/ctet/evs/family-and-friends" data-progress-path="/en/ctet/evs/family-and-friends" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Family and Friends </a><a href="/en/ctet/evs/food-and-nutrition" data-progress-path="/en/ctet/evs/food-and-nutrition" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Food and Nutrition </a><a href="/en/ctet/evs/shelter-and-water" data-progress-path="/en/ctet/evs/shelter-and-water" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Shelter and Water </a><a href="/en/ctet/evs/travel-and-things" data-progress-path="/en/ctet/evs/travel-and-things" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Travel and Things We Make </a><a href="/en/ctet/evs/things-we-make" data-progress-path="/en/ctet/evs/things-we-make" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Things We Make and Do </a><a href="/en/ctet/evs/pedagogy" data-progress-path="/en/ctet/evs/pedagogy" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> EVS Pedagogy: Methods &amp; Guidelines </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="maths" data-astro-cid-ssfzsv2f> <span class="group-hover:text-amber-600 dark:hover:text-amber-400 transition-colors" data-astro-cid-ssfzsv2f> Mathematics </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="maths" data-astro-cid-ssfzsv2f> <a href="/en/ctet/maths/content-topics" data-progress-path="/en/ctet/maths/content-topics" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Maths Content (Paper I) </a><a href="/en/ctet/maths/content-part2" data-progress-path="/en/ctet/maths/content-part2" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Maths Content (Part 2) </a><a href="/en/ctet/maths/pedagogy" data-progress-path="/en/ctet/maths/pedagogy" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Maths Pedagogy </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="science" data-astro-cid-ssfzsv2f> <span class="group-hover:text-amber-600 dark:hover:text-amber-400 transition-colors" data-astro-cid-ssfzsv2f> Science </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="science" data-astro-cid-ssfzsv2f> <a href="/en/ctet/science/content-pedagogy" data-progress-path="/en/ctet/science/content-pedagogy" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Science </a><a href="/en/ctet/science/pedagogy" data-progress-path="/en/ctet/science/pedagogy" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Science Pedagogy </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="social" data-astro-cid-ssfzsv2f> <span class="group-hover:text-amber-600 dark:hover:text-amber-400 transition-colors" data-astro-cid-ssfzsv2f> Social Studies </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="social" data-astro-cid-ssfzsv2f> <a href="/en/ctet/social/history-geo-polity" data-progress-path="/en/ctet/social/history-geo-polity" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Social Studies </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="languages" data-astro-cid-ssfzsv2f> <span class="group-hover:text-amber-600 dark:hover:text-amber-400 transition-colors" data-astro-cid-ssfzsv2f> Languages </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="languages" data-astro-cid-ssfzsv2f> <a href="/en/ctet/languages/english" data-progress-path="/en/ctet/languages/english" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> English Pedagogy </a><a href="/en/ctet/languages/sanskrit" data-progress-path="/en/ctet/languages/sanskrit" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20" data-astro-cid-ssfzsv2f> Sanskrit (संस्कृतम्) </a> </div> </div> <!-- Extra Links (Practice Tests, etc.) -->  <!-- Theme Toggle --> <div class="mt-3 pt-3 border-t border-neutral-200 dark:border-neutral-800" data-astro-cid-ssfzsv2f> <button id="sidebar-theme-toggle" class="w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>Theme</span> <div class="relative w-8 h-4 bg-neutral-200 dark:bg-neutral-700 rounded-full transition-colors" data-astro-cid-ssfzsv2f> <div id="theme-toggle-dot" class="absolute left-1 top-1 w-2 h-2 bg-white rounded-full transition-transform duration-200 transform dark:translate-x-4" data-astro-cid-ssfzsv2f></div> </div> </button> </div> <!-- Feedback & Request --> <div class="mt-3 pt-3 border-t border-neutral-200 dark:border-neutral-800 space-y-1" data-astro-cid-ssfzsv2f> <a href="https://wa.me/918329999288?text=Feedback:" target="_blank" class="flex items-center gap-3 px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <i class="fa-brands fa-whatsapp text-green-500 text-sm" data-astro-cid-ssfzsv2f></i> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>Feedback</span> </a> <a href="https://wa.me/918329999288?text=I%20want%20to%20request%20a%20new%20exam:" target="_blank" class="flex items-center gap-3 px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <i class="fa-brands fa-whatsapp text-green-500 text-sm" data-astro-cid-ssfzsv2f></i> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>Request New Exam</span> </a> </div> <div class="mt-4 px-3 pb-2 text-center" data-astro-cid-ssfzsv2f> <span class="text-[10px] text-neutral-400 dark:text-neutral-600 font-mono select-none opacity-50" data-astro-cid-ssfzsv2f>
+Build v1.0.5 </span> <!-- <div id="debug-info" class="mt-2 text-[10px] text-left font-mono text-red-500 overflow-hidden hidden"></div> --> </div> </nav> </div> <!-- Sticky Toggle Button --> <!-- Sticky Toggle Button --> <button id="sidebar-toggle-btn" class="absolute -right-5 top-1/2 -translate-y-1/2 w-5 h-32 bg-linear-to-b from-amber-600 to-orange-600 rounded-r-lg flex flex-col items-center justify-center gap-2 cursor-pointer shadow-lg hover:brightness-110 transition-all pointer-events-auto border border-white/10" aria-label="Toggle Sidebar" data-astro-cid-ssfzsv2f> <i class="fa-solid fa-chevron-right text-white text-[10px] transform transition-transform duration-300 mb-1 rotate-0 group-[&:not(.-translate-x-full)]/sidebar:rotate-180 lg:group-[.lg:translate-x-0]/sidebar:rotate-180" data-astro-cid-ssfzsv2f></i> <span class="text-[10px] font-bold text-white tracking-widest rotate-180" style="writing-mode: vertical-rl; text-orientation: mixed;" data-astro-cid-ssfzsv2f>TOPICS</span> </button> </aside> <script type="module">function f(){function c(){const e=s=>s.toLowerCase().replace(/\/$/,"")||s,o=e(window.location.pathname);document.querySelectorAll(".section-content").forEach(s=>{s.querySelectorAll("a").forEach(m=>{if(e(m.getAttribute("href")||"")===o){s.classList.remove("hidden");const p=s.getAttribute("data-section");document.querySelector(`.menu-section[data-section="${p}"]`)?.querySelector(".toggle-icon")?.classList.add("rotate-180")}})})}document.querySelectorAll(".menu-section").forEach(e=>{e.hasAttribute("data-initialized")||(e.setAttribute("data-initialized","true"),e.addEventListener("click",()=>{const o=e.getAttribute("data-section"),u=document.querySelector(`.section-content[data-section="${o}"]`),s=e.querySelector(".toggle-icon");u?.classList.toggle("hidden"),s?.classList.toggle("rotate-180");const g=!u?.classList.contains("hidden");o&&localStorage.setItem(`sidebar-${o}`,g?"open":"closed")}))});function l(){Array.from(document.querySelectorAll(".section-content")).map(o=>o.getAttribute("data-section")).forEach(o=>{if(!o)return;if(localStorage.getItem(`sidebar-${o}`)==="open"){const s=document.querySelector(`.section-content[data-section="${o}"]`),m=document.querySelector(`.menu-section[data-section="${o}"]`)?.querySelector(".toggle-icon");s?.classList.remove("hidden"),m?.classList.add("rotate-180")}}),c()}const a=document.getElementById("sidebar-theme-toggle"),r=document.getElementById("theme-toggle-dot");function t(){document.documentElement.classList.contains("dark")?r?.classList.add("translate-x-4"):r?.classList.remove("translate-x-4")}t(),window.addEventListener("theme-changed",t),l(),a&&!a.hasAttribute("data-initialized")&&(a.setAttribute("data-initialized","true"),a.addEventListener("click",()=>{window.toggleTheme&&window.toggleTheme()}));const i=document.getElementById("sidebar-toggle-btn");i&&!i.hasAttribute("data-initialized")&&(i.setAttribute("data-initialized","true"),i.addEventListener("click",e=>{window.dispatchEvent(new CustomEvent("toggle-sidebar"))}));const n=document.querySelector(".overflow-y-auto");if(n&&!n.hasAttribute("data-initialized")){n.setAttribute("data-initialized","true");const e=localStorage.getItem("sidebar-scroll-pos");e&&(n.scrollTop=parseInt(e,10)),n.addEventListener("scroll",()=>{localStorage.setItem("sidebar-scroll-pos",n.scrollTop.toString())},{passive:!0})}}document.addEventListener("astro:page-load",f);function h(){const c="topicProgress";let d={};try{d=JSON.parse(localStorage.getItem(c)||"{}")}catch{}const l=t=>t.toLowerCase().replace(/\/$/,"")||t,a={};Object.keys(d).forEach(t=>{a[l(t)]=d[t]}),document.querySelectorAll("[data-progress-path]").forEach(t=>{const i=t.getAttribute("data-progress-path");if(!i)return;const n=a[l(i)]||{scrolled:!1,quizCompleted:!1};n.quizCompleted?t.setAttribute("data-progress-status","completed"):n.scrolled?t.setAttribute("data-progress-status","scrolled"):t.setAttribute("data-progress-status","none")});const r=document.getElementById("debug-info");if(r){const t=d[window.location.pathname];r.classList.remove("hidden"),r.textContent=`Path: ${window.location.pathname} 
+State: ${JSON.stringify(t||"null")}`}}document.addEventListener("astro:page-load",h);window.addEventListener("progress-updated",h);window.addEventListener("pageshow",c=>{c.persisted&&h()});</script> <div id="main-content" class="flex-1 flex flex-col min-w-0 transition-all duration-300 lg:ml-64"> <div class="fixed top-0 right-0 left-0 z-40 h-12 glass border-b border-neutral-200/50 dark:border-neutral-800/50 transition-all duration-300 lg:left-64" data-astro-cid-ugcunkw7> <div class="flex items-center justify-between h-full px-4 md:px-6 w-full" data-astro-cid-ugcunkw7> <div class="flex items-center gap-3" data-astro-cid-ugcunkw7> <!-- Mobile/Desktop Menu Button --> <button id="menu-btn" class="p-1.5 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md transition-colors" data-astro-cid-ugcunkw7> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" data-astro-cid-ugcunkw7></path> </svg> </button> <a href="/en/ctet" class="text-base font-bold bg-linear-to-r from-amber-600 to-orange-600 dark:from-amber-400 dark:to-orange-400 bg-clip-text text-transparent tracking-tight hover:opacity-80 transition-opacity flex items-center gap-2" data-astro-cid-ugcunkw7> CTET PREP </a> </div> <div class="flex items-center gap-2" data-astro-cid-ugcunkw7> <button id="theme-toggle" class="p-1.5 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md transition-colors" aria-label="Toggle Theme" data-astro-cid-ugcunkw7> <!-- Sun Icon --> <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" data-astro-cid-ugcunkw7></path> </svg> <!-- Moon Icon --> <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" data-astro-cid-ugcunkw7></path> </svg> </button> <!-- Settings Dropdown --> <div class="relative"> <button id="settings-btn" class="flex items-center gap-1.5 px-2 py-1.5 text-xs rounded-lg font-medium text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors" aria-label="Settings"> <i class="fa-solid fa-gear text-sm"></i> </button> <div id="settings-dropdown" class="absolute top-full right-0 mt-2 hidden z-50 w-56 origin-top-right"> <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-xl border border-neutral-200 dark:border-neutral-700 overflow-hidden py-2"> <!-- Select Exam Group --> <div class="px-3 pb-2"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Select Exam
+</div> <div class="grid grid-cols-2 gap-2"> <a href="/en/rrb" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> rrb </a><a href="/en/ssc" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> ssc </a><a href="/en/ctet" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-violet-100 dark:bg-violet-900/50 text-violet-700 dark:text-violet-300 border-violet-200 dark:border-violet-700 shadow-sm"> ctet </a><a href="/en/neet" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> neet </a> </div> </div> <hr class="mx-2 border-neutral-100 dark:border-neutral-700/50 mb-2"> <!-- Exam Tree Group --> <div class="px-3 pb-2"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Exam Tree
+</div> <a href="/en/adhoc/exam-tree/exam-tree" class="flex items-center justify-center gap-2 px-3 py-1.5 text-xs text-neutral-700 dark:text-neutral-300 bg-neutral-50 dark:bg-neutral-800/50 hover:bg-neutral-100 dark:hover:bg-neutral-800 border border-neutral-100 dark:border-neutral-700/50 rounded-md transition-colors w-full"> <i class="fa-solid fa-network-wired text-indigo-500"></i> <span>View Mind Map</span> </a> </div> <hr class="mx-2 border-neutral-100 dark:border-neutral-700/50 mb-2"> <!-- Progress Reset Group --> <div class="px-3 pb-1"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Reset Progress
+</div> <div class="flex items-center justify-center gap-1 bg-neutral-50 dark:bg-neutral-800/50 rounded-md border border-neutral-100 dark:border-neutral-700/50 p-1"> <button data-action="clear-page" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Page">Page</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-section" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Section">Section</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-exam" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Exam">Exam</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-all" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-red-50 dark:hover:bg-red-900/30 text-red-500 transition-all" title="Reset All Progress">All</button> </div> </div> </div> </div> </div> <script type="module">function m(){const a=document.getElementById("settings-btn"),t=document.getElementById("settings-dropdown");if(!a||!t)return;a.addEventListener("click",e=>{e.stopPropagation(),t.classList.toggle("hidden")});function i(e){!t?.contains(e.target)&&e.target!==a&&t?.classList.add("hidden")}function d(e){e.key==="Escape"&&t?.classList.add("hidden")}const o="topicProgress";t.querySelectorAll("[data-action]").forEach(e=>{e.addEventListener("click",()=>{const g=e.getAttribute("data-action"),s=window.location.pathname;try{const n=JSON.parse(localStorage.getItem(o)||"{}");switch(g){case"clear-page":delete n[s];break;case"clear-section":const p=s.substring(0,s.lastIndexOf("/"));Object.keys(n).forEach(c=>{c.startsWith(p)&&delete n[c]});break;case"clear-exam":const r=s.match(/^\/(hi|mr)?\/?(rrb|ssc|ctet|neet)/);if(r){const c=r[2];Object.keys(n).forEach(l=>{l.includes(`/${c}/`)&&delete n[l]})}break;case"clear-all":localStorage.removeItem(o),window.dispatchEvent(new CustomEvent("progress-updated")),t.classList.add("hidden");return}localStorage.setItem(o,JSON.stringify(n)),window.dispatchEvent(new CustomEvent("progress-updated"))}catch{}t.classList.add("hidden")})}),window.cleanupSettingsListeners&&window.cleanupSettingsListeners(),document.addEventListener("click",i),document.addEventListener("keydown",d),window.cleanupSettingsListeners=()=>{document.removeEventListener("click",i),document.removeEventListener("keydown",d)}}document.addEventListener("astro:page-load",m);</script> <!-- Language Switcher --> <div class="flex items-center gap-2 ml-2 pl-2 border-l border-neutral-200 dark:border-neutral-700 shrink-0"> <a href="/en/ctet/cdp/child-centered" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-violet-100 dark:bg-violet-900/50 text-violet-700 dark:text-violet-300 border-violet-200 dark:border-violet-700 shadow-sm"> en </a><a href="/hi/ctet/cdp/child-centered" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> hi </a><a href="/mr/ctet/cdp/child-centered" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> mr </a> </div> </div> </div> </div>  <script type="module">function d(){const e=document.getElementById("menu-btn");document.querySelector("aside");let n=document.querySelector(".menu-overlay");n||(n=document.createElement("div"),n.className="menu-overlay fixed inset-0 bg-black/50 z-40 lg:hidden hidden transition-opacity opacity-0",document.body.appendChild(n)),e&&(e.classList.add("animate-blink-green"),setTimeout(()=>{e.classList.remove("animate-blink-green")},6e3));function i(){e?.classList.contains("animate-blink-green")&&e.classList.remove("animate-blink-green"),window.dispatchEvent(new CustomEvent("toggle-sidebar"))}const o=document.getElementById("theme-toggle");o&&o.addEventListener("click",a=>{a.stopPropagation(),window.toggleTheme&&window.toggleTheme()});const t=e?.cloneNode(!0);e&&t&&(e.parentNode?.replaceChild(t,e),t.addEventListener("click",i)),n&&(n.onclick=i)}document.addEventListener("astro:page-load",d);</script> <main class="flex-1 p-2 md:p-6 w-full max-w-[1920px] mx-auto mt-12"> <div class="max-w-4xl mx-auto mt-6"><h1 class="text-3xl font-bold mb-4 px-4 md:px-0">Child Centered Education &amp; Intelligence</h1><div class="mb-8"> <div class="mb-6 border-b border-neutral-200 dark:border-neutral-800 pb-3"> <h2 class="text-xl font-bold text-neutral-900 dark:text-neutral-100 relative inline-block"> Child Centered Education &amp; Intelligence <span class="absolute bottom-[-13px] left-0 w-1/3 h-1 bg-indigo-500 rounded-full"></span> </h2> </div> <div class="relative space-y-0 ml-3"> <div class="relative group pb-4 last:pb-0">  <div class="absolute left-[15px] top-8 h-full w-[2px] bg-indigo-200 dark:bg-indigo-900 z-0"></div> <div class="relative flex gap-0">  <div class="shrink-0 pt-0 relative z-10 w-8"> <div class="flex items-center justify-center w-7 h-7 rounded-full border-2 border-indigo-500 bg-indigo-500 shadow-sm ring-4 ring-white dark:ring-neutral-950"> <i class="fa-solid fa-solid fa-child-reaching text-white text-xs"></i> </div> </div>  <div class="grow pt-12 -ml-3 pl-2"> <div class="w-full bg-white dark:bg-neutral-900 p-2 rounded-lg border border-neutral-100 dark:border-neutral-800 shadow-xs relative">  <div class="flex items-start justify-between gap-3 mb-2"> <h3 class="font-bold text-base text-neutral-900 dark:text-neutral-100 leading-tight"> Child-Centered &amp; Progressive Education </h3> <div class="flex flex-wrap gap-1 justify-end shrink-0"> <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"> CTET </span> </div> </div> <div class="text-sm text-neutral-600 dark:text-neutral-300 pl-1"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none [&#38;>p]:my-1 [&#38;>ul]:pl-4 [&#38;>ul]:list-disc [&#38;>ol]:pl-4 [&#38;>ol]:list-decimal"><p><strong>Child-Centered Education</strong> is a modern pedagogical approach that shifts the focus from the teacher and the curriculum to the learner. In this model, the child is viewed as an <strong>active participant</strong> constructs their own knowledge, rather than a passive recipient.</p>
+<ul>
+<li><p><strong>Concept:</strong> Education should revolve around the child&#39;s needs, interests, and aptitudes. It opposes the traditional &quot;Teacher-Centered&quot; approach where the teacher is the absolute authority.</p>
+</li>
+<li><p><strong>John Dewey:</strong> The father of <strong>Progressive Education</strong>. He established &quot;Lab Schools&quot; and emphasized:</p>
+</li>
+<li><p><strong>Learning by Doing:</strong> Experiential learning through hands-on activities.</p>
+</li>
+<li><p><strong>Education as Life:</strong> School is a miniature society, not just preparation for future life.</p>
+</li>
+<li><p><strong>Democratic Methods:</strong> Giving children voice and choice in the classroom.</p>
+</li>
+<li><p><strong>Role of Teacher:</strong> Shifts from &quot;dictator&quot; to <strong>Facilitator</strong>, Guide, and Observer. The teacher provides the environment and resources (Scaffolding).</p>
+</li>
+<li><p><strong>Key Features:</strong></p>
+</li>
+<li><p><strong>Flexible Curriculum:</strong> Adapted to individual differences.</p>
+</li>
+<li><p><strong>Continuous Assessment:</strong> Evaluation is diagnostic and integrated with teaching, not just end-of-term.</p>
+</li>
+<li><p><strong>Holistic Development:</strong> Focus on physical, social, emotional, and cognitive growth.</p>
+</li>
+</ul>
+<p><strong>Keywords for Exam:</strong> Active engagement, Hands-on, Autonomy, Democratic, Flexible, Constructivism.</p>
+</div> </div>   <details class="group/details border-t border-dashed border-neutral-200 dark:border-neutral-800 pt-1"> <summary class="cursor-pointer text-[10px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider flex items-center justify-end gap-1 list-none select-none hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors w-full"> <span>Deep Dive</span> <i class="fa-solid fa-chevron-down transform transition-transform group-open/details:rotate-180 text-[10px]"></i> </summary> <div class="mt-2 pl-2 space-y-2"> <div class="text-left w-full"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-300 [&#38;>p]:my-0 [&#38;>ul]:my-0"><p><strong>Child-Centered Education</strong> shifts the focus from the teacher and the curriculum to the learner. In this approach, the child is seen as an active participant in their own learning, not a passive vessel to be filled with information.</p>
+<h4>1. John Dewey&#39;s Progressive Education</h4>
+<p>John Dewey, an American philosopher, is the primary figure behind this movement. He argued that education should not be a &quot;preparation for life&quot; but &quot;life itself.&quot;</p>
+<ul>
+<li><strong>Learning by Doing:</strong> Children learn best when they interact with their environment. Hands-on activities, experiments, and field trips are superior to rote memorization.</li>
+<li><strong>Democratic Classroom:</strong> The classroom should mirror a democratic society where children have a voice in what and how they learn. This fosters social responsibility.</li>
+<li><strong>Problem Solving:</strong> Education should present real-world problems that challenge children to think critically and collaboratively.</li>
+</ul>
+<h4>2. Role of the Teacher</h4>
+<p>In a child-centered classroom, the teacher is not an authoritarian &quot;Sage on the Stage&quot; but a &quot;Guide on the Side.&quot;</p>
+<ul>
+<li><strong>Facilitator:</strong> The teacher provides the resources and environment necessary for learning. They set up the classroom to encourage exploration and ensure materials are accessible.</li>
+<li><strong>Observer:</strong> They actively observe each child&#39;s interests, strengths, and learning styles to tailor instruction (Differentiated Instruction). Assessment is continuous and diagnostic, not just end-of-term testing.</li>
+<li><strong>Partner:</strong> The relationship is one of mutual respect. The teacher learns from the students just as the students learn from the teacher. They model lifelong learning and curiosity.</li>
+</ul>
+<h4>3. Key Principles</h4>
+<ul>
+<li><strong>Freedom and Autonomy:</strong> Children are given the freedom to choose activities, fostering a sense of responsibility.</li>
+<li><strong>Holistic Development:</strong> Focuses on the physical, emotional, social, and intellectual growth of the child, not just academic scores.</li>
+<li><strong>Cooperative Learning:</strong> Group work and peer learning are emphasized over competition. Children learn social skills by working together.</li>
+</ul>
+<h4>3. Comparison with Teacher-Centered</h4>
+<p><strong>Teacher-Centered</strong></p>
+<ul>
+<li><p>Passive Learners: Students listen and take notes.</p>
+</li>
+<li><p>Rote Memorization: Focus on recalling facts accurately.</p>
+</li>
+<li><p>Discipline through fear: Silence is mandatory.</p>
+</li>
+<li><p>Uniform curriculum: One size fits all approach.</p>
+</li>
+</ul>
+<p><strong>Child-Centered</strong></p>
+<ul>
+<li><p>Active Exploration: Students manipulate objects and discuss.</p>
+</li>
+<li><p>Critical Thinking: Focus on understanding &#39;Why&#39; and &#39;How&#39;.</p>
+</li>
+<li><p>Self-discipline: Order comes from engagement.</p>
+</li>
+<li><p>Flexible curriculum: Adapts to student needs.</p>
+</li>
+</ul>
+<p><strong>CTET Note:</strong> Look for keywords like &quot;Hands-on,&quot; &quot;Active Engagement,&quot; &quot;Democratic,&quot; and &quot;Flexibility.&quot; Any option suggesting &quot;Rote memorization,&quot; &quot;Strict discipline,&quot; or &quot;Standardized curriculum&quot; is usually incorrect in this context.</p>
+</div> </div> </div> </details> </div> </div> </div> </div><div class="relative group pb-4 last:pb-0">  <div class="absolute left-[15px] top-8 h-full w-[2px] bg-emerald-200 dark:bg-emerald-900 z-0"></div> <div class="relative flex gap-0">  <div class="shrink-0 pt-0 relative z-10 w-8"> <div class="flex items-center justify-center w-7 h-7 rounded-full border-2 border-emerald-500 bg-emerald-500 shadow-sm ring-4 ring-white dark:ring-neutral-950"> <i class="fa-solid fa-solid fa-brain text-white text-xs"></i> </div> </div>  <div class="grow pt-12 -ml-3 pl-2"> <div class="w-full bg-white dark:bg-neutral-900 p-2 rounded-lg border border-neutral-100 dark:border-neutral-800 shadow-xs relative">  <div class="flex items-start justify-between gap-3 mb-2"> <h3 class="font-bold text-base text-neutral-900 dark:text-neutral-100 leading-tight"> Concept of Intelligence &amp; Multi-Dimensional Intelligence </h3> <div class="flex flex-wrap gap-1 justify-end shrink-0"> <span class="px-1.5 py-0.5 rounded text-[9px] font-bold bg-neutral-100 text-neutral-600 dark:bg-neutral-800 dark:text-neutral-300 border border-neutral-200 dark:border-neutral-700"> CTET </span> </div> </div> <div class="text-sm text-neutral-600 dark:text-neutral-300 pl-1"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none [&#38;>p]:my-1 [&#38;>ul]:pl-4 [&#38;>ul]:list-disc [&#38;>ol]:pl-4 [&#38;>ol]:list-decimal"><p><strong>Intelligence</strong> is a complex, multi-dimensional construct referring to the ability to adjust to new environments, think abstractly, and learn from experience. It is <strong>NOT</strong> a single, fixed trait.</p>
+<ul>
+<li><p><strong>Changing Views:</strong></p>
+</li>
+<li><p><em>Uni-factor Theory (Alfred Binet):</em> Old view. Intelligence is one general ability (g-factor). Criticized for being too simplistic.</p>
+</li>
+<li><p><em>Multi-dimensional:</em> Modern view. Set of distinct capabilities.</p>
+</li>
+<li><p><strong>Howard Gardner&#39;s Multiple Intelligences (8 Types):</strong></p>
+</li>
+<li><p><strong>Linguistic:</strong> Language skill (Poet, Lawyer).</p>
+</li>
+<li><p><strong>Logical-Mathematical:</strong> Number/Reasoning skill (Scientist, Coder).</p>
+</li>
+<li><p><strong>Spatial:</strong> Visualizing 3D space (Architect, Pilot).</p>
+</li>
+<li><p><strong>Bodily-Kinesthetic:</strong> Body movement (Dancer, Athlete).</p>
+</li>
+<li><p><strong>Musical:</strong> Rhythm/Pitch (Musician).</p>
+</li>
+<li><p><strong>Interpersonal:</strong> Understanding <em>others</em> (Teacher, Politician).</p>
+</li>
+<li><p><strong>Intrapersonal:</strong> Understanding <em>self</em> (Philosopher).</p>
+</li>
+<li><p><strong>Naturalistic:</strong> Nature/Classification (Farmer, Botanist).</p>
+</li>
+<li><p><strong>Robert Sternberg&#39;s Triarchic Theory (PCA):</strong></p>
+</li>
+<li><p><strong>P</strong>ractical (Contextual/Street Smart).</p>
+</li>
+<li><p><strong>C</strong>reative (Experiential/Novelty).</p>
+</li>
+<li><p><strong>A</strong>nalytical (Componential/Book Smart).</p>
+</li>
+<li><p><strong>IQ Formula:</strong> IQ = (Mental Age / Chronological Age) × 100. (Given by William Stern, refined by Terman).</p>
+</li>
+</ul>
+</div> </div>   <details class="group/details border-t border-dashed border-neutral-200 dark:border-neutral-800 pt-1"> <summary class="cursor-pointer text-[10px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider flex items-center justify-end gap-1 list-none select-none hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors w-full"> <span>Deep Dive</span> <i class="fa-solid fa-chevron-down transform transition-transform group-open/details:rotate-180 text-[10px]"></i> </summary> <div class="mt-2 pl-2 space-y-2"> <div class="text-left w-full"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-300 [&#38;>p]:my-0 [&#38;>ul]:my-0"><p>Intelligence was historically viewed as a single, general ability (g-factor) that determined a person&#39;s success. Modern theories, however, view it as multi-dimensional. Intelligence is the ability to adjust to the environment, learn from experience, and think abstractly.</p>
+<h4>1. Howard Gardner&#39;s Multiple Intelligences</h4>
+<p>Gardner argued that human beings have different ways of processing information and that these are relatively independent of one another. He proposed 8 distinctive intelligences (NCERT):</p>
+<ul>
+<li><strong>Linguistic:</strong> Skill with words and language (Poets, Writers, Lawyers).</li>
+<li><strong>Logical-Mathematical:</strong> Skill with numbers and logic (Scientists, Accountants).</li>
+<li><strong>Spatial:</strong> Ability to visualize the world in 3D (Architects, Pilots, Artists).</li>
+<li><strong>Musical:</strong> Sensitivity to rhythm and sound (Musicians, Composers).</li>
+<li><strong>Bodily-Kinesthetic:</strong> Skill in using the body (Athletes, Dancers, Surgeons).</li>
+<li><strong>Interpersonal:</strong> Understanding others&#39; emotions and motivations (Politicians, Teachers, Social Workers).</li>
+<li><strong>Intrapersonal:</strong> Understanding oneself and one&#39;s own weakness/strengths (Philosophers, Gurus).</li>
+<li><strong>Naturalistic:</strong> Understanding nature and classification (Farmers, Botanists).</li>
+</ul>
+<p><em>Trick:</em> Inter = Enter others (Social). Intra = Inside self (Self).</p>
+<h4>2. Robert Sternberg&#39;s Triarchic Theory</h4>
+<p>Sternberg proposed that intelligence is comprised of three parts (Triarchic):</p>
+<ul>
+<li><strong>Practical Intelligence (Contextual):</strong> Street smarts. Ability to adapt to the environment and solve daily life problems.</li>
+<li><strong>Creative Intelligence (Experiential):</strong> Ability to deal with novel situations and create new ideas.</li>
+<li><strong>Analytical Intelligence (Componential):</strong> Book smarts. Ability to analyze, evaluate, and compare (Academic problem solving).</li>
+</ul>
+<p><em>Trick:</em> PCA (Practical, Creative, Analytical).</p>
+<h4>3. Alfred Binet (Uni-factor Theory)</h4>
+<p>Binet, the father of intelligence testing, believed typically in a &#39;General Intelligence&#39; that affects performance on all cognitive tasks. This is considered too simplistic today.</p>
+<h4>4. IQ (Intelligence Quotient)</h4>
+<p>German psychologist William Stern coined the term IQ. Terman refined the formula:</p>
+<p>IQ = (Mental Age / Chronological Age) × 100
+Though useful, IQ tests are often criticized for being culturally biased. An average IQ is considered 90-109. Gifted children have IQ &gt; 140.</p>
+</div> </div> </div> </details> </div> </div> </div> </div> </div> </div><div id="quiz-container" class="mt-8 max-w-3xl mx-auto px-4 perspective-1000" data-astro-cid-rwn6tmg5> <div id="quiz-start" class="relative overflow-hidden bg-linear-to-br from-indigo-600 to-violet-600 dark:bg-none dark:bg-black border-2 border-transparent dark:border-blue-600 rounded-2xl p-8 mx-2 md:px-12 md:py-10 shadow-lg text-white" data-astro-cid-rwn6tmg5> <!-- Decorative Background Icon --> <div class="absolute -right-6 -bottom-12 opacity-20 rotate-12 pointer-events-none" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-trophy text-9xl" data-astro-cid-rwn6tmg5></i> </div> <div class="relative z-10" data-astro-cid-rwn6tmg5> <div class="flex items-start justify-between mb-4" data-astro-cid-rwn6tmg5> <div data-astro-cid-rwn6tmg5> <h2 class="text-2xl font-bold mb-1" data-astro-cid-rwn6tmg5>Test Your Knowledge</h2> <p class="text-indigo-100 text-sm mb-6 max-w-md leading-relaxed" data-astro-cid-rwn6tmg5>
+Challenge yourself! Take a quick quiz to check your understanding of this topic.
+</p> </div> </div> <div class="flex items-center gap-4" data-astro-cid-rwn6tmg5> <button id="start-quiz-btn" class="px-8 py-3 bg-white dark:bg-black text-indigo-700 dark:text-blue-600 border-none rounded-xl font-bold text-base transition-all shadow-md active:scale-95 flex items-center gap-2" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-play" data-astro-cid-rwn6tmg5></i> <span data-astro-cid-rwn6tmg5>Start Quiz</span> </button> <span class="text-xs font-mono bg-white/20 px-3 py-1.5 rounded-lg backdrop-blur-sm border border-white/10" id="quiz-info-text" data-astro-cid-rwn6tmg5>
+Loading...
+</span> </div> </div> </div> <div id="quiz-content" class="hidden" data-astro-cid-rwn6tmg5> <!-- Progress Bar --> <div class="w-full bg-slate-200 dark:bg-slate-700 h-2 rounded-full mb-6 overflow-hidden" data-astro-cid-rwn6tmg5> <div id="progress-bar" class="bg-linear-to-r from-indigo-500 to-purple-500 h-full transition-all duration-300" style="width: 0%" data-astro-cid-rwn6tmg5></div> </div> <div class="flex justify-between items-center mb-6 px-2" data-astro-cid-rwn6tmg5> <div class="bg-indigo-100 dark:bg-indigo-900/30 px-3 py-1 rounded-lg" data-astro-cid-rwn6tmg5> <span class="text-sm font-semibold text-indigo-700 dark:text-indigo-300" data-astro-cid-rwn6tmg5>Q <span id="current-q" data-astro-cid-rwn6tmg5>1</span>/<span id="total-q" data-astro-cid-rwn6tmg5>30</span></span> </div> <div class="flex items-center gap-4" data-astro-cid-rwn6tmg5> <div class="text-lg font-bold font-mono bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-lg tabular-nums" id="timer" data-astro-cid-rwn6tmg5>
+60s
+</div> <div class="text-sm font-medium" data-astro-cid-rwn6tmg5>
+Score: <span id="score" class="text-green-600 dark:text-green-400 font-bold" data-astro-cid-rwn6tmg5>0</span> </div> </div> </div> <!-- Question Card --> <div id="question-card" class="bg-white dark:bg-black p-6 md:p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800" data-astro-cid-rwn6tmg5> <h3 class="text-xl md:text-2xl font-bold mb-6 text-slate-800 dark:text-white leading-relaxed" id="question-text" data-astro-cid-rwn6tmg5></h3> <div id="options-container" class="space-y-4" data-astro-cid-rwn6tmg5></div> </div> </div> <div id="quiz-result" class="hidden text-center bg-white dark:bg-black p-8 rounded-xl border border-neutral-100 dark:border-neutral-800" data-astro-cid-rwn6tmg5> <div class="mb-8" data-astro-cid-rwn6tmg5> <h2 class="text-2xl font-bold mb-2 text-neutral-900 dark:text-neutral-100" id="result-message" data-astro-cid-rwn6tmg5></h2> <div class="text-3xl font-bold mb-6 text-slate-800 dark:text-white" data-astro-cid-rwn6tmg5> <span id="final-score" class="text-indigo-600 dark:text-indigo-400" data-astro-cid-rwn6tmg5></span> / <span id="final-total" data-astro-cid-rwn6tmg5></span> </div> <div class="w-full bg-slate-200 dark:bg-slate-700 h-4 rounded-full mb-2 overflow-hidden max-w-md mx-auto" data-astro-cid-rwn6tmg5> <div id="final-progress" class="bg-linear-to-r from-green-400 to-green-600 h-full transition-all duration-1000" style="width: 0%" data-astro-cid-rwn6tmg5></div> </div> <div class="text-lg text-slate-600 dark:text-slate-400 mb-8" data-astro-cid-rwn6tmg5>
+Accuracy: <span id="percentage" class="font-bold text-slate-800 dark:text-white" data-astro-cid-rwn6tmg5></span>%
+</div> </div> <div id="answers-review" class="text-left space-y-4 mb-8 max-h-96 overflow-y-auto custom-scrollbar pr-2" data-astro-cid-rwn6tmg5></div> <button id="retake-btn" class="w-full py-4 bg-slate-900 dark:bg-slate-700 hover:bg-slate-800 dark:hover:bg-slate-600 text-white rounded-xl font-bold text-lg transition-colors shadow-md flex items-center justify-center gap-2" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-rotate-right" data-astro-cid-rwn6tmg5></i> <span data-astro-cid-rwn6tmg5>Retake Quiz</span> </button> </div> </div> <script>(function(){const topic = "child-centered";
+const maxQuestions = undefined;
+const data = [{"id":1,"question":"In a Child-Centered classroom, the teacher acts as a:","options":["Dictator","Passive Observer","Facilitator","Authoritarian figure"],"correct":2,"explanation":"In child-centered education (e.g., NCF 2005), the teacher is a facilitator who guides and supports learning rather than dictating it."},{"id":2,"question":"Progressive Education emphasizes:","options":["Learning by rote memorization","Learning by doing","Standardized testing only","Teacher-centric curriculum"],"correct":1,"explanation":"Progressive education (advocated by John Dewey) emphasizes 'Learning by doing', problem-solving, and critical thinking."},{"id":3,"question":"Who is considered the father of Progressive Education?","options":["Jean Piaget","John Dewey","Lev Vygotsky","B.F. Skinner"],"correct":1,"explanation":"John Dewey is the central figure in the progressive education movement, advocating for democracy in education."},{"id":4,"question":"Howard Gardner's theory of Multiple Intelligences suggests that:","options":["Intelligence is a single entity (g-factor)","There are multiple distinct types of intelligence","Intelligence is determined solely by genetics","IQ tests are the only valid measure"],"correct":1,"explanation":"Gardner proposed that humans have several distinct ways of processing information (e.g., musical, spatial, linguistic), not just one general intelligence."},{"id":5,"question":"A child who is good at understanding others' feelings and motivations has high:","options":["Intrapersonal Intelligence","Interpersonal Intelligence","Spatial Intelligence","Logical-Mathematical Intelligence"],"correct":1,"explanation":"Interpersonal intelligence is the capacity to understand the intentions, motivations, and desires of other people."},{"id":6,"question":"According to the Constructivist view, learning is:","options":["Passive reception of information","Active construction of knowledge","Conditioning of behaviors","Repetition of facts"],"correct":1,"explanation":"Constructivism posits that learners actively construct their own understanding and knowledge of the world, through experiencing things and reflecting on those experiences."},{"id":7,"question":"The 'Triarchic Theory of Intelligence' was proposed by:","options":["Robert Sternberg","Howard Gardner","Charles Spearman","Alfred Binet"],"correct":0,"explanation":"Robert Sternberg proposed the Triarchic Theory, identifying three components: componential (analytical), experiential (creative), and contextual (practical)."},{"id":8,"question":"Which of the following is NOT a characteristic of a progressive classroom?","options":["Flexible seating arrangements","Collaboration among students","Emphasis on text-book centric learning","Connecting learning to real life"],"correct":2,"explanation":"Progressive classrooms move away from textbook-centric rote learning and focus on experiential and collaborative learning."},{"id":9,"question":"Critical perspective on intelligence creates a shift from:","options":["Testing to Teaching","Fixed IQ capabilities to dynamic potential","Growth to Stagnation","Inclusion to Segregation"],"correct":1,"explanation":"Critical perspectives challenge the notion of fixed IQ and emphasize the dynamic, multifaceted nature of human potential and the possibility of growth."},{"id":10,"question":"Emotional Intelligence (EQ) is often considered:","options":["Less important than IQ","More important than IQ for life success","Irrelevant to education","The same as abstract reasoning"],"correct":1,"explanation":"Daniel Goleman and others argue that EQ (self-awareness, empathy, social skills) is often a better predictor of life success and well-being than IQ."},{"id":11,"question":"In a diverse classroom, a teacher should:","options":["Focus only on bright students","Use a variety of teaching methods","Ignore individual differences","Teach in only one language"],"correct":1,"explanation":"To accommodate individual differences and multiple intelligences, teachers should use diverse pedagogical strategies (differentiation)."},{"id":12,"question":"Kinesthetic Intelligence refers to:","options":["Ability to use language effectively","Ability to think logically","Ability to use one's body to express or solve problems","Ability to perceive visual-spatial world"],"correct":2,"explanation":"Bodily-Kinesthetic intelligence involves physical coordination and dexterity, often seen in athletes, dancers, and surgeons."},{"id":13,"question":"Spearman's Two-Factor Theory of Intelligence consists of:","options":["G-factor and S-factor","Fluid and Crystallized intelligence","Analytic and Creative intelligence","Verbal and Non-verbal intelligence"],"correct":0,"explanation":"Charles Spearman proposed that intelligence consists of a General factor (g) that influences all cognitive tasks and Specific factors (s) for particular tasks."},{"id":14,"question":"The concept of 'Learning without Burden' (Yashpal Committee 1993) implies:","options":["Reducing the physical weight of school bags","Making learning joyful and understanding-based","Reducing school hours","Removing all exams"],"correct":1,"explanation":"While it addressed bag weight, the deeper meaning is to reduce the cognitive burden of incomprehension and rote learning, making education meaningful."},{"id":15,"question":"Assessment for Learning helps in:","options":["Labeling students","Ranking students","Providing feedback and improving instruction","Final certification"],"correct":2,"explanation":"Assessment FOR Learning (Formative Assessment) is a process used by teachers and students during instruction to provide feedback to adjust ongoing teaching and learning."},{"id":16,"question":"Assessment of Learning refers to:","options":["Formative Assessment","Summative Assessment","Diagnostic Assessment","School-Based Assessment"],"correct":1,"explanation":"Assessment OF Learning is summative in nature, occurring at the end of a period to grade or certify achievement."},{"id":17,"question":"What defines Continuous and Comprehensive Evaluation (CCE)?","options":["Only academic testing","Evaluation of both scholastic and co-scholastic aspects","Frequent written exams only","Teacher's subjective opinion"],"correct":1,"explanation":"CCE covers all aspects of a student's development—scholastic (academic) and co-scholastic (life skills, attitudes, values)."},{"id":18,"question":"An Anecdotal Record is:","options":["A record of exam marks","A narrative description of a significant incident/behavior","A list of books read","A certificate of merit"],"correct":1,"explanation":"Anecdotal records are short, objective descriptions of specific incidents or behaviors observed by the teacher, used for qualitative assessment."},{"id":19,"question":"What is the next step after a Diagnostic Test?","options":["Fail the student","Remedial Teaching","Promote the student","Ignoring the error"],"correct":1,"explanation":"Diagnostic tests identify learning gaps; Remedial teaching provides the specific support needed to close those gaps."},{"id":20,"question":"A Portfolio in education is best described as:","options":["A random collection of papers","A systematic collection of student work demonstrating progress","A teacher's lesson plan","A collection of textbooks"],"correct":1,"explanation":"A portfolio collects a student's work over time to show their effort, progress, and achievement in a specific area."},{"id":21,"question":"Fluid Intelligence involves:","options":["Acquired knowledge and skills","Ability to reason and solve novel problems independent of learning","Vocabulary and arithmetic","Rote memorization"],"correct":1,"explanation":"Raymond Cattell defined Fluid Intelligence (Gf) as the ability to solve new problems, use logic in new situations, and identify patterns."},{"id":22,"question":"Crystallized Intelligence refers to:","options":["Innate problem-solving ability","Knowledge that comes from prior learning and past experiences","Emotional stability","Physical coordination"],"correct":1,"explanation":"Crystallized Intelligence (Gc) is the ability to use learned knowledge and experience."},{"id":23,"question":"Which profession requires high Spatial Intelligence?","options":["Poet","Architect","Therapist","Athlete"],"correct":1,"explanation":"Spatial intelligence involves the potential to recognize and use the patterns of wide space and more confined areas, crucial for architects."},{"id":24,"question":"The formula for calculating IQ is:","options":["(Mental Age / Chronological Age) * 100","(Chronological Age / Mental Age) * 100","Mental Age + Chronological Age","Mental Age * Chronological Age"],"correct":0,"explanation":"The standard IQ formula is Mental Age (MA) divided by Chronological Age (CA), multiplied by 100."},{"id":25,"question":"Who introduced the concept of 'Mental Age'?","options":["Alfred Binet","William Stern","Lewis Terman","Francis Galton"],"correct":0,"explanation":"Alfred Binet introduced the concept of Mental Age to distinguish between a child's current ability and their chronological age."},{"id":26,"question":"Naturalistic Intelligence is high in:","options":["Politicians","Farmers and Biologists","Mathematicians","Musicians"],"correct":1,"explanation":"Naturalistic intelligence involves expertise in the recognition and classification of the numerous species—the flora and fauna—of an individual's environment."},{"id":27,"question":"The 'Flynn Effect' refers to:","options":["Decrease in IQ scores over time","Sustained increase in IQ test scores over generations","The link between IQ and wealth","Genetic regression"],"correct":1,"explanation":"The Flynn Effect is the observed rise in average IQ scores over the 20th century across many parts of the world."},{"id":28,"question":"Differentiated Instruction means:","options":["Teaching everyone the same way","Tailoring instruction to meet individual needs","Grouping students by ability only","Using only one textbook"],"correct":1,"explanation":"Differentiated instruction involves modifying content, process, product, or environment to accommodate different learning needs."},{"id":29,"question":"Peer Assessment encourages students to:","options":["Judge their friends harshly","Reflect on their own and others' learning","Copy answers","Compete for grades"],"correct":1,"explanation":"Peer assessment helps students develop critical thinking by evaluating peers' work and reflecting on criteria for quality."},{"id":30,"question":"Self-regulation is a component of:","options":["Logical Intelligence","Emotional Intelligence","Kinesthetic Intelligence","Spatial Intelligence"],"correct":1,"explanation":"Self-regulation (managing one's emotions and impulses) is a key component of Goleman's Emotional Intelligence framework."},{"id":31,"question":"In a Constructivist classroom, the student is viewed as:","options":["A blank slate (Tabula Rasa)","An active maker of meaning","A passive recipient","A machine to be programmed"],"correct":1,"explanation":"Constructivism views learners as active participants who construct their own understanding through experience and reflection."},{"id":32,"question":"Heterogeneous grouping involves:","options":["Grouping students of similar ability","Grouping students of mixed abilities and backgrounds","Grouping by gender","Grouping by age only"],"correct":1,"explanation":"Heterogeneous grouping mixes students of different abilities, fostering peer learning and diversity appreciation."},{"id":33,"question":"The 'Self-fulfilling Prophecy' in education refers to:","options":["Students predicting exam questions","Teacher expectations influencing student performance","Students teaching themselves","Curriculum predicting jobs"],"correct":1,"explanation":"If a teacher expects a student to succeed (or fail), they often treat them in ways that make that expectation come true."},{"id":34,"question":"Authentic Assessment involves:","options":["Multiple choice tests only","Real-world tasks that demonstrate meaningful application","Rote memorization scales","Speed tests"],"correct":1,"explanation":"Authentic assessment asks students to perform real-world tasks that demonstrate meaningful application of essential knowledge and skills."},{"id":35,"question":"A major limitation of Standardized Tests is:","options":["They are too easy","They may have cultural bias and ignore individual creativity","They are too short","They are always oral"],"correct":1,"explanation":"Standardized tests can be culturally biased and often fail to measure creativity, critical thinking, or diverse intelligences."},{"id":36,"question":"Formative Assessment is:","options":["Evaluative and judgmental","Diagnostic and remedial","Final and certified","Norm-referenced"],"correct":1,"explanation":"Formative assessment is diagnostic (identifying gaps) and remedial (helping to fix them) during the learning process."},{"id":37,"question":"Musical Intelligence includes sensitivity to:","options":["Logic and numbers","Rhythm, pitch, and melody","Visual patterns","Bodily movements"],"correct":1,"explanation":"Musical intelligence is the capacity to discern pitch, rhythm, timbre, and tone."},{"id":38,"question":"Child-centered curriculum is characterized by:","options":["Rigidity","Flexibility and adaptability","Teacher dominance","Exclusion of play"],"correct":1,"explanation":"A child-centered curriculum is flexible, adapting to the interests, needs, and developmental levels of the children."},{"id":39,"question":"Intrapersonal Intelligence is the ability to:","options":["Understand others","Understand oneself, one's fears and motivations","Navigate nature","Solve math problems"],"correct":1,"explanation":"Intrapersonal intelligence is the capacity to understand oneself and one’s thoughts and feelings, and to use such knowledge in planning and directioning one’s life."},{"id":40,"question":"Inclusive Education aligns with Child-Centeredness by:","options":["Segregating special needs children","Addressing the diverse needs of all learners in one classroom","Ignoring disabilities","lowering standards for everyone"],"correct":1,"explanation":"Inclusive education ensures that child-centered principles apply to all, modifying support so that every child, regardless of ability, can participate and learn."}];
+
+  let allQuestions = [];
+  let quizQuestions = [];
+  let currentQuestionIndex = 0;
+  let score = 0;
+  let userAnswers = [];
+  // Use a global property to track the active interval so we can clear it across navigations
+  // preventing multiple timers from running simultaneously
+  const setQuizInterval = (fn, ms) => {
+    if (window._quizInterval) clearInterval(window._quizInterval);
+    window._quizInterval = setInterval(fn, ms);
+    return window._quizInterval;
+  };
+  const clearQuizInterval = () => {
+    if (window._quizInterval) {
+      clearInterval(window._quizInterval);
+      window._quizInterval = null;
+    }
+  };
+
+  let timeLeft = 0;
+  let isTimerPerQuestion = true;
+  let isTransitioning = false;
+  const providedData = data;
+
+  const getStartScreen = () => document.getElementById('quiz-start');
+  const getQuizContent = () => document.getElementById('quiz-content');
+  const getResultScreen = () => document.getElementById('quiz-result');
+  const getStartBtn = () => document.getElementById('start-quiz-btn');
+  const getRetakeBtn = () => document.getElementById('retake-btn');
+  const getInfoText = () => document.getElementById('quiz-info-text');
+  const getQuestionCard = () => document.getElementById('question-card');
+
+  // Load questions
+  function init() {
+    const startBtn = getStartBtn();
+    const infoText = getInfoText();
+
+    if (!startBtn) {
+      setTimeout(init, 100);
+      return;
+    }
+
+    startBtn.disabled = true;
+    startBtn.style.opacity = '0.7';
+    if (infoText) infoText.textContent = 'Loading...';
+
+    try {
+      allQuestions = [];
+
+      if (providedData && providedData.length > 0) {
+        allQuestions = providedData.map((q, i) => ({
+          ...q,
+          correct: q.correct !== undefined ? q.correct : q.correct,
+        }));
+      }
+
+      if (allQuestions.length === 0) {
+        throw new Error('No questions loaded');
+      }
+
+      const limit = maxQuestions ? maxQuestions : allQuestions.length;
+      const finalCount = Math.min(limit, allQuestions.length);
+
+      const minutesPerQ = 1;
+      const totalMinutes = Math.ceil(finalCount * minutesPerQ);
+
+      if (infoText) {
+        infoText.textContent = `${finalCount} questions • ${totalMinutes} ${totalMinutes === 1 ? 'minute' : 'minutes'}`;
+      }
+
+      startBtn.disabled = false;
+      startBtn.style.opacity = '1';
+      startBtn.textContent = 'Start Quiz';
+
+      // Update Retake Button Style here if needed dynamically, but purely CSS is better
+      const retakeBtn = getRetakeBtn();
+      if (retakeBtn) {
+        retakeBtn.className =
+          'px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium text-sm transition-colors shadow-sm';
+      }
+    } catch (error) {
+      console.error('Error loading questions:', error);
+      if (infoText) infoText.textContent = 'Failed to load questions.';
+      startBtn.textContent = 'Error';
+    }
+  }
+
+  function selectRandomQuestions() {
+    const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+    const limit = maxQuestions ? maxQuestions : allQuestions.length;
+    quizQuestions = shuffled.slice(0, Math.min(limit, shuffled.length));
+    userAnswers = new Array(quizQuestions.length).fill(null);
+  }
+
+  function startQuiz() {
+    selectRandomQuestions();
+
+    const minutesPerQ = 1;
+    timeLeft = Math.ceil(quizQuestions.length * minutesPerQ * 60);
+
+    score = 0;
+    currentQuestionIndex = 0;
+    isTransitioning = false;
+
+    // Clear interval if any running
+    clearQuizInterval();
+    // Reset UI state
+    document.getElementById('score').textContent = '0';
+    document.getElementById('progress-bar').style.width = '0%';
+
+    // Force visibility states
+    getStartScreen()?.classList.add('hidden');
+    getResultScreen()?.classList.add('hidden');
+
+    const content = getQuizContent();
+    content?.classList.remove('hidden');
+
+    // Ensure question card is visible (fix flip out if stuck)
+    const card = getQuestionCard();
+    card.classList.remove('flip-out');
+
+    document.getElementById('total-q').textContent = quizQuestions.length;
+
+    if (!isTimerPerQuestion) {
+      startTimer();
+    }
+
+    showQuestion();
+  }
+
+  function showQuestion() {
+    const question = quizQuestions[currentQuestionIndex];
+    document.getElementById('current-q').textContent = currentQuestionIndex + 1;
+    document.getElementById('question-text').textContent = question.question;
+
+    // Update progress bar
+    const progress = (currentQuestionIndex / quizQuestions.length) * 100;
+    document.getElementById('progress-bar').style.width = `${progress}%`;
+
+    const optionsContainer = document.getElementById('options-container');
+    optionsContainer.innerHTML = '';
+    isTransitioning = false;
+
+    question.options.forEach((option, index) => {
+      const button = document.createElement('button');
+      // Simple clean style
+      button.className =
+        'w-full text-left p-4 rounded-xl border-2 border-slate-200 dark:border-slate-800 hover:border-indigo-400 hover:bg-slate-50 dark:hover:bg-slate-900/50 transition-all active:scale-[0.99] outline-none';
+      button.dataset.index = index;
+
+      const optionLabel = document.createElement('span');
+      optionLabel.className =
+        'inline-block w-6 h-6 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-center leading-6 font-bold mr-3 text-xs';
+      optionLabel.textContent = String.fromCharCode(65 + index); // A, B, C...
+
+      const textSpan = document.createElement('span');
+      textSpan.textContent = option;
+      textSpan.className = 'font-medium text-slate-700 dark:text-slate-200';
+
+      button.appendChild(optionLabel);
+      button.appendChild(textSpan);
+
+      button.onclick = () => selectAnswer(index, button);
+      optionsContainer.appendChild(button);
+    });
+
+    if (isTimerPerQuestion) {
+      startTimer();
+    }
+  }
+
+  function startTimer() {
+    clearQuizInterval();
+    if (isTimerPerQuestion) {
+      timeLeft = 60;
+    }
+
+    updateTimerDisplay();
+
+    setQuizInterval(() => {
+      timeLeft--;
+      updateTimerDisplay();
+      if (timeLeft <= 0) {
+        if (isTimerPerQuestion) {
+          clearQuizInterval();
+          handleTimeUp();
+        } else {
+          finishQuiz();
+        }
+      }
+    }, 1000);
+  }
+
+  function handleTimeUp() {
+    if (isTransitioning) return;
+    isTransitioning = true;
+
+    userAnswers[currentQuestionIndex] = -1; // Timeout
+
+    const question = quizQuestions[currentQuestionIndex];
+    const options = document.getElementById('options-container').children;
+
+    if (options[question.correct]) {
+      options[question.correct].classList.add(
+        'border-green-600',
+        'bg-green-50',
+        'dark:bg-green-900/30'
+      );
+    }
+
+    setTimeout(() => {
+      triggerNextQuestionTransition();
+    }, 1500);
+  }
+
+  function updateTimerDisplay() {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    const timerEl = document.getElementById('timer');
+
+    // Simpler timer style
+    timerEl.className =
+      'text-lg font-bold font-mono bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-lg tabular-nums';
+
+    if (timeLeft < 10) {
+      timerEl.classList.add('text-red-600', 'dark:text-red-400');
+    } else {
+      timerEl.classList.remove('text-red-600', 'dark:text-red-400');
+    }
+
+    if (timeLeft < 60) {
+      timerEl.textContent = `${timeLeft}s`;
+    } else {
+      timerEl.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
+  }
+
+  function selectAnswer(index, buttonElement) {
+    if (isTransitioning) return;
+    isTransitioning = true;
+    clearQuizInterval();
+    userAnswers[currentQuestionIndex] = index;
+    const question = quizQuestions[currentQuestionIndex];
+    const isCorrect = index === question.correct;
+
+    const allButtons = document.getElementById('options-container').querySelectorAll('button');
+    allButtons.forEach((btn) => {
+      btn.disabled = true;
+      btn.classList.add('cursor-default');
+      btn.classList.remove('hover:border-indigo-400', 'hover:bg-slate-50');
+    });
+
+    if (isCorrect) {
+      score++;
+      document.getElementById('score').textContent = score;
+      buttonElement.classList.add('border-green-600', 'bg-green-50', 'dark:bg-green-900/30');
+      buttonElement
+        .querySelector('span:first-child')
+        .classList.add('bg-green-200', 'text-green-800');
+    } else {
+      buttonElement.classList.add('border-red-600', 'bg-red-50', 'dark:bg-red-900/30');
+      buttonElement.querySelector('span:first-child').classList.add('bg-red-200', 'text-red-800');
+
+      const correctBtn = allButtons[question.correct];
+      if (correctBtn) {
+        correctBtn.classList.add('border-green-600', 'bg-green-50', 'dark:bg-green-900/30');
+        correctBtn
+          .querySelector('span:first-child')
+          .classList.add('bg-green-200', 'text-green-800');
+      }
+    }
+
+    setTimeout(() => {
+      triggerNextQuestionTransition();
+    }, 1000);
+  }
+
+  function triggerNextQuestionTransition() {
+    const card = getQuestionCard();
+
+    // Add flip-out class to rotate to 90deg
+    card.classList.add('flip-out');
+
+    setTimeout(() => {
+      if (currentQuestionIndex < quizQuestions.length - 1) {
+        currentQuestionIndex++;
+        showQuestion();
+        // Remove flip-out to rotate back to 0deg
+        card.classList.remove('flip-out');
+      } else {
+        finishQuiz();
+      }
+    }, 300);
+  }
+
+  function finishQuiz() {
+    clearQuizInterval();
+    const total = quizQuestions.length;
+    const percentage = Math.round((score / total) * 100);
+
+    saveQuizResult(score, total, percentage);
+
+    getQuizContent()?.classList.add('hidden');
+    getResultScreen()?.classList.remove('hidden');
+
+    document.getElementById('final-score').textContent = score;
+    document.getElementById('final-total').textContent = total;
+    document.getElementById('percentage').textContent = percentage;
+    document.getElementById('final-progress').style.width = `${percentage}%`;
+
+    let message;
+    if (percentage >= 90) message = 'Outstanding!';
+    else if (percentage >= 75) message = 'Excellent work!';
+    else if (percentage >= 60) message = 'Good job!';
+    else if (percentage >= 40) message = 'Keep practicing!';
+    else message = "Don't give up!";
+
+    document.getElementById('result-message').textContent = message;
+    showAnswerReview();
+  }
+
+  function showAnswerReview() {
+    const container = document.getElementById('answers-review');
+    container.innerHTML = '<h3 class="text-lg font-bold mb-4">Review</h3>';
+
+    quizQuestions.forEach((q, i) => {
+      const isCorrect = userAnswers[i] === q.correct;
+      const reviewDiv = document.createElement('div');
+
+      // Modern Card Style
+      reviewDiv.className = `p-4 mb-3 rounded-xl border-l-4 ${isCorrect ? 'border-l-green-500 bg-slate-50 dark:bg-slate-900/30' : 'border-l-red-500 bg-slate-50 dark:bg-slate-900/30'} shadow-sm`;
+
+      let answerText = 'Skipped';
+      if (userAnswers[i] !== null && userAnswers[i] !== -1 && q.options[userAnswers[i]]) {
+        answerText = q.options[userAnswers[i]];
+      }
+
+      reviewDiv.innerHTML = `
+        <div class="flex items-start gap-3">
+            <div class="flex-grow">
+                <p class="text-sm font-semibold text-slate-800 dark:text-slate-200 mb-2 leading-relaxed">
+                    <span class="text-slate-500 dark:text-slate-400 font-normal mr-1">Q${i + 1}.</span> 
+                    ${q.question}
+                </p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                    <div class="p-2.5 rounded-lg bg-white dark:bg-black border ${isCorrect ? 'border-green-200 dark:border-green-900/30' : 'border-red-200 dark:border-red-900/30'}">
+                        <span class="block text-[10px] uppercase font-bold tracking-wider opacity-60 mb-0.5">Your Answer</span>
+                        <span class="${isCorrect ? 'text-green-700 dark:text-green-400 font-bold' : 'text-red-600 dark:text-red-400 font-bold'}">
+                            ${answerText}
+                        </span>
+                    </div>
+                    
+                    ${
+                      !isCorrect
+                        ? `
+                    <div class="p-2.5 rounded-lg bg-white dark:bg-black border border-green-200 dark:border-green-900/30">
+                        <span class="block text-[10px] uppercase font-bold tracking-wider opacity-60 mb-0.5">Correct Answer</span>
+                        <span class="text-green-700 dark:text-green-400 font-bold">
+                            ${q.options[q.correct]}
+                        </span>
+                    </div>
+                    `
+                        : ''
+                    }
+                </div>
+
+                ${
+                  q.explanation
+                    ? `
+                <div class="mt-3 text-xs pt-2 border-t border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 flex items-start gap-2">
+                     <i class="fa-regular fa-lightbulb text-amber-500 mt-0.5 shrink-0"></i>
+                     <span>${q.explanation}</span>
+                </div>`
+                    : ''
+                }
+            </div>
+        </div>
+      `;
+      container.appendChild(reviewDiv);
+    });
+  }
+
+  function saveQuizResult(score, total, percentage) {
+    const history = JSON.parse(localStorage.getItem('quizHistory') || '{}');
+    if (!history[topic]) history[topic] = [];
+    history[topic].push({ date: new Date().toISOString(), score, total, percentage });
+    if (history[topic].length > 10) history[topic] = history[topic].slice(-10);
+    localStorage.setItem('quizHistory', JSON.stringify(history));
+
+    // Update global score if needed
+    document.getElementById('score').textContent = score;
+  }
+
+  function setupEventListeners() {
+    const startBtn = getStartBtn();
+    const retakeBtn = getRetakeBtn();
+
+    if (startBtn) {
+      // Remove old listeners to be safe (though usually unnecessary with simple scripts)
+      startBtn.replaceWith(startBtn.cloneNode(true));
+      document.getElementById('start-quiz-btn').addEventListener('click', startQuiz);
+    }
+
+    if (retakeBtn) {
+      retakeBtn.replaceWith(retakeBtn.cloneNode(true));
+      document.getElementById('retake-btn').addEventListener('click', startQuiz);
+    }
+  }
+
+  // Robust initialization for Astro View Transitions
+  // This script runs every time the component HTML is injected
+  init(); // Attempt immediate init (script is at end of component)
+  setupEventListeners();
+
+  // Cleanup when navigating away to prevent timer leaks
+  document.addEventListener(
+    'astro:before-swap',
+    () => {
+      clearQuizInterval();
+    },
+    { once: true }
+  );
+})();</script></div> </main> </div> <!-- Mobile Floating Action Button --> <button id="mobile-fab" class="fixed bottom-24 right-6 z-50 w-12 h-12 bg-linear-to-r from-indigo-600 to-violet-600 text-white rounded-full shadow-lg flex items-center justify-center hover:shadow-xl active:scale-95 transition-all lg:hidden border border-white/20" aria-label="Toggle Menu"> <i class="fa-solid fa-book-open text-lg"></i> </button> </div> <script type="module" src="/_astro/Layout.astro_astro_type_script_index_0_lang.Dm4Gaecr.js"></script> </body> </html>

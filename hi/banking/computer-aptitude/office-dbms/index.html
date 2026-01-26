@@ -1,0 +1,781 @@
+<!DOCTYPE html><html lang="hi" translate="no"> <head><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js"></script><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><link rel="icon" type="image/png" sizes="196x196" href="/pwa-196.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="generator" content="Astro v5.16.14"><meta name="google" content="notranslate"><!-- Canonical URL --><link rel="canonical" href="https://exam.record10.com/hi/banking/computer-aptitude/office-dbms/"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://exam.record10.com/hi/banking/computer-aptitude/office-dbms/"><meta property="og:title" content="Office Dbms Hi"><meta property="og:description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><meta property="og:image" content="https://exam.record10.com/pwa-512.png"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://exam.record10.com/hi/banking/computer-aptitude/office-dbms/"><meta property="twitter:title" content="Office Dbms Hi"><meta property="twitter:description" content="Complete preparation platform for Railway Exams (RRB NTPC, Group D, ALP) and SSC CGL. Access interactive mock tests, quizzes, and study materials."><meta property="twitter:image" content="https://exam.record10.com/pwa-512.png"><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-HP0TG82134"></script><script>(function(){const gaId = "G-HP0TG82134";
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      // Simple Content Grouping based on URL
+      // If path contains '/rrb/', categorize as 'RRB'
+      const path = window.location.pathname;
+      const contentGroup = path.includes('/rrb/') ? 'RRB' : 'General';
+
+      gtag('config', gaId, {
+        content_group: contentGroup,
+      });
+    })();</script><title>
+      Office Dbms Hi | Competitive Exam Preparation
+    </title><!-- Version-based cache invalidation - reads version from package.json --><script>(function(){const appVersion = "1.0.0";
+
+      (function () {
+        var APP_VERSION = appVersion;
+        var STORED_VERSION = localStorage.getItem('appVersion');
+
+        if (STORED_VERSION && STORED_VERSION !== APP_VERSION) {
+          // Version changed - clear caches and reload
+          localStorage.setItem('appVersion', APP_VERSION);
+
+          // Clear any cached data that might be stale
+          if ('caches' in window) {
+            caches.keys().then(function (names) {
+              names.forEach(function (name) {
+                caches.delete(name);
+              });
+            });
+          }
+
+          // Force reload from server
+          window.location.reload(true);
+          return;
+        }
+
+        // First visit or same version - just store it
+        if (!STORED_VERSION) {
+          localStorage.setItem('appVersion', APP_VERSION);
+        }
+      })();
+    })();</script><script>
+      function applyTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      }
+      applyTheme();
+      document.addEventListener('astro:after-swap', applyTheme);
+
+      // Global Theme Toggle
+      window.toggleTheme = function () {
+        const html = document.documentElement;
+        const isDark = html.classList.contains('dark');
+        const newTheme = isDark ? 'light' : 'dark';
+
+        if (newTheme === 'dark') {
+          html.classList.add('dark');
+        } else {
+          html.classList.remove('dark');
+        }
+
+        localStorage.setItem('theme', newTheme);
+        window.dispatchEvent(new Event('theme-changed'));
+      };
+    </script><script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "r10 Exam",
+        "url": "https://exam.record10.com",
+        "description": "Complete preparation platform for Railway Exams and SSC CGL.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://exam.record10.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script><style>.perspective-1000[data-astro-cid-rwn6tmg5]{perspective:1000px}#question-card[data-astro-cid-rwn6tmg5]{transition:transform .6s,opacity .3s;transform-style:preserve-3d}.flip-out[data-astro-cid-rwn6tmg5]{transform:rotateY(90deg);opacity:0}@keyframes blink-green{0%,to{background-color:#22c55e1a;border-color:#22c55e}50%{background-color:#22c55e4d;border-color:#15803d}}@keyframes blink-red{0%,to{background-color:#ef44441a;border-color:#ef4444}50%{background-color:#ef44444d;border-color:#b91c1c}}.blink-correct[data-astro-cid-rwn6tmg5]{animation:blink-green .4s ease-in-out 2}.blink-wrong[data-astro-cid-rwn6tmg5]{animation:blink-red .4s ease-in-out 2}
+</style>
+<link rel="stylesheet" href="/_astro/_slug_.D9sFftlt.css"></head> <body class="min-h-screen bg-white dark:bg-black text-neutral-700 dark:text-neutral-300 font-sans selection:bg-indigo-500/30"> <div class="flex min-h-screen"> <aside class="fixed left-0 top-0 bottom-0 w-64 z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out group/sidebar" data-astro-cid-ssfzsv2f> <!-- Scrollable Content Wrapper --> <div class="h-full w-full bg-white dark:bg-neutral-900 border-r border-neutral-200 dark:border-neutral-800 overflow-y-auto shadow-xl lg:shadow-none pt-2 lg:pt-2" data-astro-cid-ssfzsv2f> <nav class="p-3 pt-0 space-y-1" data-astro-cid-ssfzsv2f> <!-- Home Link --> <a href="/hi" class="flex items-center gap-3 px-3 py-2 text-neutral-600 dark:text-neutral-400 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-neutral-50 dark:hover:bg-indigo-900/20 rounded-md transition-all group mb-5" data-astro-cid-ssfzsv2f> <i class="fa-solid fa-home w-5 text-center group-hover:scale-110 transition-transform" data-astro-cid-ssfzsv2f></i> <span class="font-bold text-sm uppercase tracking-wider" data-astro-cid-ssfzsv2f>होम</span> </a> <!-- Exam Mode Indicator --> <div class="px-3 mb-4" data-astro-cid-ssfzsv2f> <div class="text-xs font-bold text-rose-600 dark:text-rose-400 uppercase tracking-widest border-b border-rose-200 dark:border-rose-800 pb-1" data-astro-cid-ssfzsv2f>  Banking मोड </div> </div> <!-- Menu Sections --> <div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="general-awareness" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> सामान्य जागरूकता </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="general-awareness" data-astro-cid-ssfzsv2f> <a href="/hi/banking/general-awareness/banking-finance" data-progress-path="/hi/banking/general-awareness/banking-finance" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> बैंकिंग वित्त </a><a href="/hi/banking/general-awareness/current-affairs" data-progress-path="/hi/banking/general-awareness/current-affairs" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> करंट अफेयर्स </a><a href="/hi/banking/general-awareness/gk" data-progress-path="/hi/banking/general-awareness/gk" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> स्टेटिक जीके </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="english" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> अंग्रेजी भाषा </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="english" data-astro-cid-ssfzsv2f> <a href="/hi/banking/english/grammar" data-progress-path="/hi/banking/english/grammar" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> व्याकरण </a><a href="/hi/banking/english/vocabulary" data-progress-path="/hi/banking/english/vocabulary" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> शब्दावली </a><a href="/hi/banking/english/reading-comprehension" data-progress-path="/hi/banking/english/reading-comprehension" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> पढ़ने की समझ </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="quantitative-aptitude" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> मात्रात्मक योग्यता </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="quantitative-aptitude" data-astro-cid-ssfzsv2f> <a href="/hi/banking/quantitative-aptitude/arithmetic" data-progress-path="/hi/banking/quantitative-aptitude/arithmetic" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> अंकगणित </a><a href="/hi/banking/quantitative-aptitude/data-interpretation" data-progress-path="/hi/banking/quantitative-aptitude/data-interpretation" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> डेटा इंटरप्रिटेशन </a><a href="/hi/banking/quantitative-aptitude/speed-maths" data-progress-path="/hi/banking/quantitative-aptitude/speed-maths" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> स्पीड मैथ्स </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="reasoning" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> तर्कशक्ति </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="reasoning" data-astro-cid-ssfzsv2f> <a href="/hi/banking/reasoning/logical" data-progress-path="/hi/banking/reasoning/logical" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> लॉजिकल रीजनिंग </a><a href="/hi/banking/reasoning/critical" data-progress-path="/hi/banking/reasoning/critical" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> क्रिटिकल रीजनिंग </a><a href="/hi/banking/reasoning/puzzles" data-progress-path="/hi/banking/reasoning/puzzles" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> पहेली और व्यवस्था </a> </div> </div><div class="space-y-0.5" data-astro-cid-ssfzsv2f> <button class="menu-section w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-section="computer-aptitude" data-astro-cid-ssfzsv2f> <span class="group-hover:text-rose-600 dark:hover:text-rose-400 transition-colors" data-astro-cid-ssfzsv2f> कंप्यूटर योग्यता </span> <svg class="toggle-icon w-3.5 h-3.5 text-neutral-400 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ssfzsv2f> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" data-astro-cid-ssfzsv2f></path> </svg> </button> <div class="section-content hidden pl-2 space-y-0.5" data-section="computer-aptitude" data-astro-cid-ssfzsv2f> <a href="/hi/banking/computer-aptitude/essentials" data-progress-path="/hi/banking/computer-aptitude/essentials" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> अनिवार्यताएँ </a><a href="/hi/banking/computer-aptitude/networking-security" data-progress-path="/hi/banking/computer-aptitude/networking-security" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> नेटवर्किंग और सुरक्षा </a><a href="/hi/banking/computer-aptitude/office-dbms" data-progress-path="/hi/banking/computer-aptitude/office-dbms" data-progress-status="none" class="menu-link relative z-10 block px-3 py-1.5 text-sm rounded-r-md transition-all text-neutral-600 dark:text-neutral-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/20" data-astro-cid-ssfzsv2f> ऑफिस और DBMS </a> </div> </div> <!-- Extra Links (Practice Tests, etc.) -->  <!-- Theme Toggle --> <div class="mt-3 pt-3 border-t border-neutral-200 dark:border-neutral-800" data-astro-cid-ssfzsv2f> <button id="sidebar-theme-toggle" class="w-full flex items-center justify-between px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>थीम</span> <div class="relative w-8 h-4 bg-neutral-200 dark:bg-neutral-700 rounded-full transition-colors" data-astro-cid-ssfzsv2f> <div id="theme-toggle-dot" class="absolute left-1 top-1 w-2 h-2 bg-white rounded-full transition-transform duration-200 transform dark:translate-x-4" data-astro-cid-ssfzsv2f></div> </div> </button> </div> <!-- Feedback & Request --> <div class="mt-3 pt-3 border-t border-neutral-200 dark:border-neutral-800 space-y-1" data-astro-cid-ssfzsv2f> <a href="https://wa.me/918329999288?text=Feedback:" target="_blank" class="flex items-center gap-3 px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <i class="fa-brands fa-whatsapp text-green-500 text-sm" data-astro-cid-ssfzsv2f></i> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>प्रतिक्रिया</span> </a> <a href="https://wa.me/918329999288?text=I%20want%20to%20request%20a%20new%20exam:" target="_blank" class="flex items-center gap-3 px-3 py-1.5 text-xs font-bold text-neutral-600 dark:text-neutral-400 uppercase tracking-wider hover:bg-neutral-50 dark:hover:bg-neutral-800 rounded-md transition-colors group" data-astro-cid-ssfzsv2f> <i class="fa-brands fa-whatsapp text-green-500 text-sm" data-astro-cid-ssfzsv2f></i> <span class="group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors" data-astro-cid-ssfzsv2f>नई परीक्षा का अनुरोध करें</span> </a> </div> <div class="mt-4 px-3 pb-2 text-center" data-astro-cid-ssfzsv2f> <span class="text-[10px] text-neutral-400 dark:text-neutral-600 font-mono select-none opacity-50" data-astro-cid-ssfzsv2f>
+Build v1.0.5 </span> <!-- <div id="debug-info" class="mt-2 text-[10px] text-left font-mono text-red-500 overflow-hidden hidden"></div> --> </div> </nav> </div> <!-- Sticky Toggle Button --> <!-- Sticky Toggle Button --> <button id="sidebar-toggle-btn" class="absolute -right-5 top-1/2 -translate-y-1/2 w-5 h-32 bg-linear-to-b from-rose-600 to-pink-600 rounded-r-lg flex flex-col items-center justify-center gap-2 cursor-pointer shadow-lg hover:brightness-110 transition-all pointer-events-auto border border-white/10" aria-label="Toggle Sidebar" data-astro-cid-ssfzsv2f> <i class="fa-solid fa-chevron-right text-white text-[10px] transform transition-transform duration-300 mb-1 rotate-0 group-[&:not(.-translate-x-full)]/sidebar:rotate-180 lg:group-[.lg:translate-x-0]/sidebar:rotate-180" data-astro-cid-ssfzsv2f></i> <span class="text-[10px] font-bold text-white tracking-widest rotate-180" style="writing-mode: vertical-rl; text-orientation: mixed;" data-astro-cid-ssfzsv2f>विषय</span> </button> </aside> <script type="module">function f(){function c(){const e=s=>s.toLowerCase().replace(/\/$/,"")||s,o=e(window.location.pathname);document.querySelectorAll(".section-content").forEach(s=>{s.querySelectorAll("a").forEach(m=>{if(e(m.getAttribute("href")||"")===o){s.classList.remove("hidden");const p=s.getAttribute("data-section");document.querySelector(`.menu-section[data-section="${p}"]`)?.querySelector(".toggle-icon")?.classList.add("rotate-180")}})})}document.querySelectorAll(".menu-section").forEach(e=>{e.hasAttribute("data-initialized")||(e.setAttribute("data-initialized","true"),e.addEventListener("click",()=>{const o=e.getAttribute("data-section"),u=document.querySelector(`.section-content[data-section="${o}"]`),s=e.querySelector(".toggle-icon");u?.classList.toggle("hidden"),s?.classList.toggle("rotate-180");const g=!u?.classList.contains("hidden");o&&localStorage.setItem(`sidebar-${o}`,g?"open":"closed")}))});function l(){Array.from(document.querySelectorAll(".section-content")).map(o=>o.getAttribute("data-section")).forEach(o=>{if(!o)return;if(localStorage.getItem(`sidebar-${o}`)==="open"){const s=document.querySelector(`.section-content[data-section="${o}"]`),m=document.querySelector(`.menu-section[data-section="${o}"]`)?.querySelector(".toggle-icon");s?.classList.remove("hidden"),m?.classList.add("rotate-180")}}),c()}const a=document.getElementById("sidebar-theme-toggle"),r=document.getElementById("theme-toggle-dot");function t(){document.documentElement.classList.contains("dark")?r?.classList.add("translate-x-4"):r?.classList.remove("translate-x-4")}t(),window.addEventListener("theme-changed",t),l(),a&&!a.hasAttribute("data-initialized")&&(a.setAttribute("data-initialized","true"),a.addEventListener("click",()=>{window.toggleTheme&&window.toggleTheme()}));const i=document.getElementById("sidebar-toggle-btn");i&&!i.hasAttribute("data-initialized")&&(i.setAttribute("data-initialized","true"),i.addEventListener("click",e=>{window.dispatchEvent(new CustomEvent("toggle-sidebar"))}));const n=document.querySelector(".overflow-y-auto");if(n&&!n.hasAttribute("data-initialized")){n.setAttribute("data-initialized","true");const e=localStorage.getItem("sidebar-scroll-pos");e&&(n.scrollTop=parseInt(e,10)),n.addEventListener("scroll",()=>{localStorage.setItem("sidebar-scroll-pos",n.scrollTop.toString())},{passive:!0})}}document.addEventListener("astro:page-load",f);function h(){const c="topicProgress";let d={};try{d=JSON.parse(localStorage.getItem(c)||"{}")}catch{}const l=t=>t.toLowerCase().replace(/\/$/,"")||t,a={};Object.keys(d).forEach(t=>{a[l(t)]=d[t]}),document.querySelectorAll("[data-progress-path]").forEach(t=>{const i=t.getAttribute("data-progress-path");if(!i)return;const n=a[l(i)]||{scrolled:!1,quizCompleted:!1};n.quizCompleted?t.setAttribute("data-progress-status","completed"):n.scrolled?t.setAttribute("data-progress-status","scrolled"):t.setAttribute("data-progress-status","none")});const r=document.getElementById("debug-info");if(r){const t=d[window.location.pathname];r.classList.remove("hidden"),r.textContent=`Path: ${window.location.pathname} 
+State: ${JSON.stringify(t||"null")}`}}document.addEventListener("astro:page-load",h);window.addEventListener("progress-updated",h);window.addEventListener("pageshow",c=>{c.persisted&&h()});</script> <div id="main-content" class="flex-1 flex flex-col min-w-0 transition-all duration-300 lg:ml-64"> <div class="fixed top-0 right-0 left-0 z-40 h-12 glass border-b border-neutral-200/50 dark:border-neutral-800/50 transition-all duration-300 lg:left-64" data-astro-cid-ugcunkw7> <div class="flex items-center justify-between h-full px-4 md:px-6 w-full" data-astro-cid-ugcunkw7> <div class="flex items-center gap-3" data-astro-cid-ugcunkw7> <!-- Mobile/Desktop Menu Button --> <button id="menu-btn" class="p-1.5 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md transition-colors" data-astro-cid-ugcunkw7> <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" data-astro-cid-ugcunkw7></path> </svg> </button> <a href="/hi/banking" class="text-base font-bold bg-linear-to-r from-blue-600 to-cyan-600 dark:from-blue-400 dark:to-cyan-400 bg-clip-text text-transparent tracking-tight hover:opacity-80 transition-opacity flex items-center gap-2" data-astro-cid-ugcunkw7> बैंकिंग तैयारी </a> </div> <div class="flex items-center gap-2" data-astro-cid-ugcunkw7> <button id="theme-toggle" class="p-1.5 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 rounded-md transition-colors" aria-label="Toggle Theme" data-astro-cid-ugcunkw7> <!-- Sun Icon --> <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" data-astro-cid-ugcunkw7></path> </svg> <!-- Moon Icon --> <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" data-astro-cid-ugcunkw7> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" data-astro-cid-ugcunkw7></path> </svg> </button> <!-- Settings Dropdown --> <div class="relative"> <button id="settings-btn" class="flex items-center gap-1.5 px-2 py-1.5 text-xs rounded-lg font-medium text-neutral-600 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors" aria-label="Settings"> <i class="fa-solid fa-gear text-sm"></i> </button> <div id="settings-dropdown" class="absolute top-full right-0 mt-2 hidden z-50 w-56 origin-top-right"> <div class="bg-white dark:bg-neutral-800 rounded-xl shadow-xl border border-neutral-200 dark:border-neutral-700 overflow-hidden py-2"> <!-- Select Exam Group --> <div class="px-3 pb-2"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Select Exam
+</div> <div class="grid grid-cols-2 gap-2"> <a href="/hi/rrb" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> rrb </a><a href="/hi/ssc" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> ssc </a><a href="/hi/ctet" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> ctet </a><a href="/hi/neet" class="px-2 py-1.5 text-xs font-medium rounded-md border transition-all duration-200 uppercase text-center
+                  bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> neet </a> </div> </div> <hr class="mx-2 border-neutral-100 dark:border-neutral-700/50 mb-2"> <!-- Exam Tree Group --> <div class="px-3 pb-2"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Exam Tree
+</div> <a href="/hi/adhoc/exam-tree/exam-tree" class="flex items-center justify-center gap-2 px-3 py-1.5 text-xs text-neutral-700 dark:text-neutral-300 bg-neutral-50 dark:bg-neutral-800/50 hover:bg-neutral-100 dark:hover:bg-neutral-800 border border-neutral-100 dark:border-neutral-700/50 rounded-md transition-colors w-full"> <i class="fa-solid fa-network-wired text-indigo-500"></i> <span>View Mind Map</span> </a> </div> <hr class="mx-2 border-neutral-100 dark:border-neutral-700/50 mb-2"> <!-- Progress Reset Group --> <div class="px-3 pb-1"> <div class="text-[10px] font-bold uppercase text-neutral-400 dark:text-neutral-500 tracking-wider mb-2">
+Reset Progress
+</div> <div class="flex items-center justify-center gap-1 bg-neutral-50 dark:bg-neutral-800/50 rounded-md border border-neutral-100 dark:border-neutral-700/50 p-1"> <button data-action="clear-page" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Page">Page</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-section" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Section">Section</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-exam" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-white dark:hover:bg-neutral-700 text-neutral-600 dark:text-neutral-400 transition-all" title="Reset This Exam">Exam</button> <div class="text-neutral-300 dark:text-neutral-600 text-[10px]">|</div> <button data-action="clear-all" class="px-2 py-1 text-[10px] font-medium rounded hover:bg-red-50 dark:hover:bg-red-900/30 text-red-500 transition-all" title="Reset All Progress">All</button> </div> </div> </div> </div> </div> <script type="module">function m(){const a=document.getElementById("settings-btn"),t=document.getElementById("settings-dropdown");if(!a||!t)return;a.addEventListener("click",e=>{e.stopPropagation(),t.classList.toggle("hidden")});function i(e){!t?.contains(e.target)&&e.target!==a&&t?.classList.add("hidden")}function d(e){e.key==="Escape"&&t?.classList.add("hidden")}const o="topicProgress";t.querySelectorAll("[data-action]").forEach(e=>{e.addEventListener("click",()=>{const g=e.getAttribute("data-action"),s=window.location.pathname;try{const n=JSON.parse(localStorage.getItem(o)||"{}");switch(g){case"clear-page":delete n[s];break;case"clear-section":const p=s.substring(0,s.lastIndexOf("/"));Object.keys(n).forEach(c=>{c.startsWith(p)&&delete n[c]});break;case"clear-exam":const r=s.match(/^\/(hi|mr)?\/?(rrb|ssc|ctet|neet)/);if(r){const c=r[2];Object.keys(n).forEach(l=>{l.includes(`/${c}/`)&&delete n[l]})}break;case"clear-all":localStorage.removeItem(o),window.dispatchEvent(new CustomEvent("progress-updated")),t.classList.add("hidden");return}localStorage.setItem(o,JSON.stringify(n)),window.dispatchEvent(new CustomEvent("progress-updated"))}catch{}t.classList.add("hidden")})}),window.cleanupSettingsListeners&&window.cleanupSettingsListeners(),document.addEventListener("click",i),document.addEventListener("keydown",d),window.cleanupSettingsListeners=()=>{document.removeEventListener("click",i),document.removeEventListener("keydown",d)}}document.addEventListener("astro:page-load",m);</script> <!-- Language Switcher --> <div class="flex items-center gap-2 ml-2 pl-2 border-l border-neutral-200 dark:border-neutral-700 shrink-0"> <a href="/en/banking/computer-aptitude/office-dbms" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> en </a><a href="/hi/banking/computer-aptitude/office-dbms" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-violet-100 dark:bg-violet-900/50 text-violet-700 dark:text-violet-300 border-violet-200 dark:border-violet-700 shadow-sm"> hi </a><a href="/mr/banking/computer-aptitude/office-dbms" class="px-2 py-1 text-xs font-medium rounded-md border transition-all duration-200 uppercase
+        bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"> mr </a> </div> </div> </div> </div>  <script type="module">function d(){const e=document.getElementById("menu-btn");document.querySelector("aside");let n=document.querySelector(".menu-overlay");n||(n=document.createElement("div"),n.className="menu-overlay fixed inset-0 bg-black/50 z-40 lg:hidden hidden transition-opacity opacity-0",document.body.appendChild(n)),e&&(e.classList.add("animate-blink-green"),setTimeout(()=>{e.classList.remove("animate-blink-green")},6e3));function i(){e?.classList.contains("animate-blink-green")&&e.classList.remove("animate-blink-green"),window.dispatchEvent(new CustomEvent("toggle-sidebar"))}const o=document.getElementById("theme-toggle");o&&o.addEventListener("click",a=>{a.stopPropagation(),window.toggleTheme&&window.toggleTheme()});const t=e?.cloneNode(!0);e&&t&&(e.parentNode?.replaceChild(t,e),t.addEventListener("click",i)),n&&(n.onclick=i)}document.addEventListener("astro:page-load",d);</script> <main class="flex-1 p-2 md:p-6 w-full max-w-[1920px] mx-auto mt-12"> <div class="max-w-4xl mx-auto mt-6"><h1 class="text-3xl font-bold mb-4 px-4 md:px-0">Office Dbms Hi</h1><div class="mb-8"> <div class="mb-6 border-b border-neutral-200 dark:border-neutral-800 pb-3"> <h2 class="text-xl font-bold text-neutral-900 dark:text-neutral-100 relative inline-block"> Office Dbms Hi <span class="absolute bottom-[-13px] left-0 w-1/3 h-1 bg-indigo-500 rounded-full"></span> </h2> </div> <div class="relative space-y-0 ml-3"> <div class="relative group pb-4 last:pb-0">  <div class="absolute left-[15px] top-8 h-full w-[2px] bg-indigo-200 dark:bg-indigo-900 z-0"></div> <div class="relative flex gap-0">  <div class="shrink-0 pt-0 relative z-10 w-8"> <div class="flex items-center justify-center w-7 h-7 rounded-full border-2 border-indigo-500 bg-indigo-500 shadow-sm ring-4 ring-white dark:ring-neutral-950"> <i class="fa-solid fa-book text-white text-xs"></i> </div> </div>  <div class="grow pt-12 -ml-3 pl-2"> <div class="w-full bg-white dark:bg-neutral-900 p-2 rounded-lg border border-neutral-100 dark:border-neutral-800 shadow-xs relative">  <div class="flex items-start justify-between gap-3 mb-2"> <h3 class="font-bold text-base text-neutral-900 dark:text-neutral-100 leading-tight"> Topic 1 एमएस वर्ड, एक्सेल, पावरपॉइंट और शॉर्टकट्स </h3>  </div> <div class="text-sm text-neutral-600 dark:text-neutral-300 pl-1"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none [&#38;>p]:my-1 [&#38;>ul]:pl-4 [&#38;>ul]:list-disc [&#38;>ol]:pl-4 [&#38;>ol]:list-decimal"><p><strong>सामान्य शॉर्टकट्स:</strong></p>
+<ul>
+<li><p><strong>Ctrl + C/V/X:</strong> कॉपी/पेस्ट/कट।</p>
+</li>
+<li><p><strong>Ctrl + Z/Y:</strong> अनडू/रीडू।</p>
+</li>
+<li><p><strong>Ctrl + B/I/U:</strong> बोल्ड/इटैलिक/अंडरलाइन।</p>
+</li>
+<li><p><strong>F7:</strong> स्पेल चेक (वर्तनी जांच)।</p>
+</li>
+<li><p><strong>Shift + F3:</strong> केस बदलें (अपर/लोअर)।</p>
+</li>
+</ul>
+</div> </div>   <details class="group/details border-t border-dashed border-neutral-200 dark:border-neutral-800 pt-1"> <summary class="cursor-pointer text-[10px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider flex items-center justify-end gap-1 list-none select-none hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors w-full"> <span>Deep Dive</span> <i class="fa-solid fa-chevron-down transform transition-transform group-open/details:rotate-180 text-[10px]"></i> </summary> <div class="mt-2 pl-2 space-y-2"> <div class="text-left w-full"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-300 [&#38;>p]:my-0 [&#38;>ul]:my-0"><p><strong>फाइल एक्सटेंशन:</strong></p>
+<ul>
+<li><p><strong>.docx:</strong> वर्ड डॉक्यूमेंट (XML फॉर्मेट)।</p>
+</li>
+<li><p><strong>.xlsx:</strong> एक्सेल स्प्रेडशीट।</p>
+</li>
+<li><p><strong>.pptx:</strong> पावरपॉइंट प्रेजेंटेशन।</p>
+</li>
+<li><p><strong>.pdf:</strong> पोर्टेबल डॉक्यूमेंट फॉर्मेट।</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Trick:</strong> हाइपरलिंक शॉर्टकट: यह Ctrl + K है (H नहीं)। फाइंड और रिप्लेस Ctrl + H है।</p>
+</blockquote>
+<h4>1. माइक्रोसॉफ्ट वर्ड (Microsoft Word) की आंतरिक विशेषताएं</h4>
+<p>माइक्रोसॉफ्ट वर्ड एक वर्ड प्रोसेसर है जिसका उपयोग दस्तावेज़ बनाने के लिए किया जाता है। प्रमुख इंटरफ़ेस घटक शामिल हैं:</p>
+<ul>
+<li><p><strong>रिबन (Ribbon):</strong> कमांड बार जिसमें कई टैब होते हैं (होम, इंसर्ट, पेज लेआउट, आदि)। इसे <strong>Ctrl + F1</strong> के साथ छोटा (Minimize) किया जा सकता है।</p>
+</li>
+<li><p><strong>स्टेटस बार (Status Bar):</strong> नीचे स्थित होता है; पेज संख्या, शब्द गणना और ज़ूम स्लाइडर प्रदर्शित करता है।</p>
+</li>
+<li><p><strong>रूलर्स (Rulers):</strong> क्षैतिज और ऊर्ध्वाधर रूलर संरेखण (Alignment) में मदद करते हैं। व्यू टैब से टॉगल करें।</p>
+</li>
+<li><p><strong>वाटरमार्क (Watermark):</strong> पेज सामग्री के पीछे हल्का टेक्स्ट/छवि (डिजाइन/पेज लेआउट टैब)।</p>
+</li>
+<li><p><strong>गटर मार्जिन (Gutter Margin):</strong> मुद्रण के लिए पेज के बाइंडिंग साइड में जोड़ा गया अतिरिक्त मार्जिन।</p>
+</li>
+<li><p><strong>ओरिएंटेशन (Orientation):</strong> पोर्ट्रेट (लंबवत) बनाम लैंडस्केप (क्षैतिज)। डिफ़ॉल्ट पोर्ट्रेट है।</p>
+</li>
+</ul>
+<h4>2. माइक्रोसॉफ्ट एक्सेल (Microsoft Excel) घटक और सूत्र</h4>
+<p>डेटा संगठन और विश्लेषण के लिए एक इलेक्ट्रॉनिक स्प्रेडशीट।</p>
+<ul>
+<li><p><strong>वर्कबुक बनाम वर्कशीट:</strong> एक वर्कबुक (फाइल) में कई वर्कशीट (पेज) होते हैं। डिफ़ॉल्ट एक्सटेंशन: .xlsx।</p>
+</li>
+<li><p><strong>सेल संदर्भ प्रकार (Cell Reference Types):</strong></p>
+</li>
+</ul>
+<p><strong>रिलेटिव (Relative):</strong> कॉपी किए जाने पर बदल जाता है (A1)।</p>
+<ul>
+<li><p><strong>एब्सोल्यूट (Absolute):</strong> स्थिर रहता है ($ चिह्न का उपयोग करता है, उदा., $A$1)।</p>
+</li>
+<li><p><strong>मिक्स्ड (Mixed):</strong> एक भाग स्थिर ($A1 या A$1)।</p>
+</li>
+<li><p><strong>ट्रेस प्रेसीडेंट्स/डिपेंडेंट्स:</strong> यह देखने के लिए ऑडिटिंग टूल कि कौन से सेल सक्रिय सेल को प्रभावित करते हैं या उससे प्रभावित होते हैं।</p>
+</li>
+</ul>
+<p><strong>प्रमुख फंक्शंस (Key Functions):</strong></p>
+<ul>
+<li><p>=SUM(A1:A10): मान जोड़ता है।</p>
+</li>
+<li><p>=AVERAGE(B1:B5): औसत की गणना करता है।</p>
+</li>
+<li><p>=COUNT(range): संख्याओं वाले सेल की गिनती करता है।</p>
+</li>
+<li><p>=COUNTA(range): गैर-खाली सेल की गिनती करता है।</p>
+</li>
+<li><p>=VLOOKUP(...): डेटा खोज के लिए वर्टिकल लुकअप।</p>
+</li>
+<li><p>=CONCATENATE(text1, text2): टेक्स्ट स्ट्रिंग्स को जोड़ता है।</p>
+</li>
+<li><p>=NOW(): वर्तमान तिथि और समय।</p>
+</li>
+</ul>
+<h4>3. पावरपॉइंट (PowerPoint) और एक्सटेंशन्स</h4>
+<ul>
+<li><p><strong>स्लाइड मास्टर (Slide Master):</strong> सभी स्लाइड्स पर एक समान लेआउट/फ़ॉर्मेटिंग लागू करने के लिए एक टेम्प्लेट।</p>
+</li>
+<li><p><strong>ट्रांजिशन बनाम एनिमेशन:</strong></p>
+</li>
+<li><p><em>ट्रांजिशन:</em> स्लाइड्स के बीच दृश्य प्रभाव।</p>
+</li>
+<li><p><em>एनिमेशन:</em> स्लाइड के भीतर तत्वों (टेक्स्ट/छवि) पर दृश्य प्रभाव।</p>
+</li>
+<li><p><strong>व्यूज़ (Views):</strong> नॉर्मल, स्लाइड सॉर्टर, रीडिंग व्यू, स्लाइड शो (F5)।</p>
+</li>
+</ul>
+<p><strong>महत्वपूर्ण फाइल एक्सटेंशन्स:</strong></p>
+<p>.docx (Word)
+.xlsx (Excel)
+.pptx (PPT)
+.accdb (Access)
+.txt (Plain)
+.rtf (Rich Text)
+.csv (Comma Sep)
+.png/.jpg (Image)</p>
+<h4>4. व्यापक शॉर्टकट गाइड</h4>
+<table>
+<thead>
+<tr>
+<th>श्रेणी</th>
+<th>शॉर्टकट</th>
+<th>कार्य</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>फ़ंक्शन कुंजियाँ</td>
+<td>F12 / F7 / F2</td>
+<td>Save As / Spell Check / Rename (Edit Cell)</td>
+</tr>
+<tr>
+<td>नेविगेशन</td>
+<td>Home / End</td>
+<td>लाइन की शुरुआत / लाइन का अंत</td>
+</tr>
+<tr>
+<td>फ़ॉर्मेटिंग</td>
+<td>Ctrl + B / I / U</td>
+<td>Bold / Italic / Underline</td>
+</tr>
+<tr>
+<td>पैराग्राफ</td>
+<td>Ctrl + L / R / E / J</td>
+<td>Align Left / Right / Center / Justify</td>
+</tr>
+<tr>
+<td>सिस्टम</td>
+<td>Alt + F4 / Alt + Tab</td>
+<td>Close App / Switch App</td>
+</tr>
+</tbody></table>
+</div> </div> </div> </details> </div> </div> </div> </div><div class="relative group pb-4 last:pb-0">  <div class="absolute left-[15px] top-8 h-full w-[2px] bg-emerald-200 dark:bg-emerald-900 z-0"></div> <div class="relative flex gap-0">  <div class="shrink-0 pt-0 relative z-10 w-8"> <div class="flex items-center justify-center w-7 h-7 rounded-full border-2 border-emerald-500 bg-emerald-500 shadow-sm ring-4 ring-white dark:ring-neutral-950"> <i class="fa-solid fa-book text-white text-xs"></i> </div> </div>  <div class="grow pt-12 -ml-3 pl-2"> <div class="w-full bg-white dark:bg-neutral-900 p-2 rounded-lg border border-neutral-100 dark:border-neutral-800 shadow-xs relative">  <div class="flex items-start justify-between gap-3 mb-2"> <h3 class="font-bold text-base text-neutral-900 dark:text-neutral-100 leading-tight"> Topic 2 DBMS और SQL बेसिक्स </h3>  </div> <div class="text-sm text-neutral-600 dark:text-neutral-300 pl-1"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none [&#38;>p]:my-1 [&#38;>ul]:pl-4 [&#38;>ul]:list-disc [&#38;>ol]:pl-4 [&#38;>ol]:list-decimal"><p><strong>अवधारणाएँ:</strong></p>
+<ul>
+<li><p><strong>DBMS:</strong> डेटा प्रबंधित करने के लिए सॉफ्टवेयर (उदा., Oracle, MySQL)।</p>
+</li>
+<li><p><strong>RDBMS:</strong> रिलेशनल DBMS (तालिकाओं का उपयोग करता है)।</p>
+</li>
+<li><p><strong>प्राइमरी की (Primary Key):</strong> एक रिकॉर्ड के लिए अद्वितीय ID (कोई डुप्लिकेट नहीं, नल नहीं)।</p>
+</li>
+<li><p><strong>फ़ॉरेन की (Foreign Key):</strong> दो तालिकाओं को जोड़ता है।</p>
+</li>
+</ul>
+</div> </div>   <details class="group/details border-t border-dashed border-neutral-200 dark:border-neutral-800 pt-1"> <summary class="cursor-pointer text-[10px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider flex items-center justify-end gap-1 list-none select-none hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors w-full"> <span>Deep Dive</span> <i class="fa-solid fa-chevron-down transform transition-transform group-open/details:rotate-180 text-[10px]"></i> </summary> <div class="mt-2 pl-2 space-y-2"> <div class="text-left w-full"> <div class="text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed py-1 prose prose-sm dark:prose-invert max-w-none text-neutral-600 dark:text-neutral-300 [&#38;>p]:my-0 [&#38;>ul]:my-0"><p><strong>SQL कमांड्स:</strong></p>
+<ul>
+<li><p><strong>DDL:</strong> संरचना को परिभाषित करें (CREATE, ALTER, DROP)।</p>
+</li>
+<li><p><strong>DML:</strong> डेटा में हेरफेर करें (INSERT, UPDATE, DELETE)।</p>
+</li>
+<li><p><strong>DCL:</strong> एक्सेस कंट्रोल करें (GRANT, REVOKE)।</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>Trick:</strong> ACID गुण: Atomicity, Consistency, Isolation, Durability (लेनदेन के लिए महत्वपूर्ण)।</p>
+</blockquote>
+<h4>1. डेटाबेस मैनेजमेंट सिस्टम (DBMS)</h4>
+<p>डेटाबेस में डेटा को स्टोर करने, पुनर्प्राप्त करने, परिभाषित करने और प्रबंधित करने के लिए डिज़ाइन किया गया सॉफ़्टवेयर।</p>
+<ul>
+<li><strong>तीन-स्तरीय वास्तुकला (Three-Level Architecture):</strong></li>
+</ul>
+<p><strong>बाहरी स्तर (View):</strong> उपयोगकर्ता डेटा को कैसे देखते हैं।</p>
+<ul>
+<li><p><strong>वैचारिक स्तर (Logical):</strong> क्या डेटा संग्रहीत है और संबंध।</p>
+</li>
+<li><p><strong>आंतरिक स्तर (Physical):</strong> डेटा वास्तव में स्टोरेज डिवाइस पर कैसे संग्रहीत किया जाता है।</p>
+</li>
+<li><p><strong>डेटा मॉडल:</strong></p>
+</li>
+</ul>
+<p><strong>पदानुक्रमित (Hierarchical):</strong> ट्री जैसी संरचना (पैरेंट-चाइल्ड)।</p>
+<ul>
+<li><p><strong>नेटवर्क (Network):</strong> ग्राफ संरचना (मेनी-टू-मेनी)।</p>
+</li>
+<li><p><strong>रिलेशनल (RDBMS):</strong> टेबल्स (पंक्तियाँ/कॉलम)। सबसे आम (SQL)।</p>
+</li>
+</ul>
+<p><strong>RDBMS में कीज़ (Keys)</strong></p>
+<ul>
+<li><p><strong>प्राइमरी की (PK):</strong> एक रिकॉर्ड के लिए अद्वितीय पहचानकर्ता। नल (Null) नहीं हो सकता।</p>
+</li>
+<li><p><strong>कैंडिडेट की (Candidate Key):</strong> एक कॉलम जो प्राइमरी की बनने के योग्य है।</p>
+</li>
+<li><p><strong>अल्टरनेट की (Alternate Key):</strong> कैंडिडेट की जो PK के रूप में नहीं चुनी गई हैं।</p>
+</li>
+<li><p><strong>फ़ॉरेन की (FK):</strong> एक फ़ील्ड जो दूसरी टेबल की प्राइमरी की से लिंक होती है (संबंध बनाती है)।</p>
+</li>
+<li><p><strong>सुपर की (Super Key):</strong> विशेषताओं का कोई भी सेट जो विशिष्ट रूप से एक पंक्ति की पहचान करता है।</p>
+</li>
+</ul>
+<h4>2. नॉर्मलाइजेशन (Normalization) और ACID गुण</h4>
+<p><strong>नॉर्मलाइजेशन:</strong> अनावश्यकता (redundancy) को कम करने के लिए डेटा को व्यवस्थित करने की प्रक्रिया।</p>
+<ul>
+<li><p><strong>1NF (First Normal Form):</strong> दोहराए जाने वाले समूहों को हटा दें (एटॉमिक मान)।</p>
+</li>
+<li><p><strong>2NF (Second Normal Form):</strong> आंशिक निर्भरता को हटा दें (नॉन-प्राइम एट्रिब्यूट कंपोजिट की के हिस्से पर निर्भर नहीं होना चाहिए)।</p>
+</li>
+<li><p><strong>3NF (Third Normal Form):</strong> ट्रांजिटिव निर्भरता को हटा दें (नॉन-प्राइम एट्रिब्यूट किसी अन्य नॉन-प्राइम एट्रिब्यूट पर निर्भर नहीं होना चाहिए)।</p>
+</li>
+<li><p><strong>BCNF (Boyce-Codd NF):</strong> सख्त 3NF जहाँ हर निर्भरता A → B के लिए, A को सुपर की होना चाहिए।</p>
+</li>
+</ul>
+<p><strong>ट्रांजेक्शन प्रॉपर्टीज (ACID):</strong></p>
+<p><strong>Atomicity:</strong> लेनदेन के लिए &quot;सब कुछ या कुछ नहीं&quot; नियम।
+<strong>Consistency:</strong> लेनदेन से पहले/बाद में डेटाबेस मान्य रहता है।
+<strong>Isolation:</strong> लेनदेन स्वतंत्र रूप से होते हैं।
+<strong>Durability:</strong> पूर्ण किए गए लेनदेन स्थायी रूप से सहेजे जाते हैं।</p>
+<h4>3. SQL कमांड्स (Structured Query Language)</h4>
+<table>
+<thead>
+<tr>
+<th>श्रेणी</th>
+<th>कमांड्स</th>
+<th>उद्देश्य</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>DDL (Data Definition)</td>
+<td>CREATE, ALTER, DROP, TRUNCATE</td>
+<td>डेटाबेस संरचना/स्कीमा को परिभाषित करता है। कोई रोलबैक नहीं (आमतौर पर)।</td>
+</tr>
+<tr>
+<td>DML (Data Manipulation)</td>
+<td>SELECT, INSERT, UPDATE, DELETE</td>
+<td>तालिकाओं के भीतर डेटा का प्रबंधन करता है। रोलबैक किया जा सकता है।</td>
+</tr>
+<tr>
+<td>DCL (Data Control)</td>
+<td>GRANT, REVOKE</td>
+<td>उपयोगकर्ता की पहुंच और अनुमतियों को नियंत्रित करता है।</td>
+</tr>
+<tr>
+<td>TCL (Transaction Control)</td>
+<td>COMMIT, ROLLBACK, SAVEPOINT</td>
+<td>DML द्वारा शुरू किए गए लेनदेन का प्रबंधन करता है।</td>
+</tr>
+</tbody></table>
+</div> </div> </div> </details> </div> </div> </div> </div> </div> </div><div id="quiz-container" class="mt-8 max-w-3xl mx-auto px-4 perspective-1000" data-astro-cid-rwn6tmg5> <div id="quiz-start" class="relative overflow-hidden bg-linear-to-br from-indigo-600 to-violet-600 dark:bg-none dark:bg-black border-2 border-transparent dark:border-blue-600 rounded-2xl p-8 mx-2 md:px-12 md:py-10 shadow-lg text-white" data-astro-cid-rwn6tmg5> <!-- Decorative Background Icon --> <div class="absolute -right-6 -bottom-12 opacity-20 rotate-12 pointer-events-none" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-trophy text-9xl" data-astro-cid-rwn6tmg5></i> </div> <div class="relative z-10" data-astro-cid-rwn6tmg5> <div class="flex items-start justify-between mb-4" data-astro-cid-rwn6tmg5> <div data-astro-cid-rwn6tmg5> <h2 class="text-2xl font-bold mb-1" data-astro-cid-rwn6tmg5>Test Your Knowledge</h2> <p class="text-indigo-100 text-sm mb-6 max-w-md leading-relaxed" data-astro-cid-rwn6tmg5>
+Challenge yourself! Take a quick quiz to check your understanding of this topic.
+</p> </div> </div> <div class="flex items-center gap-4" data-astro-cid-rwn6tmg5> <button id="start-quiz-btn" class="px-8 py-3 bg-white dark:bg-black text-indigo-700 dark:text-blue-600 border-none rounded-xl font-bold text-base transition-all shadow-md active:scale-95 flex items-center gap-2" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-play" data-astro-cid-rwn6tmg5></i> <span data-astro-cid-rwn6tmg5>Start Quiz</span> </button> <span class="text-xs font-mono bg-white/20 px-3 py-1.5 rounded-lg backdrop-blur-sm border border-white/10" id="quiz-info-text" data-astro-cid-rwn6tmg5>
+Loading...
+</span> </div> </div> </div> <div id="quiz-content" class="hidden" data-astro-cid-rwn6tmg5> <!-- Progress Bar --> <div class="w-full bg-slate-200 dark:bg-slate-700 h-2 rounded-full mb-6 overflow-hidden" data-astro-cid-rwn6tmg5> <div id="progress-bar" class="bg-linear-to-r from-indigo-500 to-purple-500 h-full transition-all duration-300" style="width: 0%" data-astro-cid-rwn6tmg5></div> </div> <div class="flex justify-between items-center mb-6 px-2" data-astro-cid-rwn6tmg5> <div class="bg-indigo-100 dark:bg-indigo-900/30 px-3 py-1 rounded-lg" data-astro-cid-rwn6tmg5> <span class="text-sm font-semibold text-indigo-700 dark:text-indigo-300" data-astro-cid-rwn6tmg5>Q <span id="current-q" data-astro-cid-rwn6tmg5>1</span>/<span id="total-q" data-astro-cid-rwn6tmg5>30</span></span> </div> <div class="flex items-center gap-4" data-astro-cid-rwn6tmg5> <div class="text-lg font-bold font-mono bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-lg tabular-nums" id="timer" data-astro-cid-rwn6tmg5>
+60s
+</div> <div class="text-sm font-medium" data-astro-cid-rwn6tmg5>
+Score: <span id="score" class="text-green-600 dark:text-green-400 font-bold" data-astro-cid-rwn6tmg5>0</span> </div> </div> </div> <!-- Question Card --> <div id="question-card" class="bg-white dark:bg-black p-6 md:p-8 rounded-2xl shadow-xl border border-slate-100 dark:border-slate-800" data-astro-cid-rwn6tmg5> <h3 class="text-xl md:text-2xl font-bold mb-6 text-slate-800 dark:text-white leading-relaxed" id="question-text" data-astro-cid-rwn6tmg5></h3> <div id="options-container" class="space-y-4" data-astro-cid-rwn6tmg5></div> </div> </div> <div id="quiz-result" class="hidden text-center bg-white dark:bg-black p-8 rounded-xl border border-neutral-100 dark:border-neutral-800" data-astro-cid-rwn6tmg5> <div class="mb-8" data-astro-cid-rwn6tmg5> <h2 class="text-2xl font-bold mb-2 text-neutral-900 dark:text-neutral-100" id="result-message" data-astro-cid-rwn6tmg5></h2> <div class="text-3xl font-bold mb-6 text-slate-800 dark:text-white" data-astro-cid-rwn6tmg5> <span id="final-score" class="text-indigo-600 dark:text-indigo-400" data-astro-cid-rwn6tmg5></span> / <span id="final-total" data-astro-cid-rwn6tmg5></span> </div> <div class="w-full bg-slate-200 dark:bg-slate-700 h-4 rounded-full mb-2 overflow-hidden max-w-md mx-auto" data-astro-cid-rwn6tmg5> <div id="final-progress" class="bg-linear-to-r from-green-400 to-green-600 h-full transition-all duration-1000" style="width: 0%" data-astro-cid-rwn6tmg5></div> </div> <div class="text-lg text-slate-600 dark:text-slate-400 mb-8" data-astro-cid-rwn6tmg5>
+Accuracy: <span id="percentage" class="font-bold text-slate-800 dark:text-white" data-astro-cid-rwn6tmg5></span>%
+</div> </div> <div id="answers-review" class="text-left space-y-4 mb-8 max-h-96 overflow-y-auto custom-scrollbar pr-2" data-astro-cid-rwn6tmg5></div> <button id="retake-btn" class="w-full py-4 bg-slate-900 dark:bg-slate-700 hover:bg-slate-800 dark:hover:bg-slate-600 text-white rounded-xl font-bold text-lg transition-colors shadow-md flex items-center justify-center gap-2" data-astro-cid-rwn6tmg5> <i class="fa-solid fa-rotate-right" data-astro-cid-rwn6tmg5></i> <span data-astro-cid-rwn6tmg5>Retake Quiz</span> </button> </div> </div> <script>(function(){const topic = "office-dbms";
+const maxQuestions = undefined;
+const data = [{"id":1,"question":"MS Word में वर्तनी (Spelling) की जाँच करने के लिए किस कुंजी का उपयोग किया जाता है?","options":["F5","F7","F2","F12"],"correct":1,"explanation":"F7 वर्तनी और व्याकरण की जाँच चलाता है।"},{"id":2,"question":"MS Excel में, फॉर्मूला शुरू करने के लिए किस प्रतीक का उपयोग किया जाता है?","options":["+","-","=","%"],"correct":2,"explanation":"Excel में सभी सूत्र बराबर चिह्न (=) से शुरू होते हैं।"},{"id":3,"question":"इनमें से कौन सा DBMS सॉफ्टवेयर नहीं है?","options":["Oracle","MySQL","MS Access","Chrome"],"correct":3,"explanation":"क्रोम एक वेब ब्राउजर है। अन्य DBMS हैं।"},{"id":4,"question":"फ़ाइल को 'सहेजने' (Save) का शॉर्टकट क्या है?","options":["Ctrl + S","Ctrl + O","Ctrl + N","Ctrl + P"],"correct":0,"explanation":"Ctrl + S."},{"id":5,"question":"डेटा पुनर्प्राप्त (Retrieve) करने के लिए किस SQL कमांड का उपयोग किया जाता है?","options":["INSERT","UPDATE","SELECT","DELETE"],"correct":2,"explanation":"SELECT कथन डेटाबेस से डेटा निकालता है।"},{"id":6,"question":"PowerPoint में, कौन सी कुंजी स्लाइड शो को शुरुआत से शुरू करती है?","options":["F5","Shift + F5","Alt + F5","Ctrl + F5"],"correct":0,"explanation":"F5 शुरुआत से शुरू होता है। Shift+F5 वर्तमान स्लाइड से शुरू होता है।"},{"id":7,"question":"डेटाबेस तालिका में एक पंक्ति (Row) को किस रूप में भी जाना जाता है?","options":["Attribute","Tuple","Domain","Schema"],"correct":1,"explanation":"एक पंक्ति को टपल/रिकॉर्ड कहा जाता है। एक कॉलम एक विशेषता (Attribute) है।"},{"id":8,"question":"टेक्स्ट को केंद्र (Center) में संरेखित करने के लिए कौन सा शॉर्टकट है?","options":["Ctrl + C","Ctrl + E","Ctrl + L","Ctrl + R"],"correct":1,"explanation":"Ctrl + E केंद्र में संरेखित करता है। Ctrl + C कॉपी है।"},{"id":9,"question":"SQL का पूर्ण रूप क्या है?","options":["Structured Question Language","Structured Query Language","Simple Query Language","Standard Query Link"],"correct":1,"explanation":"Structured Query Language."},{"id":10,"question":"MS Word में, Ctrl + B का उपयोग किसके लिए किया जाता है?","options":["इटैलिक","बोल्ड","अंडरलाइन","सेव"],"correct":1,"explanation":"टेक्स्ट को बोल्ड करने के लिए।"},{"id":11,"question":"Excel में कौन सा फ़ंक्शन एक रेंज का कुल योग निकालता है?","options":["TOTAL()","ADD()","SUM()","COUNT()"],"correct":2,"explanation":"SUM() फ़ंक्शन संख्याओं को जोड़ता है।"},{"id":12,"question":"'प्राइमरी की' (Primary Key) क्या है?","options":["कोई भी कॉलम","रिकॉर्ड के लिए एक अद्वितीय पहचानकर्ता","एक विदेशी कुंजी","एक पासवर्ड"],"correct":1,"explanation":"प्राथमिक कुंजी तालिका में प्रत्येक रिकॉर्ड को विशिष्ट रूप से पहचानती है और यह Null नहीं हो सकती है।"},{"id":13,"question":"टेक्स्ट को 'खोजने' (Find) का शॉर्टकट?","options":["Ctrl + F","Ctrl + H","Ctrl + G","Ctrl + K"],"correct":0,"explanation":"Ctrl + F."},{"id":14,"question":"PowerPoint में कौन सा दृश्य सभी स्लाइडों के थंबनेल दिखाता है?","options":["Slide Sorter","Notes Page","Normal","Reading"],"correct":0,"explanation":"स्लाइड सॉर्टर व्यू।"},{"id":15,"question":"DBMS में DDL क्या है?","options":["Data Definition Language","Data Deduction Language","Data Design Language","Data Dual Language"],"correct":0,"explanation":"DDL (CREATE, ALTER, DROP) संरचना को परिभाषित करता है।"},{"id":16,"question":"Excel में, तार्किक स्थिति की जाँच (Logical Condition Check) का उपयोग करके की जाती है?","options":["IF","SUM","AVERAGE","NOW"],"correct":0,"explanation":"IF फ़ंक्शन एक शर्त की जाँच करता है।"},{"id":17,"question":"संपूर्ण दस्तावेज़ का चयन करने के लिए, दबाएं?","options":["Ctrl + A","Ctrl + S","Alt + A","Shift + A"],"correct":0,"explanation":"Ctrl + A (Select All)."},{"id":18,"question":"DBMS में कौन सा संबंध मान्य नहीं है?","options":["One-to-One","One-to-Many","Many-to-Many","All-to-None"],"correct":3,"explanation":"All-to-None संबंध का प्रकार नहीं है।"},{"id":19,"question":"'Undo' के लिए शॉर्टकट?","options":["Ctrl + Z","Ctrl + Y","Ctrl + U","Ctrl + X"],"correct":0,"explanation":"Ctrl + Z."},{"id":20,"question":"Excel वर्कबुक का एक्सटेंशन क्या है?","options":[".txt",".xlsx",".docx",".pptx"],"correct":1,"explanation":".xlsx (आधुनिक एक्सेल) या .xls (पुराना)।"},{"id":21,"question":"Ctrl + K का उपयोग क्या सम्मिलित करने के लिए किया जाता है?","options":["हेडर","फुटर","हाइपरलिंक","पेज नंबर"],"correct":2,"explanation":"हाइपरलिंक।"},{"id":22,"question":"DBMS में DML क्या है?","options":["Data Management Language","Data Manipulation Language","Data Model Language","Data Markup Language"],"correct":1,"explanation":"DML (SELECT, INSERT, UPDATE, DELETE) डेटा में हेरफेर करता है।"},{"id":23,"question":"कौन सा शॉर्टकट वर्तमान एप्लिकेशन विंडो को बंद करता है?","options":["Alt + F4","Ctrl + F4","Shift + F4","F4"],"correct":0,"explanation":"Alt + F4 ऐप को बंद कर देता है। Ctrl + F4 दस्तावेज़ टैब को बंद कर देता है।"},{"id":24,"question":"कौन सी एक्सेल सुविधा स्वचालित रूप से डेटा भरती है?","options":["AutoFill","AutoCorrect","AutoFormat","AutoCheck"],"correct":0,"explanation":"AutoFill."},{"id":25,"question":"संबंधित डेटा के संग्रह को क्या कहा जाता है?","options":["जानकारी","डेटाबेस","फील्ड","वर्ण"],"correct":1,"explanation":"डेटाबेस (Database)।"},{"id":26,"question":"कौन सी कुंजी कर्सर के बाईं ओर के वर्ण को हटा देती है?","options":["Delete","Backspace","Spacebar","Esc"],"correct":1,"explanation":"Backspace बाईं ओर हटाता है। Delete कुंजी दाईं ओर हटाती है।"},{"id":27,"question":"MS Word में, डिफ़ॉल्ट संरेखण (Alignment) क्या है?","options":["Left","Right","Center","Justified"],"correct":0,"explanation":"Left alignment."},{"id":28,"question":"कौन सा SQL बाधा (Constraint) कॉलम में अद्वितीय मान सुनिश्चित करता है?","options":["NOT NULL","UNIQUE","DEFAULT","CHECK"],"correct":1,"explanation":"UNIQUE constraint."},{"id":29,"question":"खुले अनुप्रयोगों के बीच टॉगल करने के लिए, दबाएं?","options":["Alt + Tab","Ctrl + Tab","Shift + Tab","Win + Tab"],"correct":0,"explanation":"Alt + Tab विंडो स्विच करता है।"},{"id":30,"question":"Excel में दो सेल को मर्ज करने की सुविधा है?","options":["Merge & Center","Wrap Text","Shrink to Fit","Combine"],"correct":0,"explanation":"Merge & Center."},{"id":31,"question":"'विदेशी कुंजी' (Foreign Key) क्या है?","options":["दूसरे देश की कुंजी","दूसरी तालिका की प्राथमिक कुंजी से लिंक करने वाली कुंजी","सुपर कुंजी","अद्वितीय कुंजी"],"correct":1,"explanation":"दो तालिकाओं को जोड़ता है।"},{"id":32,"question":"'Redo' के लिए शॉर्टकट?","options":["Ctrl + Y","Ctrl + Z","Ctrl + R","Ctrl + U"],"correct":0,"explanation":"Ctrl + Y."},{"id":33,"question":"कौन सा बार वर्तमान पृष्ठ संख्या प्रदर्शित करता है?","options":["टाइट्ल बार","स्टेटस बार","मेनू बार","स्क्रॉल बार"],"correct":1,"explanation":"स्टेटस बार (सबसे नीचे)।"},{"id":34,"question":"ER आरेख में, एक आयत (Rectangle) क्या दर्शाता है?","options":["Attribute","Relationship","Entity","Key"],"correct":2,"explanation":"आयत = इकाई (Entity) सेट। हीरा = संबंध। अंडाकार = विशेषता।"},{"id":35,"question":"कौन सा शॉर्टकट टेक्स्ट को इटैलिक बनाता है?","options":["Ctrl + I","Ctrl + L","Ctrl + U","Ctrl + T"],"correct":0,"explanation":"Ctrl + I."},{"id":36,"question":"Excel में एक पंक्ति और कॉलम का प्रतिच्छेदन है?","options":["सेल","बॉक्स","ग्रिड","टेबल"],"correct":0,"explanation":"सेल (Cell)।"},{"id":37,"question":"Ctrl + Home आपको कहाँ ले जाता है?","options":["दस्तावेज़ के अंत में","दस्तावेज़ की शुरुआत में","लाइन की शुरुआत में","लाइन के अंत में"],"correct":1,"explanation":"दस्तावेज़ की शुरुआत में।"},{"id":38,"question":"इनमें से कौन सा ईमेल पता मान्य है?","options":["user@domain.com","user.domain.com","user@domain","user#domain.com"],"correct":0,"explanation":"में @ और डोमेन एक्सटेंशन होना चाहिए।"},{"id":39,"question":"डेटा के बारे में डेटा को क्या कहा जाता है?","options":["डेटाबेस","मेटाडेटा","डेटा डिक्शनरी","डायरेक्टरी"],"correct":1,"explanation":"मेटाडेटा।"},{"id":40,"question":"पेस्ट करने का शॉर्टकट?","options":["Ctrl + P","Ctrl + V","Ctrl + X","Ctrl + C"],"correct":1,"explanation":"Ctrl + V."}];
+
+  let allQuestions = [];
+  let quizQuestions = [];
+  let currentQuestionIndex = 0;
+  let score = 0;
+  let userAnswers = [];
+  // Use a global property to track the active interval so we can clear it across navigations
+  // preventing multiple timers from running simultaneously
+  const setQuizInterval = (fn, ms) => {
+    if (window._quizInterval) clearInterval(window._quizInterval);
+    window._quizInterval = setInterval(fn, ms);
+    return window._quizInterval;
+  };
+  const clearQuizInterval = () => {
+    if (window._quizInterval) {
+      clearInterval(window._quizInterval);
+      window._quizInterval = null;
+    }
+  };
+
+  let timeLeft = 0;
+  let isTimerPerQuestion = true;
+  let isTransitioning = false;
+  const providedData = data;
+
+  const getStartScreen = () => document.getElementById('quiz-start');
+  const getQuizContent = () => document.getElementById('quiz-content');
+  const getResultScreen = () => document.getElementById('quiz-result');
+  const getStartBtn = () => document.getElementById('start-quiz-btn');
+  const getRetakeBtn = () => document.getElementById('retake-btn');
+  const getInfoText = () => document.getElementById('quiz-info-text');
+  const getQuestionCard = () => document.getElementById('question-card');
+
+  // Load questions
+  function init() {
+    const startBtn = getStartBtn();
+    const infoText = getInfoText();
+
+    if (!startBtn) {
+      setTimeout(init, 100);
+      return;
+    }
+
+    startBtn.disabled = true;
+    startBtn.style.opacity = '0.7';
+    if (infoText) infoText.textContent = 'Loading...';
+
+    try {
+      allQuestions = [];
+
+      if (providedData && providedData.length > 0) {
+        allQuestions = providedData.map((q, i) => ({
+          ...q,
+          correct: q.correct !== undefined ? q.correct : q.correct,
+        }));
+      }
+
+      if (allQuestions.length === 0) {
+        throw new Error('No questions loaded');
+      }
+
+      const limit = maxQuestions ? maxQuestions : allQuestions.length;
+      const finalCount = Math.min(limit, allQuestions.length);
+
+      const minutesPerQ = 1;
+      const totalMinutes = Math.ceil(finalCount * minutesPerQ);
+
+      if (infoText) {
+        infoText.textContent = `${finalCount} questions • ${totalMinutes} ${totalMinutes === 1 ? 'minute' : 'minutes'}`;
+      }
+
+      startBtn.disabled = false;
+      startBtn.style.opacity = '1';
+      startBtn.textContent = 'Start Quiz';
+
+      // Update Retake Button Style here if needed dynamically, but purely CSS is better
+      const retakeBtn = getRetakeBtn();
+      if (retakeBtn) {
+        retakeBtn.className =
+          'px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium text-sm transition-colors shadow-sm';
+      }
+    } catch (error) {
+      console.error('Error loading questions:', error);
+      if (infoText) infoText.textContent = 'Failed to load questions.';
+      startBtn.textContent = 'Error';
+    }
+  }
+
+  function selectRandomQuestions() {
+    const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+    const limit = maxQuestions ? maxQuestions : allQuestions.length;
+    quizQuestions = shuffled.slice(0, Math.min(limit, shuffled.length));
+    userAnswers = new Array(quizQuestions.length).fill(null);
+  }
+
+  function startQuiz() {
+    selectRandomQuestions();
+
+    const minutesPerQ = 1;
+    timeLeft = Math.ceil(quizQuestions.length * minutesPerQ * 60);
+
+    score = 0;
+    currentQuestionIndex = 0;
+    isTransitioning = false;
+
+    // Clear interval if any running
+    clearQuizInterval();
+    // Reset UI state
+    document.getElementById('score').textContent = '0';
+    document.getElementById('progress-bar').style.width = '0%';
+
+    // Force visibility states
+    getStartScreen()?.classList.add('hidden');
+    getResultScreen()?.classList.add('hidden');
+
+    const content = getQuizContent();
+    content?.classList.remove('hidden');
+
+    // Ensure question card is visible (fix flip out if stuck)
+    const card = getQuestionCard();
+    card.classList.remove('flip-out');
+
+    document.getElementById('total-q').textContent = quizQuestions.length;
+
+    if (!isTimerPerQuestion) {
+      startTimer();
+    }
+
+    showQuestion();
+  }
+
+  function showQuestion() {
+    const question = quizQuestions[currentQuestionIndex];
+    document.getElementById('current-q').textContent = currentQuestionIndex + 1;
+    document.getElementById('question-text').textContent = question.question;
+
+    // Update progress bar
+    const progress = (currentQuestionIndex / quizQuestions.length) * 100;
+    document.getElementById('progress-bar').style.width = `${progress}%`;
+
+    const optionsContainer = document.getElementById('options-container');
+    optionsContainer.innerHTML = '';
+    isTransitioning = false;
+
+    question.options.forEach((option, index) => {
+      const button = document.createElement('button');
+      // Simple clean style
+      button.className =
+        'w-full text-left p-4 rounded-xl border-2 border-slate-200 dark:border-slate-800 hover:border-indigo-400 hover:bg-slate-50 dark:hover:bg-slate-900/50 transition-all active:scale-[0.99] outline-none';
+      button.dataset.index = index;
+
+      const optionLabel = document.createElement('span');
+      optionLabel.className =
+        'inline-block w-6 h-6 rounded-md bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-center leading-6 font-bold mr-3 text-xs';
+      optionLabel.textContent = String.fromCharCode(65 + index); // A, B, C...
+
+      const textSpan = document.createElement('span');
+      textSpan.textContent = option;
+      textSpan.className = 'font-medium text-slate-700 dark:text-slate-200';
+
+      button.appendChild(optionLabel);
+      button.appendChild(textSpan);
+
+      button.onclick = () => selectAnswer(index, button);
+      optionsContainer.appendChild(button);
+    });
+
+    if (isTimerPerQuestion) {
+      startTimer();
+    }
+  }
+
+  function startTimer() {
+    clearQuizInterval();
+    if (isTimerPerQuestion) {
+      timeLeft = 60;
+    }
+
+    updateTimerDisplay();
+
+    setQuizInterval(() => {
+      timeLeft--;
+      updateTimerDisplay();
+      if (timeLeft <= 0) {
+        if (isTimerPerQuestion) {
+          clearQuizInterval();
+          handleTimeUp();
+        } else {
+          finishQuiz();
+        }
+      }
+    }, 1000);
+  }
+
+  function handleTimeUp() {
+    if (isTransitioning) return;
+    isTransitioning = true;
+
+    userAnswers[currentQuestionIndex] = -1; // Timeout
+
+    const question = quizQuestions[currentQuestionIndex];
+    const options = document.getElementById('options-container').children;
+
+    if (options[question.correct]) {
+      options[question.correct].classList.add(
+        'border-green-600',
+        'bg-green-50',
+        'dark:bg-green-900/30'
+      );
+    }
+
+    setTimeout(() => {
+      triggerNextQuestionTransition();
+    }, 1500);
+  }
+
+  function updateTimerDisplay() {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+    const timerEl = document.getElementById('timer');
+
+    // Simpler timer style
+    timerEl.className =
+      'text-lg font-bold font-mono bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-lg tabular-nums';
+
+    if (timeLeft < 10) {
+      timerEl.classList.add('text-red-600', 'dark:text-red-400');
+    } else {
+      timerEl.classList.remove('text-red-600', 'dark:text-red-400');
+    }
+
+    if (timeLeft < 60) {
+      timerEl.textContent = `${timeLeft}s`;
+    } else {
+      timerEl.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
+  }
+
+  function selectAnswer(index, buttonElement) {
+    if (isTransitioning) return;
+    isTransitioning = true;
+    clearQuizInterval();
+    userAnswers[currentQuestionIndex] = index;
+    const question = quizQuestions[currentQuestionIndex];
+    const isCorrect = index === question.correct;
+
+    const allButtons = document.getElementById('options-container').querySelectorAll('button');
+    allButtons.forEach((btn) => {
+      btn.disabled = true;
+      btn.classList.add('cursor-default');
+      btn.classList.remove('hover:border-indigo-400', 'hover:bg-slate-50');
+    });
+
+    if (isCorrect) {
+      score++;
+      document.getElementById('score').textContent = score;
+      buttonElement.classList.add('border-green-600', 'bg-green-50', 'dark:bg-green-900/30');
+      buttonElement
+        .querySelector('span:first-child')
+        .classList.add('bg-green-200', 'text-green-800');
+    } else {
+      buttonElement.classList.add('border-red-600', 'bg-red-50', 'dark:bg-red-900/30');
+      buttonElement.querySelector('span:first-child').classList.add('bg-red-200', 'text-red-800');
+
+      const correctBtn = allButtons[question.correct];
+      if (correctBtn) {
+        correctBtn.classList.add('border-green-600', 'bg-green-50', 'dark:bg-green-900/30');
+        correctBtn
+          .querySelector('span:first-child')
+          .classList.add('bg-green-200', 'text-green-800');
+      }
+    }
+
+    setTimeout(() => {
+      triggerNextQuestionTransition();
+    }, 1000);
+  }
+
+  function triggerNextQuestionTransition() {
+    const card = getQuestionCard();
+
+    // Add flip-out class to rotate to 90deg
+    card.classList.add('flip-out');
+
+    setTimeout(() => {
+      if (currentQuestionIndex < quizQuestions.length - 1) {
+        currentQuestionIndex++;
+        showQuestion();
+        // Remove flip-out to rotate back to 0deg
+        card.classList.remove('flip-out');
+      } else {
+        finishQuiz();
+      }
+    }, 300);
+  }
+
+  function finishQuiz() {
+    clearQuizInterval();
+    const total = quizQuestions.length;
+    const percentage = Math.round((score / total) * 100);
+
+    saveQuizResult(score, total, percentage);
+
+    getQuizContent()?.classList.add('hidden');
+    getResultScreen()?.classList.remove('hidden');
+
+    document.getElementById('final-score').textContent = score;
+    document.getElementById('final-total').textContent = total;
+    document.getElementById('percentage').textContent = percentage;
+    document.getElementById('final-progress').style.width = `${percentage}%`;
+
+    let message;
+    if (percentage >= 90) message = 'Outstanding!';
+    else if (percentage >= 75) message = 'Excellent work!';
+    else if (percentage >= 60) message = 'Good job!';
+    else if (percentage >= 40) message = 'Keep practicing!';
+    else message = "Don't give up!";
+
+    document.getElementById('result-message').textContent = message;
+    showAnswerReview();
+  }
+
+  function showAnswerReview() {
+    const container = document.getElementById('answers-review');
+    container.innerHTML = '<h3 class="text-lg font-bold mb-4">Review</h3>';
+
+    quizQuestions.forEach((q, i) => {
+      const isCorrect = userAnswers[i] === q.correct;
+      const reviewDiv = document.createElement('div');
+
+      // Modern Card Style
+      reviewDiv.className = `p-4 mb-3 rounded-xl border-l-4 ${isCorrect ? 'border-l-green-500 bg-slate-50 dark:bg-slate-900/30' : 'border-l-red-500 bg-slate-50 dark:bg-slate-900/30'} shadow-sm`;
+
+      let answerText = 'Skipped';
+      if (userAnswers[i] !== null && userAnswers[i] !== -1 && q.options[userAnswers[i]]) {
+        answerText = q.options[userAnswers[i]];
+      }
+
+      reviewDiv.innerHTML = `
+        <div class="flex items-start gap-3">
+            <div class="flex-grow">
+                <p class="text-sm font-semibold text-slate-800 dark:text-slate-200 mb-2 leading-relaxed">
+                    <span class="text-slate-500 dark:text-slate-400 font-normal mr-1">Q${i + 1}.</span> 
+                    ${q.question}
+                </p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                    <div class="p-2.5 rounded-lg bg-white dark:bg-black border ${isCorrect ? 'border-green-200 dark:border-green-900/30' : 'border-red-200 dark:border-red-900/30'}">
+                        <span class="block text-[10px] uppercase font-bold tracking-wider opacity-60 mb-0.5">Your Answer</span>
+                        <span class="${isCorrect ? 'text-green-700 dark:text-green-400 font-bold' : 'text-red-600 dark:text-red-400 font-bold'}">
+                            ${answerText}
+                        </span>
+                    </div>
+                    
+                    ${
+                      !isCorrect
+                        ? `
+                    <div class="p-2.5 rounded-lg bg-white dark:bg-black border border-green-200 dark:border-green-900/30">
+                        <span class="block text-[10px] uppercase font-bold tracking-wider opacity-60 mb-0.5">Correct Answer</span>
+                        <span class="text-green-700 dark:text-green-400 font-bold">
+                            ${q.options[q.correct]}
+                        </span>
+                    </div>
+                    `
+                        : ''
+                    }
+                </div>
+
+                ${
+                  q.explanation
+                    ? `
+                <div class="mt-3 text-xs pt-2 border-t border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-400 flex items-start gap-2">
+                     <i class="fa-regular fa-lightbulb text-amber-500 mt-0.5 shrink-0"></i>
+                     <span>${q.explanation}</span>
+                </div>`
+                    : ''
+                }
+            </div>
+        </div>
+      `;
+      container.appendChild(reviewDiv);
+    });
+  }
+
+  function saveQuizResult(score, total, percentage) {
+    const history = JSON.parse(localStorage.getItem('quizHistory') || '{}');
+    if (!history[topic]) history[topic] = [];
+    history[topic].push({ date: new Date().toISOString(), score, total, percentage });
+    if (history[topic].length > 10) history[topic] = history[topic].slice(-10);
+    localStorage.setItem('quizHistory', JSON.stringify(history));
+
+    // Update global score if needed
+    document.getElementById('score').textContent = score;
+  }
+
+  function setupEventListeners() {
+    const startBtn = getStartBtn();
+    const retakeBtn = getRetakeBtn();
+
+    if (startBtn) {
+      // Remove old listeners to be safe (though usually unnecessary with simple scripts)
+      startBtn.replaceWith(startBtn.cloneNode(true));
+      document.getElementById('start-quiz-btn').addEventListener('click', startQuiz);
+    }
+
+    if (retakeBtn) {
+      retakeBtn.replaceWith(retakeBtn.cloneNode(true));
+      document.getElementById('retake-btn').addEventListener('click', startQuiz);
+    }
+  }
+
+  // Robust initialization for Astro View Transitions
+  // This script runs every time the component HTML is injected
+  init(); // Attempt immediate init (script is at end of component)
+  setupEventListeners();
+
+  // Cleanup when navigating away to prevent timer leaks
+  document.addEventListener(
+    'astro:before-swap',
+    () => {
+      clearQuizInterval();
+    },
+    { once: true }
+  );
+})();</script></div> </main> </div> <!-- Mobile Floating Action Button --> <button id="mobile-fab" class="fixed bottom-24 right-6 z-50 w-12 h-12 bg-linear-to-r from-indigo-600 to-violet-600 text-white rounded-full shadow-lg flex items-center justify-center hover:shadow-xl active:scale-95 transition-all lg:hidden border border-white/20" aria-label="Toggle Menu"> <i class="fa-solid fa-book-open text-lg"></i> </button> </div> <script type="module" src="/_astro/Layout.astro_astro_type_script_index_0_lang.Dm4Gaecr.js"></script> </body> </html>
